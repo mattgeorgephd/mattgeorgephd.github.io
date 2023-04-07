@@ -14,14 +14,15 @@ The goal of gptstudio is for R programmers to easily incorporate use of large la
 Here is the readme for the [gptstudio package](https://cran.r-project.org/web/packages/gptstudio/readme/README.html).
 Here is the [R markdown file](/post_images/20230403/gptstudio_guide.Rmd) used in this guide
 
-Our goal is to use gptstudio to write and improve code by chatting: </br>
+Our goal is to use gptstudio to write and improve code by chatting:
+
 ![](https://media.licdn.com/dms/image/C5622AQE-HSETS-ecDA/feedshare-shrink_800/0/1679282606912?e=1682553600&v=beta&t=3FlotfxJ8XoICwS7SCIFvrn25nHZCkxmlXw2fji9hmg)
 
 ### Step 1: Setup OpenAI Key + Rstudio
 1. Make an [OpenAI account](https://chat.openai.com/auth/login)
 2. Follow this link to create an [OpenAI API key](https://platform.openai.com/account/api-keys)
 3. Create a Project in R Rstudio. Open that project and work within it.
-4. Install gptstudio package using:
+4. Make an Rmarkdown file and Install gptstudio package (and tidyverse while we are at it) using the following code chunk:
 
  ```
  ## clear workspace
@@ -34,23 +35,24 @@ Our goal is to use gptstudio to write and improve code by chatting: </br>
  sapply(load.lib,require,character=TRUE) # Load all packages.
  ```
 
-4. Setup your API key in the RStudio Project by opening the .Renviron file for your project
+5. Setup your API key in the RStudio Project by opening the .Renviron file for your project. I ended this text directly into the console.
 
 ```
 require(usethis)
 edit_r_environ(scope="project")
 ```
 
-and adding this line (replacing <APIKEY> with your key, keeping the quotes):
+6. Add this line to the .Renviron file (replacing <APIKEY> with your key, keeping the quotes):
 
 ```{r}
 OPENAI_API_KEY= "<APIKEY>"
-restart RStudio
 ```
+
+7. Close the popup. You may have to restart RStudio fore proceeding.
 
 ### Step 1: Use the ChatGPT shiny app to generate a plot
 
-Navigate to the shiny app by going to the `Addins` dropdown menu and selecting `ChatGPT`
+Now that you are all set up, navigate to the ChatGPT shiny app by going to the `Addins` dropdown menu and selecting `ChatGPT`
 
 ![](/post_images/20230403/0.png)
 
@@ -63,6 +65,7 @@ Here is what it looked like:
 ![](/post_images/20230403/0_1.png)
 
 Here was the output:
+
 ```
 ggplot(iris, aes(x = Sepal.Length, y = Petal.Length)) + geom_point()
 ```
