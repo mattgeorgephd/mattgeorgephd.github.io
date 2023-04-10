@@ -109,7 +109,7 @@ ggplot(data = iris, aes(Sepal.Length, Petal.Length, color = Species)) +
                parse = TRUE, label.x.npc = "right", label.y.npc = 0.9)  # Add R-squared value for linear regression.
 
 
-
+# Solution
 
 ggplot(data = iris, aes(Sepal.Length, Petal.Length, color = Species)) + 
   geom_point(size = 4, alpha = 0.8) + # Set alpha to 0.8 for better visibility
