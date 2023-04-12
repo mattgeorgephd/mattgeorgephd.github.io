@@ -38,6 +38,23 @@ require(scales)
 # Improve this plot by using a non standard theme, coloring by species, and adding a second y-axis that shows Sepal.Width
 ggplot(data = iris, aes(Sepal.Length,Petal.Length)) + geom_point()
 
+
+# To apply a non-standard theme, add the theme() function and set the theme you want to use
+# To color by species, add the color parameter inside the aes() function and set it to the name of the column that contains the species
+# To add a second y-axis, use the sec.axis parameter inside scale_y_continuous() and set it equal to a call to the function sec_axis() which specifies the transformation to the second y-axis.
+library(ggplot2)
+ggplot(data = iris, aes(Sepal.Length, Petal.Length, color = Species)) +
+  geom_point() +
+  theme_bw() +  # choose a black and white theme
+  scale_color_brewer(palette = "Set1") +  # choose a color scheme for the species
+  labs(x = "Sepal Length", y = "Petal Length") +
+  scale_y_continuous(sec.axis = sec_axis(~.*1, name = "Sepal Width")) # set up the second y axis to show Sepal Width
+
+```
+
+
+
+```{r}
 # Result:
 # Set theme to "dark"
 # Color by species using `color = species`
@@ -124,5 +141,77 @@ ggplot(data = iris, aes(Sepal.Length, Petal.Length, color = Species)) +
 
 ```
 
+
+```{r}
+
+# using the iris dataset, 
+# cluster data into three groups based on petal length and sepal width
+
+
+# Begin by loading the iris dataset that comes pre-installed in R.
+data(iris)
+
+# Create a subset of the iris dataset including only the variables petal length and sepal width.
+iris_subset <- iris[c("Petal.Length", "Sepal.Width")]
+
+# Use the kmeans function to create three clusters based on the iris_subset.
+kmeans_clusters <- kmeans(iris_subset, centers = 3)
+
+# Plot the data points colored by their assigned cluster.
+plot(iris_subset, col = kmeans_clusters$cluster)
+
+```
+```{r}
+# Old
+# improve upon this plot, use a different symbol for each species
+# Begin by loading the iris dataset that comes pre-installed in R.
+data(iris)
+
+# Create a subset of the iris dataset including only the variables petal length and sepal width.
+iris_subset <- iris[c("Petal.Length", "Sepal.Width")]
+
+# Use the kmeans function to create three clusters based on the iris_subset.
+kmeans_clusters <- kmeans(iris_subset, centers = 3)
+
+# output
+# Plot the data points colored by their assigned cluster.
+plot(iris_subset, col = kmeans_clusters$cluster)
+# Create a vector of symbols with one symbol for each species.
+symbols <- c(16, 17, 18)
+
+# Use the pch argument to specify the symbol based on species in the plot() function.
+plot(iris_subset, col = kmeans_clusters$cluster, pch = symbols[iris$Species])
+
+# Add a legend to the plot to show which symbol corresponds to which species.
+legend("topright", legend = levels(iris$Species), pch = symbols, col = 1:length(symbols))
+
+
+
+```
+
+
+```{r}
+
+# Improve this plot by adding ellipses around each cluster center for the groups in this plot
+plot(iris_subset, col = kmeans_clusters$cluster, pch = symbols[iris$Species])
+legend("topright", legend = levels(iris$Species), pch = symbols, col = 1:length(symbols))
+# First, we need to compute the cluster centers
+centers <- aggregate(. ~ cluster, data = iris_subset, mean)
+
+# Then we can add ellipses around each center with the 'ellipse' function from the 'car' package
+library(car)
+for (i in 1:nrow(centers)) {
+  center <- centers[i, 2:3]
+  covmat <- cov(iris_subset[kmeans_clusters$cluster == centers[i, 1], 1:2])
+  draw.ellipse(center, covmat, border = "black", lty = "dashed")
+}
+
+# Finally, we can plot the original points
+plot(iris_subset, col = kmeans_clusters$cluster, 
+     pch = symbols[iris$Species])
+legend("topright", legend = levels(iris$Species), 
+       pch = symbols, col = 1:length(symbols))
+
+```
 
 
