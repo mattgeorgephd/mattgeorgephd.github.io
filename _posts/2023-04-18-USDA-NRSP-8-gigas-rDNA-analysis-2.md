@@ -8,11 +8,10 @@ tags: USDA-NRSP-8-gigas-rDNA
 comments: true
 ---
 
-Project name: [USDA-NRSP-8-gigas-rDNA](https://github.com/mattgeorgephd/USDA-NRSP-8-gigas-rDNA) <br>
-Funding source: [USDA-NRSP-8](https://www.nimss.org/projects/view/mrp/outline/18464) <br>
-Github repo: https://github.com/mattgeorgephd/USDA-NRSP-8-gigas-rDNA <br>
-Species: *crassostrea gigas* <br>
-variable: ploidy <br>
+Project name: [USDA-NRSP-8-gigas-rDNA](https://github.com/mattgeorgephd/USDA-NRSP-8-gigas-rDNA) <br />
+Funding source: [USDA-NRSP-8](https://www.nimss.org/projects/view/mrp/outline/18464) <br />
+Species: *crassostrea gigas* <br />
+variable: ploidy <br />
 
 [>> next notebook entry >>](https://mattgeorgephd.github.io/USDA-NRSP-8-gigas-rDNA-analysis-2/)
 
@@ -69,3 +68,4 @@ mito_copy nuumber <br />
 | 20 | 8.4 | 4.0 |
 | 10 | 8.4| 12.11 |
 | 5 | 8.4 | 45.3 |
+
