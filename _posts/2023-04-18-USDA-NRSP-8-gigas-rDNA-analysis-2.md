@@ -75,3 +75,5 @@ pwd
 mget *
 
 ```
+
+## Sequence QC, trimming
