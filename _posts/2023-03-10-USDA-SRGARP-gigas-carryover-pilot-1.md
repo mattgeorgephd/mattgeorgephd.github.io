@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fri. Mar. 10, 2023
-subtitle: USDA-SRGARP-gigas-carryover Analysis Part 1
+subtitle: USDA-SRGARP-gigas-carryover pilot Part 1
 gh-repo: mattgeorgephd/mattgeorge.github.io
 gh-badge: [star, fork, follow]
 tags: USDA-SRGARP-gigas-carryover
@@ -48,7 +48,7 @@ pwr.t.test(d = delta/sigma, sig.level = alpha, power = power, n = n)
 This suggested 5 per group
 
 ```
-     Two-sample t test power calculation 
+     Two-sample t test power calculation
 
               n = 5.089995
               d = 2
@@ -71,7 +71,7 @@ So the treatment breakdown will be:
 
 **STEP 2: order primers**
 
-|gene   | genbank  | forward  | reverse | 
+|gene   | genbank  | forward  | reverse |
 |---|---|---|---|
 |SACSIN   | CGI_10019897  | ACTCTGGCACCATCCAGTTATC  | CTCCTGAGAAGGCCTTTAGACA |
 |IRF-2 (2)  | CGI_10021170  | CGAAACGCAGAAACTGTTC  | ATTTGCCTTCCATCTTTTGG |
@@ -96,4 +96,3 @@ According to these methods, here are a few notes about the protocol:
 6. Oysters were then returned to clean seawater. The oysters were judged to have recovered when they closed their valves by themselves.
 7. Suquet et al 2009 found no mortality at 50 g L-1 1 week after.
 8. Exposure to magnesium chloride did not have long term effects (more than 48-96 hours) on immunological parameters in Sydney rock oysters [Butt et al. 2008](https://doi.org/10.1016/j.aquaculture.2007.12.004). This might affect when we sample?
-

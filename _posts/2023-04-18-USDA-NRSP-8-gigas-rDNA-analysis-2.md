@@ -37,9 +37,9 @@ We submitted 32 samples from two families to GeneWiz (Azneta) for sequencing on 
 | family  | ploidy  | number of samples  |
 |---   |---  |--- |
 | F05  | 2n  | 8  |
-|  F05 | 3n  | 8  |
+| F05  | 3n  | 8  |
 | F14  | 2n  | 8  |
-|  F14 | 3n  | 8  |
+| F14  | 3n  | 8  |
 
 Here is the link to the [Azenta Quote](https://github.com/mattgeorgephd/USDA-NRSP-8-gigas-rDNA/blob/f1e4db933386c59db981a6d8d70dbd1b204a6506/purchasing/sequencing_quotes/Azenta-30x-32_samples.pdf). We sequenced at 30x coverage. It was assigned project number 30-835022638.
 
@@ -77,3 +77,113 @@ mget *
 ```
 
 ## Sequence QC, trimming
+
+I downloaded the sequence files onto Raven in the "data/raw" using the same sftp method as described above. The next step was to unzip the fastq files:
+
+```{bash}
+# unzip .fastq.gz files
+cd data/raw/
+gunzip *.fastq.gz
+```
+
+Aand then run fastqc and multiqc on the on the raw data
+
+#### Run fastqc on untrimmed files
+```{bash}
+mkdir fastqc/
+mkdir fastqc/untrimmed/
+
+/home/shared/FastQC/fastqc \
+data/raw/*.fastq \
+--outdir fastqc/untrimmed/ \
+--quiet
+
+```
+
+### Run multiqc on untrimmed files
+```{bash}
+eval "$(/opt/anaconda/anaconda3/bin/conda shell.bash hook)"
+conda activate
+
+cd fastqc/untrimmed/
+
+multiqc .
+```
+
+The multiqc report for the raw data is [here](http://172.25.149.12:8787/files/USDA-NRSP-8-gigas-rDNA/fastqc/untrimmed/multiqc_report.html)
+
+
+I then trimmed adapter sequences (hard trimmed first 10 bps):
+
+```{bash}
+# trim adapter sequences
+
+mkdir data/trimmed/
+cd data/raw/
+
+for F in *.fastq
+do
+#strip .fastq and directory structure from each file, then
+# add suffice .trim to create output name for each file
+results_file="$(basename -a $F | sed 's/\.[^.]*$/_trim&/')"
+
+# run cutadapt on each file, hard trim first 10 bp
+/home/shared/8TB_HDD_02/mattgeorgephd/.local/bin/cutadapt $F -u 10  -o \
+/home/shared/8TB_HDD_02/mattgeorgephd/USDA-NRSP-8-gigas-rDNA/data/trimmed/$results_file
+done
+
+```
+
+and concatenated the fastq files by sequencing run
+
+```{bash}
+mkdir data/trim-merge/
+
+# Set the input and output directories
+input_dir="/home/shared/8TB_HDD_02/mattgeorgephd/USDA-NRSP-8-gigas-rDNA/data/trimmed"
+output_dir="/home/shared/8TB_HDD_02/mattgeorgephd/USDA-NRSP-8-gigas-rDNA/data/trim-merge/"
+
+# Loop through all of the R1 fastq files in the input directory
+
+for r1_file in "$input_dir"/*_R1_*.fastq
+do
+    # Extract the sequencing run from the R1 file name
+    run=$(basename "$r1_file" | cut -d'_' -f1,2)
+
+    # Find the corresponding R2 file
+    r2_file="$input_dir"/"${run}_R2_*.fastq"
+
+    # Concatenate the R1 and R2 files and save the output to a new file in the output directory
+    cat "$r1_file" "$r2_file" > "$output_dir"/"${run}_trim-merge.fastq"
+done
+
+```
+
+and again run fastqc and multiqc
+
+### Run fastqc on trimmed & merged files
+```{bash}
+mkdir fastqc/
+mkdir fastqc/trim-merge/
+
+/home/shared/FastQC/fastqc \
+data/trim-merge/*.fastq \
+--outdir fastqc/trim-merge/ \
+--quiet
+
+```
+### Run multiqc on trimmed & merged files
+```{bash}
+eval "$(/opt/anaconda/anaconda3/bin/conda shell.bash hook)"
+conda activate
+
+cd fastqc/trim-merge/
+
+multiqc .
+```
+
+Here is the final multiqc report for the trimmed and merged files can be found [here](http://172.25.149.12:8787/files/USDA-NRSP-8-gigas-rDNA/fastqc/trim-merge/multiqc_report.html)
+
+The files are on Raven in:
+
+> /home/shared/8TB_HDD_02/mattgeorgephd/USDA-NRSP-8-gigas-rDNA/data/trim-merge

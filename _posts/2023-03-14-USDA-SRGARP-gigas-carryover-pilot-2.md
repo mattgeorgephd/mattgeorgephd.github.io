@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tues. Mar. 14, 2023
-subtitle: USDA-SRGARP-gigas-carryover Analysis Part 2
+subtitle: USDA-SRGARP-gigas-carryover pilot Part 2
 gh-repo: mattgeorgephd/mattgeorge.github.io
 gh-badge: [star, fork, follow]
 tags: USDA-SRGARP-gigas-carryover
