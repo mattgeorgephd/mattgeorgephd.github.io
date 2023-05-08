@@ -4,7 +4,7 @@ title: Thurs. Sept. 30, 2021
 subtitle: Apex setup procedure
 gh-repo: mattgeorgephd/mattgeorge.github.io
 gh-badge: [star, fork, follow]
-tags: "laboratory setup"
+tags: tutorials
 comments: true
 ---
 

@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Fri. Dec. 03, 2021
-subtitle: Citrate Synthase Assay Development pt. 1
+subtitle: Citrate Synthase Assay
 gh-repo: mattgeorgephd/mattgeorge.github.io
 gh-badge: [star, fork, follow]
-tags: CS-assay
+tags: tutorials
 comments: true
 ---
 

@@ -4,7 +4,7 @@ title: Mon. Nov. 13, 2020
 subtitle: Pt. Whitney Tank Build - update 1
 gh-repo: mattgeorgephd/mattgeorge.github.io
 gh-badge: [star, fork, follow]
-tags: "Pt. Whitney Hatchery"
+tags: NOPP-gigas-ploidy-temp
 comments: true
 ---
 

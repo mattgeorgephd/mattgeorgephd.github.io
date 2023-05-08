@@ -4,7 +4,7 @@ title: Fri. Mar. 19, 2022
 subtitle: Honeywell UDA2182 controller setup
 gh-repo: mattgeorgephd/mattgeorge.github.io
 gh-badge: [star, fork, follow]
-tags: "laboratory setup"
+tags: tutorials
 comments: true
 ---
 
