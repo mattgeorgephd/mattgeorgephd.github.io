@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Tues. Apr. 18, 2023
-subtitle: USDA-NRSP-8-gigas-rDNA Analysis Part 2
+title: USDA-NRSP-8-gigas-rDNA Analysis Part 2
+subtitle: Tues. Apr. 18, 2023
 gh-repo: mattgeorgephd/mattgeorge.github.io
 gh-badge: [star, fork, follow]
 tags: USDA-NRSP-8-gigas-rDNA
@@ -28,18 +28,28 @@ DNA was extracted from diploid and triploid juvenile Pacific oysters from two fa
 
 ![](/post_images/20230418/DNA_plot.png)
 
-Grace Leuchtenberger (BIO Grad Student) and Henry Bergy (SAFS undergraduate) helped with extractions. Here is the [DNA extraction datasheet](https://docs.google.com/spreadsheets/d/1mT-RngtGx3yUCDWR5lFlwokGhHqkjkrOQ7xhuaMOPes/edit?usp=sharing).
+Grace Leuchtenberger (BIO Grad Student) and Henry Berg (SAFS undergraduate) helped with extractions. Here is the [DNA extraction datasheet](https://docs.google.com/spreadsheets/d/1mT-RngtGx3yUCDWR5lFlwokGhHqkjkrOQ7xhuaMOPes/edit?usp=sharing) with sample manifest.
 
 ## DNA Sequencing
 
 We submitted 32 samples from two families to GeneWiz (Azneta) for sequencing on February 28. Here is the breakdown:
 
-| family  | ploidy  | number of samples  |
-|---   |---  |--- |
-| F05  | 2n  | 8  |
-| F05  | 3n  | 8  |
-| F14  | 2n  | 8  |
-| F14  | 3n  | 8  |
+| Family | Ploidy   | sample_ID |
+|--------|----------|-----------|
+| F05    | diploid  |  F052n01  |
+| F05    | diploid  |  F052n02  |
+| F05    | diploid  |  F052n03  |
+| F05    | diploid  |  F052n04  |
+| F05    | diploid  |  F052n05  |
+| F05    | diploid  |  F052n06  |
+| F05    | diploid  |  F052n07  |
+| F05    | diploid  |  F052n08  |
+| F05    | triploid |  F053n01  |
+| F05    | triploid |  F053n02  |
+| F05    | triploid |  F053n03  |
+| F05    | triploid |  F053n04  |
+| F05    | triploid |  F053n05  |
+| F05    | triploid |  F053n06  |
 
 Here is the link to the [Azenta Quote](https://github.com/mattgeorgephd/USDA-NRSP-8-gigas-rDNA/blob/f1e4db933386c59db981a6d8d70dbd1b204a6506/purchasing/sequencing_quotes/Azenta-30x-32_samples.pdf). We sequenced at 30x coverage. It was assigned project number 30-835022638.
 
