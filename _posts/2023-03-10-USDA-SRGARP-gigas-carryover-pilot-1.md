@@ -24,9 +24,9 @@ Determine the sample size needed to detect an immune response in c.gigas after p
 
 [Lafont et al. (2020)](https://doi.org/10.1128/mBio.02777-19) found a 3-fold increase in viveprin expression following injection of poly(I·C) high molecular weight (HMW) (InVivogen; catalog code tlrl-pic) in juvenile oysters (19 μg · g−1 of oyster).  
 
-<br />
+<br>
 
-![](https://journals.asm.org/cms/10.1128/mBio.02777-19/asset/6a45c5d8-3cfe-40d7-aa3c-08bc46f30d49/assets/graphic/mbio.02777-19-f0007.jpeg)
+![](https://journals.asm.org/doi/10.1128/mBio.02777-19#fig7)
 
 <br />
 
