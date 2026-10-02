@@ -2,6 +2,7 @@
 layout: post
 title: Wed. Apr. 26, 2023
 subtitle: USDA-SRGARP-gigas-carryover setup Part 1
+project: USDA-SRGARP-gigas-carryover
 tags: USDA-SRGARP-gigas-carryover
 comments: true
 ---
@@ -11,7 +12,6 @@ comments: true
  We are replicating the HUDLS system developed by Henry Fleener at OSU/Hatfield.
 
  Here are a few photos of their system:
-
 
  |   |   |
  |---   |---  |

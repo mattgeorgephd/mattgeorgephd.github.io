@@ -2,17 +2,10 @@
 layout: post
 title: Wed. Sep. 7, 2022
 subtitle: NOPP-gigas-ploidy-temp analysis - Part 4
+project: NOPP-gigas-ploidy-temp
 tags: NOPP-gigas-ploidy-temp
 comments: true
 ---
-
-Project name: [NOPP-gigas-ploidy-temp](https://github.com/mattgeorgephd/NOPP-gigas-ploidy-temp) <br />
-Funding source: [National Oceanographic Partnership Program](https://www.nopp.org/) <br />
-Species: *Crassostrea gigas* <br />
-variable: ploidy, elevated seawater temperature, desiccation <br />
-Github repo: [NOPP-gigas-ploidy-temp](https://github.com/mattgeorgephd/NOPP-gigas-ploidy-temp)
-
-[<< previous notebook entry <<](https://mattgeorgephd.github.io/NOPP-gigas-ploidy-temp-analysis-Part-3/)
 
 ## Tagseq analysis - Generate Gene Tables
 Using the following [R script](https://github.com/mattgeorgephd/NOPP-gigas-ploidy-temp/blob/main/202107_EXP2/tag-seq/scripts/3_generate_gene_tables.Rmd):
@@ -60,7 +53,6 @@ Direction of log2fold change expression for DEGs.
 | diploid_MS  | 74    | 46       | 28       | 37.8             | 62.2             |
 | triploid_SS        | 94    | 35       | 59       | 62.8             | 37.2             |
 | triploid_MS | 62    | 33       | 29       | 46.8             | 53.2             |
-
 
 **DEG LISTS: links to lists**
 

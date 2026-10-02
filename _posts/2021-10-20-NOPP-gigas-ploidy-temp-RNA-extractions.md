@@ -2,14 +2,10 @@
 layout: post
 title: Wed. Oct. 20, 2021
 subtitle: RNA extractions - sample analysis
+project: NOPP-gigas-ploidy-temp
 tags: NOPP-gigas-ploidy-temp
 comments: true
 ---
-
-Project name: [NOPP-gigas-ploidy-temp](https://github.com/mattgeorgephd/NOPP-gigas-ploidy-temp) <br />
-Funding source: [National Oceanographic Partnership Program](https://www.nopp.org/) <br />
-Species: *Crassostrea gigas* <br />
-variable: ploidy, elevated seawater temperature, desiccation <br />
 
 ### Background:
 RNA extractions from ctenidia were performed using the lab [RNazol](https://github.com/RobertsLab/resources/blob/master/protocols/rna_isolation_rnazol_rt.md) protocol. Tissue used was from 72 diploid and triploid oysters:

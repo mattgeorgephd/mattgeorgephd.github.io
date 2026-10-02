@@ -2,6 +2,7 @@
 layout: post
 title: Fri. Dec. 3, 2021
 subtitle: Citrate Synthase Assay
+project: NOPP-gigas-ploidy-temp
 tags: tutorials
 comments: true
 ---

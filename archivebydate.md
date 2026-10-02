@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Notebook by Month
+title: All Notebook Entries by Date
 permalink: /monthview/
 active: archivebydate
 sitemap: false

@@ -89,6 +89,5 @@ mult_comp <- HSD.test(amod, "tx", group=TRUE, console=TRUE) # run HSD test
 Link to [AOV model output](https://raw.githubusercontent.com/mattgeorgephd/mattgeorgephd.github.io/master/guides/2022-12-18-ANOVA/aov.csv) <br/>
 Link to [HSD output](https://raw.githubusercontent.com/mattgeorgephd/mattgeorgephd.github.io/master/guides/2022-12-18-ANOVA/HSD.csv)
 
-
 ## STEP 6: Plot w/ group labels
 ![](https://github.com/mattgeorgephd/mattgeorgephd.github.io/blob/master/guides/2022-12-18-ANOVA/atpase_suppl.png?raw=true)

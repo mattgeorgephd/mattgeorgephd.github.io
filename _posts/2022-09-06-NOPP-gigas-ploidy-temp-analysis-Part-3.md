@@ -2,19 +2,10 @@
 layout: post
 title: Tue. Sep. 6, 2022
 subtitle: NOPP-gigas-ploidy-temp analysis - Part 3
+project: NOPP-gigas-ploidy-temp
 tags: NOPP-gigas-ploidy-temp
 comments: true
 ---
-
-Project name: [NOPP-gigas-ploidy-temp](https://github.com/mattgeorgephd/NOPP-gigas-ploidy-temp) <br />
-Funding source: [National Oceanographic Partnership Program](https://www.nopp.org/) <br />
-Species: *Crassostrea gigas* <br />
-variable: ploidy, elevated seawater temperature, desiccation <br />
-Github repo: [NOPP-gigas-ploidy-temp](https://github.com/mattgeorgephd/NOPP-gigas-ploidy-temp)
-
-[<< previous notebook entry <<](https://mattgeorgephd.github.io/NOPP-gigas-ploidy-temp-analysis-Part-2/)
- |
-[>> next notebook entry >>](https://mattgeorgephd.github.io/NOPP-gigas-ploidy-temp-analysis-Part-4/)
 
 ## Tagseq analysis - using HISAT2
 I think I fixed the issue with low alignment scores that I was getting with HISAT2, which is a preferred aligner for TagSeq data because it is splice aware, unlike BowTie2. I hard trimmed the first 15 bp (`-u 15`) of the TagSeq transcripts using the following:

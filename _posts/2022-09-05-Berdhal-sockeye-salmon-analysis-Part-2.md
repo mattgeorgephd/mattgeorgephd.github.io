@@ -2,16 +2,10 @@
 layout: post
 title: Mon. Sep. 5, 2022
 subtitle: Berdahl-sockeye-salmon analysis - Part 2
+project: Berdahl-sockeye-salmon
 tags: Berdahl-sockeye-salmon
 comments: true
 ---
-
-Project name: [Berdahl-sockeye-salmon](https://github.com/mattgeorgephd/Berdahl-sockeye-salmon) <br />
-Funding source: [unknown]() <br />
-Species: *Oncorhynchus nerka* <br />
-variable: behavior: territorial, social <br />
-
-[<< previous notebook entry <<](https://mattgeorgephd.github.io/Berdhal-sockeye-salmon-analysis-Part-1/)
 
 ### Background
 1. 30 sockeye salmon sampled; 1-15: territorial, 16-30: social
@@ -148,7 +142,6 @@ I threw this list into [DAVID](https://davidbioinformatics.nih.gov/) and used th
 | 115138857            | ladderlectin-like(LOC115138857)                                          | Oncorhynchus nerka |
 | 115138859            | ladderlectin-like(LOC115138859)                                          | Oncorhynchus nerka |
 | 115125542            | calcyphosin-like protein(LOC115125542)                                   | Oncorhynchus nerka |
-
 
 ### KEGG Pathways:
 

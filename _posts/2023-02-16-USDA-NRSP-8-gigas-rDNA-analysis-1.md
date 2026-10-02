@@ -2,17 +2,10 @@
 layout: post
 title: Thu. Feb. 16, 2023
 subtitle: USDA-NRSP-8-gigas-rDNA Analysis Part 1
+project: USDA-NRSP-8-gigas-rDNA
 tags: USDA-NRSP-8-gigas-rDNA
 comments: true
 ---
-
-Project name: [USDA-NRSP-8-gigas-rDNA](https://github.com/mattgeorgephd/USDA-NRSP-8-gigas-rDNA) <br>
-Funding source: [USDA-NRSP-8](https://www.nimss.org/projects/view/mrp/outline/18464) <br>
-Github repo: https://github.com/mattgeorgephd/USDA-NRSP-8-gigas-rDNA <br>
-Species: *crassostrea gigas* <br>
-variable: ploidy <br>
-
-[>> next notebook entry >>](https://mattgeorgephd.github.io/USDA-NRSP-8-gigas-rDNA-analysis-2/)
 
 ------------------------------------------------------------------------------------------------------
 **Power analysis**

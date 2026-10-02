@@ -2,6 +2,7 @@
 layout: post
 title: Mon. Feb. 7, 2022
 subtitle: PRS histology sample submission
+project: NOPP-gigas-ploidy-temp
 tags: tutorials
 comments: true
 ---
@@ -17,7 +18,6 @@ comments: true
 4. Here is an example of a histology [slide diagram](https://github.com/mattgeorgephd/NOPP-gigas-ploidy-temp/blob/main/202107_EXP2/histology/histology_cassette_diagram.jpg).
 
 5. Analysis of oyster gonad slides are [here](https://drlawson.github.io/Oyster-Pics-for-Matt/)
-
 
 ### Submission Instructions:
 

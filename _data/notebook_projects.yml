@@ -1,0 +1,54 @@
+# Lab notebook projects. Each notebook entry sets `project:` to one of these keys;
+# the notebook home page and the project box on each entry are built from here.
+# Order here is the order of the project cards on the notebook home page.
+#
+#   title:     plain-language project name
+#   funding:   funder (optional)
+#   species:   study species, markdown allowed for italics (optional)
+#   variables: experimental variables (optional)
+#   repo:      GitHub repository name under mattgeorgephd (optional; only set for
+#              repositories you want linked from the site)
+#   research:  anchor on the Research page (optional)
+
+USDA-SRGARP-gigas-carryover:
+  title: "Hatchery conditioning for climate-resilient oyster seed"
+  funding: "USDA NIFA Special Research Grants for Aquaculture Research (SRGARP)"
+  species: "*Crassostrea gigas*"
+  variables: "heat shock, mechanical stress, poly(I:C) immune priming"
+  research: "oyster-resilience"
+
+USDA-NRSP-8-gigas-rDNA:
+  title: "Ribosomal DNA copy number in Pacific oysters"
+  funding: "USDA NRSP-8 National Animal Genome Research Program"
+  species: "*Crassostrea gigas*"
+  variables: "ploidy"
+  research: "oyster-resilience"
+
+PSMFC-mytilus-byssus-pilot:
+  title: "Genomic markers of mussel attachment"
+  funding: "Pacific States Marine Fisheries Commission (PSMFC)"
+  species: "*Mytilus trossulus*, *Mytilus galloprovincialis*"
+  variables: "ocean acidification, dissolved oxygen, temperature, desiccation"
+  repo: "PSMFC-mytilus-byssus-pilot"
+  research: "mussel-attachment"
+
+Berdahl-sockeye-salmon:
+  title: "Gene expression and behavior in sockeye salmon"
+  species: "*Oncorhynchus nerka*"
+  variables: "territorial vs. social behavior"
+  repo: "Berdahl-sockeye-salmon"
+  research: "salmon-behavior"
+
+NOPP-gigas-ploidy-temp:
+  title: "Triploidy and marine heatwaves in Pacific oysters"
+  funding: "NOAA National Oceanographic Partnership Program (NOPP)"
+  species: "*Crassostrea gigas*"
+  variables: "ploidy, elevated seawater temperature, desiccation"
+  repo: "NOPP-gigas-ploidy-temp"
+  research: "oyster-resilience"
+
+WGBS-gigas-ploidy-desiccation:
+  title: "DNA methylation in diploid and triploid oysters"
+  species: "*Crassostrea gigas*"
+  variables: "ploidy, desiccation, elevated temperature"
+  research: "oyster-resilience"

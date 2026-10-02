@@ -2,16 +2,10 @@
 layout: post
 title: Fri. Mar. 10, 2023
 subtitle: USDA-SRGARP-gigas-carryover pilot Part 1
+project: USDA-SRGARP-gigas-carryover
 tags: USDA-SRGARP-gigas-carryover
 comments: true
 ---
-
-Project name: [USDA-SRGARP-gigas-carryover](https://github.com/mattgeorgephd/USDA-SRGARP-gigas-carryover) <br />
-Funding source: [USDA-SRGARP](https://www.nifa.usda.gov/sites/default/files/2022-04/FY22-SRGARP-RFA-508.pdf) <br />
-Species: *crassostrea gigas* <br />
-variable: heat-shock, mechanical stress, poly(I:C) <br />
-
-[>> next notebook entry >>](https://mattgeorgephd.github.io/USDA-SRGARP-gigas-carryover-pilot-2/)
 
 ------------------------------------------------------------------------------------------------------
 ## Immune priming injection vs. emersion pilot (w/ ploidy thrown in)

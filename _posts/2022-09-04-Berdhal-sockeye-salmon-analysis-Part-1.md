@@ -2,18 +2,10 @@
 layout: post
 title: Sun. Sep. 4, 2022
 subtitle: Berdahl-sockeye-salmon analysis - Part 1
+project: Berdahl-sockeye-salmon
 tags: Berdahl-sockeye-salmon
 comments: true
 ---
-
-Project name: [Berdahl-sockeye-salmon](https://github.com/mattgeorgephd/Berdahl-sockeye-salmon) <br />
-Funding source: [unknown]() <br />
-Species: *Oncorhynchus nerka* <br />
-variable: behavior: territorial, social <br />
-
-[<< previous notebook entry <<]()
- |
-[>> next notebook entry >>](https://mattgeorgephd.github.io/Berdhal-sockeye-salmon-analysis-Part-2/)
 
 ### Background
 1. 30 sockeye salmon sampled; 1-15: territorial, 16-30: social
@@ -68,7 +60,6 @@ done
 # I moved files to merged-fastq
 ```
 Sequences were aligned to the [O. nerka genome](https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_006149115.2/) using hisat2 (a splice aware aligner):
-
 
 ```{bash}
 # create hisat2 index for cgigas genome (took 31 min on Raven)

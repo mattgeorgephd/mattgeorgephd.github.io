@@ -2,19 +2,10 @@
 layout: post
 title: Fri. Apr. 2, 2021
 subtitle: Bisulfite sequencing analysis - Part 3
-tags: gigas-WGBS-ploidy-desiccation
+project: WGBS-gigas-ploidy-desiccation
+tags: WGBS-gigas-ploidy-desiccation
 comments: true
 ---
-
-Project name: [gigas-WGBS-ploidy-desiccation](https://github.com/mattgeorgephd/WGBS-gigas-ploidy-desiccation) <br />
-Funding source: [unknown]() <br />
-Species: *Crassostrea gigas* <br />
-variable: ploidy, desiccation, high temperature <br />
-
-[previous notebook entry](https://mattgeorgephd.github.io/gigas-WGBS-ploidy-desiccation-analysis-Part-2/)
-
-[next notebook entry](https://mattgeorgephd.github.io/gigas-WGBS-ploidy-desiccation-analysis-Part-4/)
-
 
 ### Background:
 This is continuation of the WGBS analysis I've been running on Ronit's data. The previous post can be found [here](https://mattgeorgephd.github.io/gigas-WGBS-ploidy-desiccation-analysis-Part-2/). Last time I looked at the MultiQC report and quantified differences in %mCpG between diploid and triploid cgigas after desiccation at 27C for 24hrs.

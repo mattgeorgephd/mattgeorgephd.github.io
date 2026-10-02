@@ -28,4 +28,4 @@ University of Washington and NOAA projects, 2020-2023. Day-by-day methods for th
 
 ## Lab notebook
 
-My [open lab notebook]({{ '/notebook/' | relative_url }}) records experiments and analyses from 2020 to 2023. Browse it by [category]({{ '/categoryview/' | relative_url }}), [date]({{ '/monthview/' | relative_url }}), or [tag]({{ '/tagview/' | relative_url }}).
+My [open lab notebook]({{ '/notebook/' | relative_url }}) records experiments and analyses by project. You can also browse [all entries by date]({{ '/monthview/' | relative_url }}).

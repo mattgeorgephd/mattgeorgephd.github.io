@@ -2,18 +2,10 @@
 layout: post
 title: Tue. Mar. 16, 2021
 subtitle: Bisulfite sequencing analysis - Part 1
-tags: gigas-WGBS-ploidy-desiccation
+project: WGBS-gigas-ploidy-desiccation
+tags: WGBS-gigas-ploidy-desiccation
 comments: true
 ---
-
-Project name: [gigas-WGBS-ploidy-desiccation](https://github.com/mattgeorgephd/WGBS-gigas-ploidy-desiccation) <br />
-Funding source: [unknown]() <br />
-Species: *Crassostrea gigas* <br />
-variable: ploidy, desiccation, high temperature <br />
-
-
-[next notebook entry](https://mattgeorgephd.github.io/gigas-WGBS-ploidy-desiccation-analysis-Part-2/)
-
 
 ### Background:
 We have bisulfite sequencing data from Ronit's desiccation exposure
@@ -120,14 +112,12 @@ Here is the code:
   -1 ${reads_dir}{}_R1.fastp-trim.20201202.fq.gz \
   -2 ${reads_dir}{}_R2.fastp-trim.20201202.fq.gz \
 
-
   find *.bam | \
   xargs basename -s .bam | \
   xargs -I{} ${bismark_dir}/deduplicate_bismark \
   --bam \
   --paired \
   {}.bam
-
 
   ${bismark_dir}/bismark_methylation_extractor \
   --bedGraph --counts --scaffolds \

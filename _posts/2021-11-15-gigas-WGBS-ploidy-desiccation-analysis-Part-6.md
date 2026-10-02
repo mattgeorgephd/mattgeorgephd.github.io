@@ -2,16 +2,10 @@
 layout: post
 title: Mon. Nov. 15, 2021
 subtitle: Bisulfite sequencing analysis - Part 6
-tags: gigas-WGBS-ploidy-desiccation
+project: WGBS-gigas-ploidy-desiccation
+tags: WGBS-gigas-ploidy-desiccation
 comments: true
 ---
-
-Project name: [project-gigas_ploidy](https://github.com/mattgeorgephd/WGBS-gigas-ploidy-desiccation) <br />
-Funding source: [unknown]() <br />
-Species: *Crassostrea gigas* <br />
-variable: ploidy, desiccation, high temperature <br />
-
-[previous notebook entry](https://mattgeorgephd.github.io/gigas-WGBS-ploidy-desiccation-analysis-Part-5/)
 
 ### Background
 After comparing analyses and looking at genome feature locations, we decided to continue using the Ronit dataset with Yaamini controls to see what the processes look like.

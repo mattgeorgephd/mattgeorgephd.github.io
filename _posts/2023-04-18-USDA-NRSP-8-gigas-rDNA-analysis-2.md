@@ -2,17 +2,10 @@
 layout: post
 title: Tue. Apr. 18, 2023
 subtitle: USDA-NRSP-8-gigas-rDNA Analysis Part 2
+project: USDA-NRSP-8-gigas-rDNA
 tags: USDA-NRSP-8-gigas-rDNA
 comments: true
 ---
-
-Project name: [USDA-NRSP-8-gigas-rDNA](https://github.com/mattgeorgephd/USDA-NRSP-8-gigas-rDNA) <br>
-Funding source: [USDA-NRSP-8](https://www.nimss.org/projects/view/mrp/outline/18464) <br>
-Github repo: https://github.com/mattgeorgephd/USDA-NRSP-8-gigas-rDNA <br>
-Species: *crassostrea gigas* <br>
-variable: ploidy <br>
-
-[<< previous notebook entry <<](https://mattgeorgephd.github.io/USDA-NRSP-8-gigas-rDNA-analysis-1/)
 
 ------------------------------------------------------------------------------------------------------
 
@@ -117,7 +110,6 @@ multiqc .
 ```
 
 The multiqc report for the raw data is [here](https://gannet.fish.washington.edu/panopea/USDA-NRSP-8-gigas-rDNA/multiqc_report-raw-data.html)
-
 
 I then trimmed adapter sequences (hard trimmed first 10 bps):
 

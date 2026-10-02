@@ -2,18 +2,10 @@
 layout: post
 title: Thu. Apr. 1, 2021
 subtitle: Bisulfite sequencing analysis - Part 2
-tags: gigas-WGBS-ploidy-desiccation
+project: WGBS-gigas-ploidy-desiccation
+tags: WGBS-gigas-ploidy-desiccation
 comments: true
 ---
-
-Project name: [gigas-WGBS-ploidy-desiccation](https://github.com/mattgeorgephd/WGBS-gigas-ploidy-desiccation) <br />
-Funding source: [unknown]() <br />
-Species: *Crassostrea gigas* <br />
-variable: ploidy, desiccation, high temperature <br />
-
-[previous notebook entry](https://mattgeorgephd.github.io/gigas-WGBS-ploidy-desiccation-analysis-Part-1/)
-
-[next notebook entry](https://mattgeorgephd.github.io/gigas-WGBS-ploidy-desiccation-analysis-Part-3/)
 
 ### Background:
 This is continuation of the WGBS analysis I've been running on Ronit's data. The previous post can be found [here](https://mattgeorgephd.github.io/gigas-WGBS-ploidy-desiccation-analysis-Part-1/). I'll be following Yaamini's [walkthrough](https://yaaminiv.github.io/Hawaii-Gigas-Methylation-Analysis-Part5/) in this post to look at the results of bismark.

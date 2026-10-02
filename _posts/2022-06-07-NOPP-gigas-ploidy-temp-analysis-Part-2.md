@@ -2,19 +2,10 @@
 layout: post
 title: Tue. Jun. 7, 2022
 subtitle: NOPP-gigas-ploidy-temp analysis - Part 2
+project: NOPP-gigas-ploidy-temp
 tags: NOPP-gigas-ploidy-temp
 comments: true
 ---
-
-Project name: [NOPP-gigas-ploidy-temp](https://github.com/mattgeorgephd/NOPP-gigas-ploidy-temp) <br />
-Funding source: [National Oceanographic Partnership Program](https://www.nopp.org/) <br />
-Species: *Crassostrea gigas* <br />
-variable: ploidy, elevated seawater temperature, desiccation <br />
-Github repo: [NOPP-gigas-ploidy-temp](https://github.com/mattgeorgephd/NOPP-gigas-ploidy-temp)
-
-[<< previous notebook entry <<](https://mattgeorgephd.github.io/NOPP-gigas-ploidy-temp-analysis-Part-1/)
- |
-[>> next notebook entry >>](https://mattgeorgephd.github.io/NOPP-gigas-ploidy-temp-analysis-Part-3/)
 
 ### Background
 We received 3'end RNA sequencing (3'Tag RNA-Seq or TagSeq) data from 72 samples *crassostrea gigas* samples from the UT-Austin [Genomic Sequencing and Analysis Facility (GSAF)](https://wikis.utexas.edu/display/GSAF/Home+Page).

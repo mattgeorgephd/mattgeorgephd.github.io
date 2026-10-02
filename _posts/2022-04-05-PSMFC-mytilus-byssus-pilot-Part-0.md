@@ -2,14 +2,10 @@
 layout: post
 title: Tue. Apr. 5, 2022
 subtitle: How to collect byssal threads
+project: PSMFC-mytilus-byssus-pilot
 tags: PSMFC-mytilus-byssus-pilot tutorials
 comments: true
 ---
-
-Project name: [PSMFC-mytilus-byssus-pilot](https://github.com/mattgeorgephd/PSMFC-mytilus-byssus-pilot) <br />
-Funding source: [Pacific States Marine Fisheries Commission](https://www.psmfc.org/) <br />
-Species: *mytilus galloprovincialis*, *mytilus trossulus* <br />
-variable: OA, DO, seawater temperature, desiccation <br />
 
 ### 1. Specimen collection
 500 Mussels (*Mytilus trossulus* and *M. galloprovincialis*) were collected from [Penn Cove Shellfish's](http://www.penncoveshellfish.com/) farm located on Whidbey Island, WA. Mussels were removed directly from aquaculture lines to prevent stress associated with harvesting/packaging. Here are a few pictures of the farm:
@@ -45,7 +41,6 @@ Once I got the mica sheets, I needed a reproducible way to get mussels to attach
 | ![](/post_images/20220405/1.jpg)  | ![](/post_images/20220405/2.jpg)  | ![](/post_images/20220405/4.jpg) |
 | ![](/post_images/20220405/5.jpg)  | ![](/post_images/20220405/6.jpg)  | ![](/post_images/20220405/7.jpg) |
 
-
 | completed |   |
 |---|---|
 | ![](/post_images/20220405/8.jpg)  | ![](/post_images/20220405/10.jpg)  |
@@ -55,7 +50,6 @@ Once I got the mica sheets, I needed a reproducible way to get mussels to attach
 #### 2.3. Collecting threads
 
 Mussels were labeled using [numbered wire-tags](https://www.amazon.com/Wire-Marker-Klein-Tools-56250/dp/B072SVZKQ5/ref=pd_bxgy_vft_none_img_sccl_1/135-9586585-1428430?pd_rd_w=QphjI&content-id=amzn1.sym.26a5c67f-1a30-486b-bb90-b523ad38d5a0&pf_rd_p=26a5c67f-1a30-486b-bb90-b523ad38d5a0&pf_rd_r=VX48KSY312QS7RKREKXK&pd_rd_wg=MitW8&pd_rd_r=79e44e06-7fea-4450-99c7-e6352bd6e8ae&pd_rd_i=B072SVZKQ5&psc=1), affixed to the shell valve using [Loctite super glue - ultra gel control](https://www.amazon.com/dp/B01EZTPXEO?ref=nb_sb_ss_w_as-reorder-t1_k0_1_3&amp=&crid=M0PG2X0XL9RP&amp=&sprefix=loc). After adding mussels to platforms, they were exposed to various environmental conditions over three days. The number of threads that each mussel made was recorded (and compared with how many they made beforehand). Threads were then cut at the shell interface. Sometimes multiple mussels attached to the same mica sheet; when this was the case, mica sheets were cut and labeled with the mussel ID that made them. Mica sheets with threads were stored dry between two sheets of paper towel, pressed between two pieces of cardboard, secured with [binder clips](https://www.amazon.com/Amazon-Basics-Binder-Paper-Clip/dp/B074XTRX7G/ref=sr_1_15?crid=X75V2PLC0YP6&keywords=binder+clips&qid=1683571058&sprefix=binder+clip%2Caps%2C152&sr=8-15). Here are some pictures:
-
 
 ![](/post_images/20220405/mussel.jpg)
 

@@ -2,21 +2,12 @@
 layout: post
 title: Fri. Feb. 18, 2022
 subtitle: NOPP-gigas-ploidy-temp analysis - Part 1
+project: NOPP-gigas-ploidy-temp
 tags: NOPP-gigas-ploidy-temp
 comments: true
 ---
 
-Project name: [NOPP-gigas-ploidy-temp](https://github.com/mattgeorgephd/NOPP-gigas-ploidy-temp) <br />
-Funding source: [National Oceanographic Partnership Program](https://www.nopp.org/) <br />
-Species: *Crassostrea gigas* <br />
-variable: ploidy, elevated seawater temperature, desiccation <br />
-Github repo: [NOPP-gigas-ploidy-temp](https://github.com/mattgeorgephd/NOPP-gigas-ploidy-temp)
-
-
-<< [previous notebook entry](https://mattgeorgephd.github.io/NOPP-gigas-ploidy-temp-RNA-extractions/) <<
 | >>
-[next notebook entry](https://mattgeorgephd.github.io/NOPP-gigas-ploidy-temp-analysis-Part-2/) >>
-
 
 ### Background
 
