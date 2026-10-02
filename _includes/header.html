@@ -1,6 +1,15 @@
 <!-- TODO this file has become a mess, refactor it -->
 
 {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
+{% comment %} Notebook entries are titled by date with the topic in the subtitle; lead with the topic. {% endcomment %}
+{% if include.type == "post" and page.subtitle %}
+  {% assign heading_title = page.subtitle %}
+  {% assign heading_subtitle = nil %}
+{% else %}
+  {% assign heading_title = page.title %}
+  {% assign heading_subtitle = page.subtitle %}
+{% endif %}
+
 
 {% if page.cover-img or page.title %}
 
@@ -27,13 +36,13 @@
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
         <div class="{{ include.type }}-heading">
-          <h1>{% if page.title %}{{ page.title }}{% else %}<br/>{% endif %}</h1>
-          {% if page.subtitle %}
+          <h1>{% if heading_title %}{{ heading_title }}{% else %}<br/>{% endif %}</h1>
+          {% if heading_subtitle %}
             {% if include.type == "page" %}
               <hr class="small">
-              <span class="{{ include.type }}-subheading">{{ page.subtitle }}</span>
+              <span class="{{ include.type }}-subheading">{{ heading_subtitle }}</span>
             {% else %}
-              <h2 class="{{ include.type }}-subheading">{{ page.subtitle }}</h2>
+              <h2 class="{{ include.type }}-subheading">{{ heading_subtitle }}</h2>
             {% endif %}
           {% endif %}
 
@@ -61,13 +70,13 @@
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
         <div class="{{ include.type }}-heading">
-          <h1>{% if page.title %}{{ page.title }}{% else %}<br/>{% endif %}</h1>
-          {% if page.subtitle %}
+          <h1>{% if heading_title %}{{ heading_title }}{% else %}<br/>{% endif %}</h1>
+          {% if heading_subtitle %}
             {% if include.type == "page" %}
               <hr class="small">
-              <span class="{{ include.type }}-subheading">{{ page.subtitle }}</span>
+              <span class="{{ include.type }}-subheading">{{ heading_subtitle }}</span>
             {% else %}
-              <h2 class="{{ include.type }}-subheading">{{ page.subtitle }}</h2>
+              <h2 class="{{ include.type }}-subheading">{{ heading_subtitle }}</h2>
             {% endif %}
           {% endif %}
 

@@ -15,13 +15,7 @@ share-description: Open online lab notebook of Matthew N. George documenting oys
   {% for post in paginator.posts %}
   <article class="post-preview">
     <a href="{{ post.url | relative_url }}">
-	  <h2 class="post-title">{{ post.title }}</h2>
-
-	  {% if post.subtitle %}
-	  <h3 class="post-subtitle">
-	    {{ post.subtitle }}
-	  </h3>
-	  {% endif %}
+	  <h2 class="post-title">{{ post.subtitle | default: post.title }}</h2>
     </a>
 
     <p class="post-meta">

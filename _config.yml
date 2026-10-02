@@ -98,6 +98,9 @@ feed_show_excerpt: true
 # Whether or not to show a list of tags below each post preview in the feed page
 feed_show_tags: true
 
+# Link each tag to its section on the Tag Index page
+link-tags: true
+
 # The keywords to associate with your website, for SEO purposes
 keywords: "marine biology, shellfish, fisheries management, ecophysiology, genomics, epigenetics, climate change, Pacific oyster, razor clam, Dungeness crab, mussel byssus"
 
