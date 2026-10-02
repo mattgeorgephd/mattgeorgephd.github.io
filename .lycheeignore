@@ -10,6 +10,7 @@
 ^https://tixemployee\.uw\.edu/
 ^https://(www\.)?linkedin\.com/
 ^https://(www\.)?researchgate\.net/
+^https://scholar\.google\.com/
 ^https://(www\.)?amazon\.com/
 ^https://(www\.)?etsy\.com/
 ^https://(www\.)?alibaba\.com/
