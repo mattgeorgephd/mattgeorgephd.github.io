@@ -59,7 +59,7 @@ After I installed the heaters, I connected them to a reservoir tank upstairs.
 
 The setup is a follows:
 
-Incoming seawater (circa 10 C) fills a 200 L header tank upstairs (see below) that circulates through two [Aqualogic Optima Compact Plus 15 kW inline heat pumps](https://aqualogicinc.com/products/heating/#heaters) that are plumbed in series and fed with a 2400 GPH pump. Two of the tanks downstairs are then fed off a circulation loop that runs downstairs and back and driven by a 2400 GPH pump.
+Incoming seawater (circa 10 C) fills a 200 L header tank upstairs (see below) that circulates through two [Aqualogic](https://aqualogicinc.com/) Optima Compact Plus 15 kW inline heat pumps that are plumbed in series and fed with a 2400 GPH pump. Two of the tanks downstairs are then fed off a circulation loop that runs downstairs and back and driven by a 2400 GPH pump.
 
 Here is a picture of the heated header tank upstairs (without its lid):
 

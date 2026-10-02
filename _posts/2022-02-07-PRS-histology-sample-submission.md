@@ -10,7 +10,7 @@ comments: true
 
 ### Background
 
-1. Here is a link to the [PRS website](https://dlmp.uw.edu/research/prs-services).
+1. Here is a link to the [PRS website](https://dlmp.uw.edu/research/pathology-research-services-lab).
 
 2. Here is the excel [order form](https://github.com/mattgeorgephd/NOPP-gigas-ploidy-temp/blob/main/202107_EXP2/histology/PRS_Work_order_form_10_1_2021.xlsx) for use with projects that have a UW budget number.
 
