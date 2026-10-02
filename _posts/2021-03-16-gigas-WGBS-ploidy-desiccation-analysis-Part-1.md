@@ -1,9 +1,7 @@
 ---
 layout: post
-title: Tues. Mar. 16, 2021
-subtitle: Bisulfide sequencing analysis - Part 1
-gh-repo: mattgeorgephd/mattgeorgephd.github.io
-gh-badge: [star, fork, follow]
+title: Tue. Mar. 16, 2021
+subtitle: Bisulfite sequencing analysis - Part 1
 tags: gigas-WGBS-ploidy-desiccation
 comments: true
 ---
@@ -18,7 +16,7 @@ variable: ploidy, desiccation, high temperature <br />
 
 
 ### Background:
-We have bisulfide sequencing data from Ronit's desiccation exposure
+We have bisulfite sequencing data from Ronit's desiccation exposure
 experiments using juvenile pacific oysters. Here is the forked [github repo](https://github.com/mattgeorgephd/WGBS-gigas-ploidy-desiccation).
 
 List of the progress so far:

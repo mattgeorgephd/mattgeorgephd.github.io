@@ -1,9 +1,7 @@
 ---
 layout: post
-title: Sun. Jan. 30, 2022
+title: Mon. Jan. 31, 2022
 subtitle: February 2022 - Update & Monthly Goals
-gh-repo: mattgeorgephd/mattgeorgephd.github.io
-gh-badge: [star, fork, follow]
 tags: monthly-goals
 comments: true
 ---
@@ -14,7 +12,7 @@ comments: true
 3. [x] CICOES Postdoctoral Fellowship application (1/23)
 4. [x] Submit RNA samples to [UT Austin GSAF](https://wikis.utexas.edu/display/GSAF/Library+Prep+Prices+and+Descriptions)
 5. [x] Curate master [RNA sample list](https://docs.google.com/spreadsheets/d/1PDVSGuCGeYQr6Rdl6u5M4L5vcQS1EgUQl7UjvLYDlBg/edit#gid=0) for PSMFC mussel project
-6. [x] Get [SICB talk](http://burkclients.com/sicb/meetings/2022/site/guidelines_talk_sicb+.html) up and running
+6. [x] Get SICB talk up and running
 
 ### Monthly Goals for February
 1. [ ] Complete gigas-WGBS-ploidy-desiccation [manuscript](https://docs.google.com/document/d/17mcGDI-TWmU4vgBXmiXmeofe4qEuFH5inBKBHhG9tzg/edit).

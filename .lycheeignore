@@ -11,8 +11,12 @@
 ^https://(www\.)?linkedin\.com/
 ^https://(www\.)?researchgate\.net/
 ^https://scholar\.google\.com/
+# Publishers and news sites answer automated checks with 401/403 even when the page exists
+^https://doi\.org/
+^https://journals\.asm\.org/
+^https://(www\.)?mdpi\.com/
+^https://phys\.org/
 ^https://(www\.)?amazon\.com/
 ^https://(www\.)?etsy\.com/
 ^https://(www\.)?alibaba\.com/
-^https://ghbtns\.com/
 ^https://gannet\.fish\.washington\.edu:5001

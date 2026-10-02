@@ -1,9 +1,7 @@
 ---
 layout: post
-title: Tues. April. 26, 2023
+title: Wed. Apr. 26, 2023
 subtitle: USDA-SRGARP-gigas-carryover setup Part 1
-gh-repo: mattgeorgephd/mattgeorgephd.github.io
-gh-badge: [star, fork, follow]
 tags: USDA-SRGARP-gigas-carryover
 comments: true
 ---

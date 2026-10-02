@@ -2,8 +2,6 @@
 layout: post
 title: Mon. Apr. 3, 2023
 subtitle: gptstudio guide
-gh-repo: mattgeorgephd/mattgeorgephd.github.io
-gh-badge: [star, fork, follow]
 tags: tutorials
 comments: true
 ---

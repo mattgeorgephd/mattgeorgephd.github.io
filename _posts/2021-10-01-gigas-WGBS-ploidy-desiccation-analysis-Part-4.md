@@ -1,9 +1,7 @@
 ---
 layout: post
-title: Wed. Oct. 1, 2021
-subtitle: Bisulfide sequencing analysis - Part 4
-gh-repo: mattgeorgephd/mattgeorgephd.github.io
-gh-badge: [star, fork, follow]
+title: Fri. Oct. 1, 2021
+subtitle: Bisulfite sequencing analysis - Part 4
 tags: gigas-WGBS-ploidy-desiccation
 comments: true
 ---

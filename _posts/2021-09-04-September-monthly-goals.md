@@ -1,9 +1,7 @@
 ---
 layout: post
-title: Sat. Sept. 04, 2021
+title: Sat. Sep. 4, 2021
 subtitle: September 2021 - Update & Monthly Goals
-gh-repo: mattgeorgephd/mattgeorgephd.github.io
-gh-badge: [star, fork, follow]
 tags: monthly-goals
 comments: true
 ---

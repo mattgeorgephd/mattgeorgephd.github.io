@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Useful R code
-subtitle: chunks of code for easy pasting
+subtitle: Useful R code chunks for easy pasting
 tags: tutorials
 comments: true
 ---
