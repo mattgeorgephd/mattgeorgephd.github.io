@@ -42,12 +42,7 @@ We submitted 32 samples from two families to GeneWiz (Azneta) for sequencing on 
 
 Here is the link to the [Azenta Quote](https://github.com/mattgeorgephd/USDA-NRSP-8-gigas-rDNA/blob/f1e4db933386c59db981a6d8d70dbd1b204a6506/purchasing/sequencing_quotes/Azenta-30x-32_samples.pdf). We sequenced at 30x coverage. It was assigned project number 30-835022638.
 
-We Received the data on back on 04-29-2023. Sequencing data was provided as zipped fastq files on the genewiz sFTP server. Here are the server details:
-
-> Host:	sftp://sftp.genewiz.com <br>
-User:	mngeorge_uw <br>
-Password:	pxLSUtDDLhprLvLkweVf <br>
-Port:	22 <br>
+We Received the data on back on 04-29-2023. Sequencing data was provided as zipped fastq files on the Genewiz sFTP server (host `sftp://sftp.genewiz.com`, port 22). Azenta issues a username and password for each project; they are not reproduced here.
 
 The Genewiz download guide is provided [here](https://f.hubspotusercontent00.net/hubfs/3478602/Sell%20Sheet%20Collateral%20Library/NGS/NGS%20User%20Guides/NGS_sFTP-Data-Download-Guide_Option%201_Nov03_2020.pdf). I downloaded the sequencing files directly to our lab sequencing repository "nightingales" on owl. Here is link to the [C_gigas folder](https://owl.fish.washington.edu/nightingales/C_gigas/). Here is the code used to transfer:
 
@@ -59,7 +54,7 @@ ssh mngeorge@owl.fish.washington.edu
 cd /var/services/web/nightingales/C_gigas
 
 # Login to sFTP server
-sftp mngeorge_uw@sftp.genewiz.com
+sftp <username>@sftp.genewiz.com
 
 # change folder to Genewiz project folder w/ fastq files
 cd 30-835022638/00_fastq
