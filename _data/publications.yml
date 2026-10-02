@@ -5,7 +5,6 @@
 in_prep:
   - authors: "**George MN**, Jain R*, Trigg S, and Roberts SB"
     title: "Epigenetic divergence in diploid and triploid Pacific oysters following thermal stress."
-    repo: WGBS-gigas-ploidy-desiccation
   - authors: "**George MN**, Klopp M, and Carrington E"
     title: "Genetic markers associated with robust attachment in marine mussels following acute exposure to climate stressors."
     repo: PSMFC-mytilus-byssus-pilot

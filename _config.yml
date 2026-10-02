@@ -234,6 +234,11 @@ exclude:
   - docs/
   - beautiful-jekyll-theme.gemspec
   - staticman.yml
+  # Jekyll's defaults, restated because this list replaces them
+  - vendor/
+  - .bundle/
+  - node_modules/
+  - .jekyll-cache/
 
 # prose.io config
 prose:

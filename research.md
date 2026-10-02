@@ -21,11 +21,10 @@ As lead of WDFW's Coastal Shellfish Unit, I direct research and monitoring on ho
 
 <p class="project-meta">Washington coastal recreational razor clam fishery, 1997-2025</p>
 
-How ocean conditions drive year-to-year recruitment in the razor clam (*Siliqua patula*) populations that support one of Washington's most popular recreational fisheries. A companion project reviews the agency's recreational harvest-estimation method: it rebuilds harvest, effort, and catch-per-unit-effort estimates from source data, quantifies their uncertainty, and models how changes in field sampling would affect them.
+How ocean conditions drive year-to-year recruitment in the razor clam (*Siliqua patula*) populations that support one of Washington's most popular recreational fisheries.
 
 <p class="project-links">
 <a href="https://github.com/mattgeorgephd/razor-clam-recruitment-analysis"><i class="fab fa-github" aria-hidden="true"></i> recruitment analysis</a>
-<a href="https://github.com/mattgeorgephd/razor-clam-harvest-monitoring"><i class="fab fa-github" aria-hidden="true"></i> harvest-estimation review</a>
 <a href="{{ '/presentations/' | relative_url }}"><i class="fas fa-chalkboard-teacher" aria-hidden="true"></i> talks (2024, 2026)</a>
 </p>
 </div>
@@ -36,10 +35,9 @@ How ocean conditions drive year-to-year recruitment in the razor clam (*Siliqua 
 
 <p class="project-meta">Washington coastal commercial and recreational Dungeness crab fisheries</p>
 
-Three linked efforts: (1) forecasting when crab at Long Beach and Westport reach the 23% meat-fill threshold for the commercial season opener, using test-fishery data together with upwelling, Columbia River discharge, and buoy temperature records; (2) estimating recreational crab harvest at Westport and Grays Harbor with Bayesian state-space models that fill gaps between sampled days and carry uncertainty through to the final estimate; and (3) monitoring Dungeness crab larvae with light traps on the outer coast.
+Estimating recreational crab harvest at Westport and Grays Harbor with Bayesian state-space models that fill gaps between sampled days and carry uncertainty through to the final estimate, and monitoring Dungeness crab larvae with light traps on the outer coast.
 
 <p class="project-links">
-<a href="https://github.com/mattgeorgephd/WA-coastal-crab-meat-fill-rate"><i class="fab fa-github" aria-hidden="true"></i> meat-fill forecasting</a>
 <a href="https://github.com/mattgeorgephd/Coastal-Rec-Crab-BSS"><i class="fab fa-github" aria-hidden="true"></i> recreational harvest estimation</a>
 </p>
 </div>
@@ -68,7 +66,6 @@ Many farmed Pacific oysters are triploid: an extra chromosome set makes them fun
 
 <p class="project-links">
 <a href="https://github.com/mattgeorgephd/NOPP-gigas-ploidy-temp"><i class="fab fa-github" aria-hidden="true"></i> heatwave data &amp; code</a>
-<a href="https://github.com/mattgeorgephd/WGBS-gigas-ploidy-desiccation"><i class="fab fa-github" aria-hidden="true"></i> DNA methylation</a>
 <a href="{{ '/Pt-Whitney-Tank-Build-1/' | relative_url }}"><i class="fas fa-book" aria-hidden="true"></i> hatchery tank build</a>
 <a href="{{ '/NOPP-gigas-ploidy-temp-analysis-Part-1/' | relative_url }}"><i class="fas fa-book" aria-hidden="true"></i> Tag-seq analysis</a>
 <a href="{{ '/gigas-WGBS-ploidy-desiccation-analysis-Part-1/' | relative_url }}"><i class="fas fa-book" aria-hidden="true"></i> WGBS analysis</a>
@@ -84,7 +81,6 @@ Many farmed Pacific oysters are triploid: an extra chromosome set makes them fun
 Poor summer survival limits U.S. oyster production. Working with Taylor Shellfish, Nisbet Oyster Co., Pacific Hybreed, and the Jamestown S'Klallam Tribe, we tested broodstock and early-life conditioning (heat and mechanical stress priming, and immune priming with poly(I:C)) as a way to use transgenerational and developmental plasticity to make seed more resilient, without the cost or loss of genetic diversity that comes with selective breeding.
 
 <p class="project-links">
-<a href="https://github.com/mattgeorgephd/USDA-SRGARP-gigas-carryover"><i class="fab fa-github" aria-hidden="true"></i> project repository</a>
 <a href="{{ '/USDA-SRGARP-gigas-carryover-pilot-1/' | relative_url }}"><i class="fas fa-book" aria-hidden="true"></i> notebook entries</a>
 </p>
 </div>
@@ -98,7 +94,6 @@ Poor summer survival limits U.S. oyster production. Working with Taylor Shellfis
 Ribosomal DNA drives ribosome production and is tied to growth, development, and metabolism, yet its copy number is rarely studied in shellfish. We used whole-genome sequencing of diploid and triploid oyster families to measure rDNA and mitochondrial copy-number variation as candidate genomic predictors of stress tolerance and growth.
 
 <p class="project-links">
-<a href="https://github.com/mattgeorgephd/USDA-NRSP-8-gigas-rDNA"><i class="fab fa-github" aria-hidden="true"></i> project repository</a>
 <a href="{{ '/USDA-NRSP-8-gigas-rDNA-analysis-1/' | relative_url }}"><i class="fas fa-book" aria-hidden="true"></i> notebook entries</a>
 </p>
 </div>

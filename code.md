@@ -7,7 +7,7 @@ share-description: Public GitHub repositories by Matthew N. George for fisheries
 
 I keep analyses public so that results can be checked, reused, and built on. Everything below is on [GitHub](https://github.com/mattgeorgephd); each repository's README explains its layout and how to reproduce the results.
 
-## Fisheries assessment and forecasting
+## Fisheries assessment
 
 Washington Department of Fish and Wildlife projects on coastal shellfish fisheries.
 
@@ -15,7 +15,7 @@ Washington Department of Fish and Wildlife projects on coastal shellfish fisheri
 
 ## Shellfish and salmon physiology and genomics
 
-University of Washington and NOAA projects, 2020-2023. Day-by-day methods are documented in the [lab notebook]({{ '/notebook/' | relative_url }}).
+University of Washington and NOAA projects, 2020-2023. Day-by-day methods for these and related projects are documented in the [lab notebook]({{ '/notebook/' | relative_url }}).
 
 {% include repo-cards.html items=site.data.repos.shellfish %}
 
