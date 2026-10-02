@@ -11,7 +11,7 @@ comments: true
 
 ### Background
 
-We sent 72 samples for RNA sequencing (TagSeq) to the [Genomic Sequencing and Analysis Facility](https://wikis.utexas.edu/display/GSAF/Home+Page) at the University of Texas at Austin. Here is a list of the samples:
+We sent 72 samples for RNA sequencing (TagSeq) to the [Genomic Sequencing and Analysis Facility](https://cloud.wikis.utexas.edu/wiki/spaces/GSAF/overview) at the University of Texas at Austin. Here is a list of the samples:
 
 The sample list, with RNA results, can be found [here](https://docs.google.com/spreadsheets/d/1KY6P25HEmrDeszph56OY7tI1vAOd2rXxQ8wfZtCM7g0/edit?usp=sharing).
 

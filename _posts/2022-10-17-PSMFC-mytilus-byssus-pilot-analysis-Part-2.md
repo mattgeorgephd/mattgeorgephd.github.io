@@ -24,7 +24,7 @@ Given that approximately 5% of the genome is expressed at any given times in the
 1,476,780,000 * 0.05 = 73,839,000 or ~ 74 Mbp
 ```
 
-Samples will be submitted to the [UT Austin GSAF](https://wikis.utexas.edu/display/GSAF/Sequencing+Prices+and+Descriptions) and run on individual lanes on the NovaSeq S1 PE150, which generates 7*10^8 reads per lane. This yield the following coverage:
+Samples will be submitted to the [UT Austin GSAF](https://cloud.wikis.utexas.edu/wiki/spaces/GSAF/overview) and run on individual lanes on the NovaSeq S1 PE150, which generates 7*10^8 reads per lane. This yield the following coverage:
 
 ```
 700,000,000 bp / 74,000,000 bp = ~10x coverage

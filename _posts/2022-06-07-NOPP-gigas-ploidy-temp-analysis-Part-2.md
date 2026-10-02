@@ -8,7 +8,7 @@ comments: true
 ---
 
 ### Background
-We received 3'end RNA sequencing (3'Tag RNA-Seq or TagSeq) data from 72 samples *crassostrea gigas* samples from the UT-Austin [Genomic Sequencing and Analysis Facility (GSAF)](https://wikis.utexas.edu/display/GSAF/Home+Page).
+We received 3'end RNA sequencing (3'Tag RNA-Seq or TagSeq) data from 72 samples *crassostrea gigas* samples from the UT-Austin [Genomic Sequencing and Analysis Facility (GSAF)](https://cloud.wikis.utexas.edu/wiki/spaces/GSAF/overview).
 
 The tagseq sample list with sample IDs and treatments is available [here](https://docs.google.com/spreadsheets/d/1KY6P25HEmrDeszph56OY7tI1vAOd2rXxQ8wfZtCM7g0/edit#gid=0). See the prior post for QC information and location of files on gannet.
 
