@@ -100,7 +100,6 @@ ggplot(data = iris, aes(Sepal.Length, Petal.Length, color = Species)) +
 
 To get this to work, I had to find where `pretty_breaks` came from. Installing and requiring the `scales` package fixed the issue and I was able to run it.
 
-
 Here is what it looks like:
 ![](/post_images/20230403/3.png)
 
@@ -163,7 +162,6 @@ The plot still doesn't look right. The code overlays the whole equation for the 
 # 4. Move the output of stat_poly_eq to the top left quadrant of the graph
 # 5. Make the regression line black; make sure it appears behind the data points
 # 6. Do not paste the equation of the linear regression, just add the R-square value
-
 
 ggplot(data = iris, aes(Sepal.Length, Petal.Length, color = Species)) +
   geom_point(size = 4) +

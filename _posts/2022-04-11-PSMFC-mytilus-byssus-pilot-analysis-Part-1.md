@@ -2,16 +2,10 @@
 layout: post
 title: Mon. Apr. 11, 2022
 subtitle: PSMFC-mytilus-byssus-pilot Analysis Part 1
+project: PSMFC-mytilus-byssus-pilot
 tags: PSMFC-mytilus-byssus-pilot
 comments: true
 ---
-
-Project name: [PSMFC-mytilus-byssus-pilot](https://github.com/mattgeorgephd/PSMFC-mytilus-byssus-pilot) <br />
-Funding source: [Pacific States Marine Fisheries Commission](https://www.psmfc.org/) <br />
-Species: *mytilus galloprovincialis*, *mytilus trossulus* <br />
-variable: OA, DO, seawater temperature, desiccation <br />
-
-[>> next notebook entry >>](https://mattgeorgephd.github.io/PSMFC-mytilus-byssus-pilot-analysis-Part-2/)
 
 ------------------------------------------------------------------------------------------------------
 # Download and QC [tag-seq](https://gannet.fish.washington.edu/panopea/PSMFC-mytilus-byssus-pilot/20220405-tagseq/) data received on 7/14/2022
@@ -176,14 +170,10 @@ rsync --archive --progress --verbose --relative --ignore-existing --dry-run ./sb
 # Open bashrc w/ nano
 nano ~/.bashrc
 
-
-
-
 # Check inclusion
 echo "$PATH//:/$'\n'}"
 
 ```
-
 
 ### Add job to queue
 ```

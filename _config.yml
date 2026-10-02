@@ -203,8 +203,6 @@ timezone: "America/Vancouver"
 markdown: kramdown
 highlighter: rouge
 permalink: /:title/
-paginate: 5
-paginate_path: "/notebook/page:num/"
 
 kramdown:
   input: GFM
@@ -237,6 +235,7 @@ exclude:
   - docs/
   - beautiful-jekyll-theme.gemspec
   - staticman.yml
+  - CLAUDE.md
   # Jekyll's defaults, restated because this list replaces them
   - vendor/
   - .bundle/
@@ -297,8 +296,8 @@ prose:
 
 
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189

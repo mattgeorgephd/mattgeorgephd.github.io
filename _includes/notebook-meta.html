@@ -1,0 +1,17 @@
+{%- comment -%}
+  Project box shown at the top of a notebook entry. Reads the entry's `project`
+  key from _data/notebook_projects.yml.
+{%- endcomment -%}
+{%- assign proj = site.data.notebook_projects[page.project] -%}
+{%- if proj %}
+<aside class="nb-meta" aria-label="Project information">
+  <div class="nb-meta-kicker">Notebook project</div>
+  <div class="nb-meta-title"><a href="{{ '/notebook/' | relative_url }}#{{ page.project }}">{{ proj.title }}</a></div>
+  <dl class="nb-meta-list">
+    {%- if proj.funding %}<dt>Funding</dt><dd>{{ proj.funding }}</dd>{% endif %}
+    {%- if proj.species %}<dt>Species</dt><dd>{{ proj.species | markdownify | remove: '<p>' | remove: '</p>' | strip }}</dd>{% endif %}
+    {%- if proj.variables %}<dt>Variables</dt><dd>{{ proj.variables }}</dd>{% endif %}
+    {%- if proj.repo %}<dt>Code &amp; data</dt><dd><a href="https://github.com/mattgeorgephd/{{ proj.repo }}"><i class="fab fa-github" aria-hidden="true"></i> {{ proj.repo }}</a></dd>{% endif %}
+  </dl>
+</aside>
+{%- endif %}

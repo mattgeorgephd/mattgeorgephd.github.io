@@ -2,18 +2,10 @@
 layout: post
 title: Wed. Oct. 6, 2021
 subtitle: Bisulfite sequencing analysis - Part 5
-tags: gigas-WGBS-ploidy-desiccation
+project: WGBS-gigas-ploidy-desiccation
+tags: WGBS-gigas-ploidy-desiccation
 comments: true
 ---
-
-Project name: [project-gigas_ploidy](https://github.com/mattgeorgephd/WGBS-gigas-ploidy-desiccation) <br />
-Funding source: [unknown]() <br />
-Species: *Crassostrea gigas* <br />
-variable: ploidy, desiccation, high temperature <br />
-
-[previous notebook entry](https://mattgeorgephd.github.io/gigas-WGBS-ploidy-desiccation-analysis-Part-4/)
-
-[next notebook entry](https://mattgeorgephd.github.io/gigas-WGBS-ploidy-desiccation-analysis-Part-6/)
 
 ### Background
 After running methylkit to find the DML within each dataset, we now need to see where they are located. To do this I will be running this [jupyter notebook]() and using the genome feature tracks available [here](https://robertslab.github.io/resources/Genomic-Resources/#crassostrea-gigas-cgigas_uk_roslin_v1)

@@ -1,0 +1,24 @@
+{%- comment -%}
+  Previous / next links between entries of the same notebook project, in date order.
+{%- endcomment -%}
+{%- if page.project %}
+  {%- assign series = site.posts | where: "project", page.project | reverse -%}
+  {%- for p in series -%}
+    {%- if p.url == page.url -%}
+      {%- assign i = forloop.index0 -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- assign prev_i = i | minus: 1 -%}
+  {%- assign next_i = i | plus: 1 -%}
+  {%- if prev_i >= 0 %}{% assign prev_post = series[prev_i] %}{% endif -%}
+  {%- if next_i < series.size %}{% assign next_post = series[next_i] %}{% endif %}
+  {%- if prev_post or next_post %}
+<nav class="nb-nav" aria-label="More from this project">
+  <div class="nb-nav-label">More from {{ site.data.notebook_projects[page.project].title | default: page.project }} &middot; entry {{ i | plus: 1 }} of {{ series.size }}</div>
+  <div class="nb-nav-links">
+    {%- if prev_post %}<a class="nb-nav-prev" href="{{ prev_post.url | relative_url }}"><span>&larr; Previous</span>{{ prev_post.subtitle | default: prev_post.title }}</a>{% else %}<span></span>{% endif %}
+    {%- if next_post %}<a class="nb-nav-next" href="{{ next_post.url | relative_url }}"><span>Next &rarr;</span>{{ next_post.subtitle | default: next_post.title }}</a>{% endif %}
+  </div>
+</nav>
+  {%- endif %}
+{%- endif %}

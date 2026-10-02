@@ -2,10 +2,10 @@
 layout: post
 title: Tue. Mar. 14, 2023
 subtitle: USDA-SRGARP-gigas-carryover pilot Part 2
+project: USDA-SRGARP-gigas-carryover
 tags: USDA-SRGARP-gigas-carryover
 comments: true
 ---
-
 
 # Plan for Immune priming injection vs. emersion pilot
 
@@ -14,7 +14,6 @@ comments: true
 2. Test MgCL as an option for knocking out oysters. [Notes](https://mattgeorgephd.github.io/USDA-SRGARP-gigas-carryover-pilot-1/). See proposed protocol below. Let's play around with it this week and see if they die.
 3. PolyIC injections, sample tissue next day. Let's plan on doing that the week of April 3-7. Tenative Wednesday from 11-2pm.
 4. RNA extractions - tenative Friday April 7th.
-
 
 #### MgCL protocol
 1. 1 L container w/ 50 g L−1 MgCl in water

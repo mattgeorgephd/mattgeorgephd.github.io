@@ -2,14 +2,10 @@
 layout: post
 title: Mon. Nov. 30, 2020
 subtitle: Pt. Whitney Tank Build - update 2
+project: NOPP-gigas-ploidy-temp
 tags: NOPP-gigas-ploidy-temp
 comments: true
 ---
-
-1. Project name: NOPP-GIGAS-TEMP-3N
-2. Funding source:[National Oceanographic Partnership Program](https://www.nopp.org/)
-3. Species: *Crassostrea gigas*
-4. variable: High temperature stress
 
 ## Tank build progress
 
@@ -31,7 +27,6 @@ Table 1: Supplies List (silos and manifold)
 | 1" PVC ball valve                 | Home Depot                | 2            | $4.98   |
 | 1/4" push-to-connect-valves       | McMaster Carr             | 35           | $0.88   |
 | 1/4" push-to-connect NPT adapter  | McMaster Carr             | 35           | $1.76   |
-
 
 A view of the silos and tank inside:
 

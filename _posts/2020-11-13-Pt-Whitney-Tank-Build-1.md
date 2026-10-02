@@ -2,14 +2,10 @@
 layout: post
 title: Fri. Nov. 13, 2020
 subtitle: Pt. Whitney Tank Build - update 1
+project: NOPP-gigas-ploidy-temp
 tags: NOPP-gigas-ploidy-temp
 comments: true
 ---
-
-1. Project name: NOPP-GIGAS-TEMP-3N
-2. Funding source:[National Oceanographic Partnership Program](https://www.nopp.org/)
-3. Species: *Crassostrea gigas*
-4. variable: High temperature stress
 
 ## Background
 

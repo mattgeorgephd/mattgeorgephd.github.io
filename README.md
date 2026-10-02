@@ -18,10 +18,15 @@ Built with Jekyll and the [Beautiful Jekyll](https://beautifuljekyll.com) theme 
 | Featured GitHub repositories (Code & Data page) | `_data/repos.yml` |
 | Service and mentoring list (Service & Outreach and CV pages) | `_includes/service-list.html` |
 | Site-specific styles | `assets/css/custom.css` |
-| Lab notebook entries | `_posts/` (images in `post_images/`) |
+| Lab notebook entries | `_posts/` (images in `post_images/`); template in `_templates/notebook-entry.md` |
+| Lab notebook projects (cards on the notebook page, project box on each entry) | `_data/notebook_projects.yml` |
 | Teaching evaluation PDFs | `assets/teaching-evals/` |
 
 To add a paper, talk, grant, or news item, edit the matching file in `_data/`; the Publications, Presentations, Research, CV, and In the News pages update together.
+
+## Lab notebook
+
+Each entry sets `project:` to a key in `_data/notebook_projects.yml`. The notebook page groups entries by project, and each entry shows a project box and previous/next links within its project, so entries should not repeat project details or navigation links in their text. Guides use the `tutorials` tag and monthly updates the `monthly-goals` tag. Step-by-step instructions for adding an entry are in `.claude/skills/notebook-entry/SKILL.md`.
 
 ## Checks
 
