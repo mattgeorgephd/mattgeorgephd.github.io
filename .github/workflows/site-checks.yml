@@ -39,6 +39,7 @@ jobs:
         with:
           args: >-
             --no-progress
+            --root-dir ${{ github.workspace }}/_site
             --scheme https
             --scheme http
             --max-concurrency 8
