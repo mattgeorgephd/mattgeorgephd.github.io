@@ -2,13 +2,13 @@
 layout: post
 title: Fri. Oct. 6, 2021
 subtitle: Bisulfide sequencing analysis - Part 5
-gh-repo: mattgeorgephd/mattgeorge.github.io
+gh-repo: mattgeorgephd/mattgeorgephd.github.io
 gh-badge: [star, fork, follow]
 tags: gigas-WGBS-ploidy-desiccation
 comments: true
 ---
 
-Project name: [project-gigas_ploidy](https://github.com/mattgeorgephd/project-gigas_ploidy) <br />
+Project name: [project-gigas_ploidy](https://github.com/mattgeorgephd/WGBS-gigas-ploidy-desiccation) <br />
 Funding source: [unknown]() <br />
 Species: *Crassostrea gigas* <br />
 variable: ploidy, desiccation, high temperature <br />

@@ -2,7 +2,7 @@
 layout: post
 title: Wed. Sept. 07, 2022
 subtitle: NOPP-gigas-ploidy-temp analysis - Part 4
-gh-repo: mattgeorgephd/mattgeorge.github.io
+gh-repo: mattgeorgephd/mattgeorgephd.github.io
 gh-badge: [star, fork, follow]
 tags: NOPP-gigas-ploidy-temp
 comments: true
@@ -15,8 +15,6 @@ variable: ploidy, elevated seawater temperature, desiccation <br />
 Github repo: [NOPP-gigas-ploidy-temp](https://github.com/mattgeorgephd/NOPP-gigas-ploidy-temp)
 
 [<< previous notebook entry <<](https://mattgeorgephd.github.io/NOPP-gigas-ploidy-temp-analysis-Part-3/)
- |
-[>> next notebook entry >>](https://mattgeorgephd.github.io/NOPP-gigas-ploidy-temp-analysis-Part-5/)
 
 ## Tagseq analysis - Generate Gene Tables
 Using the following [R script](https://github.com/mattgeorgephd/NOPP-gigas-ploidy-temp/blob/main/202107_EXP2/tag-seq/scripts/3_generate_gene_tables.Rmd):

@@ -2,7 +2,7 @@
 layout: post
 title: Wed. Oct. 20, 2021
 subtitle: RNA extractions - sample analysis
-gh-repo: mattgeorgephd/mattgeorge.github.io
+gh-repo: mattgeorgephd/mattgeorgephd.github.io
 gh-badge: [star, fork, follow]
 tags: NOPP-gigas-ploidy-temp
 comments: true

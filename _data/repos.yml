@@ -1,0 +1,47 @@
+# Public GitHub repositories featured on the Code & Data page and linked from
+# the Research and Publications pages. Keys match repository names under
+# https://github.com/mattgeorgephd.
+
+fisheries:
+  - name: Coastal-Rec-Crab-BSS
+    title: "Recreational Dungeness crab harvest estimation, Grays Harbor / Westport"
+    description: "Bayesian state-space and stratified point estimators of recreational crab effort, catch rate, and harvest for shore and private-boat crabbers, with a modular R and Stan pipeline and regression diagnostics."
+    tools: "R, Stan"
+  - name: WA-coastal-crab-meat-fill-rate
+    title: "Dungeness crab meat fill forecasting"
+    description: "Area-specific models that forecast when Washington coastal Dungeness crab reach the 23% meat-fill threshold for season opening, using test-fishery results and upwelling, river discharge, and buoy temperature data."
+    tools: "R"
+  - name: razor-clam-recruitment-analysis
+    title: "Razor clam recruitment and climate"
+    description: "Climate-driven recruitment analysis for the Washington coastal recreational Pacific razor clam fishery, 1997-2025."
+    tools: "R"
+  - name: razor-clam-harvest-monitoring
+    title: "Razor clam harvest-estimation methodology review"
+    description: "Reconstruction of recreational razor clam harvest, effort, and CPUE estimates from source data, with uncertainty analysis and sampling-effort scenarios."
+    tools: "R, Python"
+
+shellfish:
+  - name: NOPP-gigas-ploidy-temp
+    title: "Ploidy and marine heatwaves in Pacific oysters"
+    description: "Hatchery experiments on diploid and triploid oysters exposed to elevated temperature and desiccation: mortality, respiration, feeding, enzyme activity, and Tag-seq gene expression. Data and code behind George et al. (2023) Global Change Biology."
+    tools: "R, Bash"
+  - name: WGBS-gigas-ploidy-desiccation
+    title: "DNA methylation in diploid and triploid oysters"
+    description: "Whole-genome bisulfite sequencing of diploid and triploid Pacific oysters after desiccation and heat stress; Bismark and methylKit workflows."
+    tools: "R, Bash"
+  - name: USDA-SRGARP-gigas-carryover
+    title: "Hatchery conditioning for climate resilience"
+    description: "Broodstock conditioning, heat and mechanical stress priming, and poly(I:C) immune priming experiments to improve summer survival of oyster seed."
+    tools: "protocols, R"
+  - name: USDA-NRSP-8-gigas-rDNA
+    title: "rDNA copy number variation in oysters"
+    description: "Whole-genome sequencing of diploid and triploid oyster families to characterize ribosomal DNA and mitochondrial copy number variation."
+    tools: "Bash, R"
+  - name: PSMFC-mytilus-byssus-pilot
+    title: "Genomic markers of mussel attachment"
+    description: "Byssal thread strength of <i>Mytilus trossulus</i> under acidification, warming, and hypoxia, linked to foot and gill Tag-seq, Iso-Seq transcriptome assembly, and enrichment analyses."
+    tools: "R, Bash"
+  - name: Berdahl-sockeye-salmon
+    title: "Gene expression and behavior in sockeye salmon"
+    description: "Tag-seq differential expression and gene co-expression networks associated with territorial and social behavior in sockeye salmon, rebuilt as a reproducible Quarto project."
+    tools: "R, Quarto"

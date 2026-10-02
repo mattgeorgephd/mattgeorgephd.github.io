@@ -2,7 +2,7 @@
 layout: post
 title: Mon. Apr. 11, 2022
 subtitle: PSMFC-mytilus-byssus-pilot Analysis Part 1
-gh-repo: mattgeorgephd/mattgeorge.github.io
+gh-repo: mattgeorgephd/mattgeorgephd.github.io
 gh-badge: [star, fork, follow]
 tags: PSMFC-mytilus-byssus-pilot
 comments: true
@@ -120,7 +120,7 @@ Link to [multiQC report](https://gannet.fish.washington.edu/panopea/PSMFC-mytilu
 
 # Generate de novo transcriptome from available RNA-seq datasets
 
-### [RAVEN] Download mytilus trossulus transcriptome - https://www.ncbi.nlm.nih.gov/sra/SRX3198554[accn]
+### [RAVEN] Download mytilus trossulus transcriptome - https://www.ncbi.nlm.nih.gov/sra/SRX3198554
 ### Tutorial: https://blogs.iu.edu/ncgas/2021/02/22/a-beginners-guide-to-the-sra/
 ```{bash}
 # /home/shared/sratoolkit.2.11.2-ubuntu64/bin/vdb-config --interactive

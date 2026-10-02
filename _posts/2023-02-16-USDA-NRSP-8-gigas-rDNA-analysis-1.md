@@ -1,8 +1,8 @@
 ---
 layout: post
-title: USDA-NRSP-8-gigas-rDNA Analysis Part 1
-subtitle: Thu. Feb. 16, 2023
-gh-repo: mattgeorgephd/mattgeorge.github.io
+title: Thu. Feb. 16, 2023
+subtitle: USDA-NRSP-8-gigas-rDNA Analysis Part 1
+gh-repo: mattgeorgephd/mattgeorgephd.github.io
 gh-badge: [star, fork, follow]
 tags: USDA-NRSP-8-gigas-rDNA
 comments: true

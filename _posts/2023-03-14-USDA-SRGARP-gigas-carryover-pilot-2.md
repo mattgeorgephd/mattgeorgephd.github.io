@@ -2,7 +2,7 @@
 layout: post
 title: Tues. Mar. 14, 2023
 subtitle: USDA-SRGARP-gigas-carryover pilot Part 2
-gh-repo: mattgeorgephd/mattgeorge.github.io
+gh-repo: mattgeorgephd/mattgeorgephd.github.io
 gh-badge: [star, fork, follow]
 tags: USDA-SRGARP-gigas-carryover
 comments: true
@@ -13,7 +13,7 @@ comments: true
 
 ### Main goals for Spring Quarter
 1. Test efficacy emersion in PolyIC bath. We don't know what concentration to test yet. Lets wait for response from french collaborator.
-2. Test MgCL as an option for knocking out oysters. [Notes](https://mattgeorgephd.github.io/USDA-SRGARP-gigas-carryover-analysis-1/). See proposed protocol below. Let's play around with it this week and see if they die.
+2. Test MgCL as an option for knocking out oysters. [Notes](https://mattgeorgephd.github.io/USDA-SRGARP-gigas-carryover-pilot-1/). See proposed protocol below. Let's play around with it this week and see if they die.
 3. PolyIC injections, sample tissue next day. Let's plan on doing that the week of April 3-7. Tenative Wednesday from 11-2pm.
 4. RNA extractions - tenative Friday April 7th.
 

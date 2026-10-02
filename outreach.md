@@ -1,15 +1,20 @@
 ---
 layout: page
-title: Outreach
+title: Service & Outreach
+subtitle: Committees, mentoring, public outreach, and peer review
+share-description: Service, mentorship, and science outreach by Matthew N. George, including WDFW and UW equity committees, NSF LSAMP mentoring, and Seattle Aquarium beach naturalist work.
 ---
 
-### COMMUNITY OUTREACH
-- Outreach Program Beach Naturalist, Seattle Aquarium, 2014 – 2018
-- K-12 Science in Action Outreach Program Mentor, Gonzaga University, 2008 – 2010
+{% include service-list.html %}
 
-### MENTORSHIP
-- Louis Stokes Alliance for Minority Participation in Science (LSAMP) Mentor, National Science Foundation, 2022 – 2023
-- Summer Undergraduate Internship Program (SUIP) Mentor, Children’s Hospital of Philadelphia, 2019 – 2020
-- Summer Undergraduate Research Fellowship (SURF) Mentor, Mayo Clinic, 2018 – 2019
-- STEM Out! Outreach Program Mentor, American Association for the Advancement of Science, 2014 – 2016
-- Science Outreach Mentor, Friday Harbor Laboratories, 2011 – 2012
+## Peer review
+
+I regularly review for journals including *Aquaculture*, *Scientific Reports*, *Environmental Science & Technology*, *BMC Genomics*, and *Global Change Biology*.
+
+## Professional memberships
+
+Pacific Coast Shellfish Growers Association (2020-present) &middot; National Shellfisheries Association (2017-present) &middot; Society for Integrative and Comparative Biology (2009-present) &middot; Western Society of Naturalists (2015-2018)
+
+## Public talks
+
+Talks for growers, managers, and the public, such as *Ocean acidification and mussel farming in the Puget Sound* (Sound Waters University, 2017) and *Hanging by a thread* (Sunshine Rotary, Seattle, 2016), are listed with my scientific talks on the [Presentations]({{ '/presentations/' | relative_url }}) page. Media coverage is collected under [In the News]({{ '/media/' | relative_url }}).

@@ -1,0 +1,14 @@
+{%- comment -%}
+  Renders a group of repositories from _data/repos.yml as cards.
+  Usage: {% include repo-cards.html items=site.data.repos.fisheries %}
+{%- endcomment -%}
+<div class="card-grid">
+{%- for r in include.items %}
+  <a class="info-card repo-card" href="https://github.com/mattgeorgephd/{{ r.name }}">
+    <span class="info-card-kicker"><i class="fab fa-github" aria-hidden="true"></i> {{ r.name }}</span>
+    <span class="info-card-title">{{ r.title }}</span>
+    <span class="info-card-body">{{ r.description }}</span>
+    {%- if r.tools %}<span class="info-card-meta">{{ r.tools }}</span>{% endif %}
+  </a>
+{%- endfor %}
+</div>

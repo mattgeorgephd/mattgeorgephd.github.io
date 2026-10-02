@@ -2,7 +2,7 @@
 layout: post
 title: Mon. Sep. 05, 2022
 subtitle: Berdahl-sockeye-salmon analysis - Part 2
-gh-repo: mattgeorgephd/mattgeorge.github.io
+gh-repo: mattgeorgephd/mattgeorgephd.github.io
 gh-badge: [star, fork, follow]
 tags: Berdahl-sockeye-salmon
 comments: true
@@ -14,8 +14,6 @@ Species: *Oncorhynchus nerka* <br />
 variable: behavior: territorial, social <br />
 
 [<< previous notebook entry <<](https://mattgeorgephd.github.io/Berdhal-sockeye-salmon-analysis-Part-1/)
- |
-[>> next notebook entry >>](https://mattgeorgephd.github.io/Berdhal-sockeye-salmon-analysis-Part-3/)
 
 ### Background
 1. 30 sockeye salmon sampled; 1-15: territorial, 16-30: social
@@ -27,9 +25,9 @@ variable: behavior: territorial, social <br />
 
 ## Tag-seq analysis - Gonad Samples
 
-Raw sequences were processed using the this [R script](https://github.com/mattgeorgephd/Berdahl-sockeye-salmon/blob/main/tag-seq/code/1_process-tagseq-data-salmon.Rmd). The resulting Gene count matrix was the used to run DEG analysis using DESEQ2, as outlined in this [R script](https://github.com/mattgeorgephd/Berdahl-sockeye-salmon/blob/main/tag-seq/code/2_DESeq2_analysis-salmon.Rmd).
+Raw sequences were processed using the this [R script](https://github.com/mattgeorgephd/Berdahl-sockeye-salmon/blob/2d11b440bdbbf1a4dbf2da5cb30e66d45890ce7e/tag-seq/code/1_process-tagseq-data-salmon.Rmd). The resulting Gene count matrix was the used to run DEG analysis using DESEQ2, as outlined in this [R script](https://github.com/mattgeorgephd/Berdahl-sockeye-salmon/blob/2d11b440bdbbf1a4dbf2da5cb30e66d45890ce7e/tag-seq/code/2_DESeq2_analysis-salmon.Rmd).
 
-Using this [treatment conditions datasheet](https://github.com/mattgeorgephd/Berdahl-sockeye-salmon/blob/main/tag-seq/data/treatments.csv), and this [genome feature table](https://gannet.fish.washington.edu/panopea/berdahl-sockeye-salmon/genome/Onerka_LOCID_gene_table.txt), I ran DESeq2 using this [gene count matrix](https://github.com/mattgeorgephd/Berdahl-sockeye-salmon/blob/main/tag-seq/data/onerka_gene_count_matrix.csv).
+Using this [treatment conditions datasheet](https://github.com/mattgeorgephd/Berdahl-sockeye-salmon/blob/2d11b440bdbbf1a4dbf2da5cb30e66d45890ce7e/tag-seq/data/treatments.csv), and this [genome feature table](https://gannet.fish.washington.edu/panopea/berdahl-sockeye-salmon/genome/Onerka_LOCID_gene_table.txt), I ran DESeq2 using this [gene count matrix](https://github.com/mattgeorgephd/Berdahl-sockeye-salmon/blob/2d11b440bdbbf1a4dbf2da5cb30e66d45890ce7e/tag-seq/data/onerka_gene_count_matrix.csv).
 
 ```
 # Filter data
@@ -60,16 +58,16 @@ coldata %>% dplyr::count(trt)
 all(colnames(cts) %in% rownames(coldata))
 ```
 
-Using the good samples, I compared territorial vs. social salmon and generated the following [DEG list](https://github.com/mattgeorgephd/Berdahl-sockeye-salmon/blob/main/tag-seq/DESEQ_output/gonad/GONAD-ALL-DEG.csv). From this list I made the following volcano plot, PCA (+ pairs plot), and pheat map comparing the impact of treatment: </br>
+Using the good samples, I compared territorial vs. social salmon and generated the following [DEG list](https://github.com/mattgeorgephd/Berdahl-sockeye-salmon/blob/2d11b440bdbbf1a4dbf2da5cb30e66d45890ce7e/tag-seq/DESEQ_output/gonad/GONAD-ALL-DEG.csv). From this list I made the following volcano plot, PCA (+ pairs plot), and pheat map comparing the impact of treatment: </br>
 
 |   |   |
 |---|---|
-| ![](https://github.com/mattgeorgephd/Berdahl-sockeye-salmon/blob/main/tag-seq/DESEQ_output/gonad/GONAD-PCA.png?raw=true)  |  ![](https://github.com/mattgeorgephd/Berdahl-sockeye-salmon/blob/main/tag-seq/DESEQ_output/gonad/GONAD-PAIRS.png?raw=true) |   |
-|  ![](https://github.com/mattgeorgephd/Berdahl-sockeye-salmon/blob/main/tag-seq/DESEQ_output/gonad/GONAD-pheatmap.png?raw=true) | ![](https://github.com/mattgeorgephd/Berdahl-sockeye-salmon/blob/main/tag-seq/DESEQ_output/gonad/Volcano_all_genes.png?raw=true)  |
+| ![](https://github.com/mattgeorgephd/Berdahl-sockeye-salmon/blob/2d11b440bdbbf1a4dbf2da5cb30e66d45890ce7e/tag-seq/DESEQ_output/gonad/GONAD-PCA.png?raw=true)  |  ![](https://github.com/mattgeorgephd/Berdahl-sockeye-salmon/blob/2d11b440bdbbf1a4dbf2da5cb30e66d45890ce7e/tag-seq/DESEQ_output/gonad/GONAD-PAIRS.png?raw=true) |   |
+|  ![](https://github.com/mattgeorgephd/Berdahl-sockeye-salmon/blob/2d11b440bdbbf1a4dbf2da5cb30e66d45890ce7e/tag-seq/DESEQ_output/gonad/GONAD-pheatmap.png?raw=true) | ![](https://github.com/mattgeorgephd/Berdahl-sockeye-salmon/blob/2d11b440bdbbf1a4dbf2da5cb30e66d45890ce7e/tag-seq/DESEQ_output/gonad/Volcano_all_genes.png?raw=true)  |
 
 I also tested the impact of different shrinkage estimators (normal, apeglm, or ashr). The makers of DESeq2 suggest that the apeglm is the best.
 
-![](https://github.com/mattgeorgephd/Berdahl-sockeye-salmon/blob/main/tag-seq/DESEQ_output/gonad/MA_plots.png?raw=true)
+![](https://github.com/mattgeorgephd/Berdahl-sockeye-salmon/blob/2d11b440bdbbf1a4dbf2da5cb30e66d45890ce7e/tag-seq/DESEQ_output/gonad/MA_plots.png?raw=true)
 
 After running all estimators on the DEG list and filtering by a log2fold change cutoff of 1.5 and a p value cutoff of 0.05 I got the following results:
 
@@ -89,11 +87,11 @@ After running all estimators on the DEG list and filtering by a log2fold change 
 
 Using the apeglm shrinkage estimator and significance cutoffs, I generated the following volcano plot:
 
-![](https://github.com/mattgeorgephd/Berdahl-sockeye-salmon/blob/main/tag-seq/DESEQ_output/gonad/Volcano_sig_genes_apeglm.png?raw=true)
+![](https://github.com/mattgeorgephd/Berdahl-sockeye-salmon/blob/2d11b440bdbbf1a4dbf2da5cb30e66d45890ce7e/tag-seq/DESEQ_output/gonad/Volcano_sig_genes_apeglm.png?raw=true)
 
-Here is the [full significant apeglm-DEG list](https://github.com/mattgeorgephd/Berdahl-sockeye-salmon/blob/main/tag-seq/DESEQ_output/gonad/GONAD-SIG-DEG-apeglm.csv).
+Here is the [full significant apeglm-DEG list](https://github.com/mattgeorgephd/Berdahl-sockeye-salmon/blob/2d11b440bdbbf1a4dbf2da5cb30e66d45890ce7e/tag-seq/DESEQ_output/gonad/GONAD-SIG-DEG-apeglm.csv).
 
-I threw this list into [DAVID](https://david.ncifcrf.gov/home.jsp) and used the O.nerka genome as a background. This resulted in 53 GO terms, 13 of which were associated with KEGG pathways.
+I threw this list into [DAVID](https://davidbioinformatics.nih.gov/) and used the O.nerka genome as a background. This resulted in 53 GO terms, 13 of which were associated with KEGG pathways.
 
 ### GO terms:
 

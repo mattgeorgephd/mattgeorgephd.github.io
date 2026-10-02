@@ -2,7 +2,7 @@
 layout: post
 title: Tue. June. 07, 2022
 subtitle: NOPP-gigas-ploidy-temp analysis - Part 2
-gh-repo: mattgeorgephd/mattgeorge.github.io
+gh-repo: mattgeorgephd/mattgeorgephd.github.io
 gh-badge: [star, fork, follow]
 tags: NOPP-gigas-ploidy-temp
 comments: true
@@ -32,7 +32,7 @@ The tagseq data was received as zipped fastq.gz files, so the first thing to dow
 mkdir raw-data/
 cd raw-data/
 
-wget -r -A .fastq.gz https://gannet.fish.washington.edu/panopea/NOPP-gigas-ploidy-temp/022022-tagseq/ \
+wget -r -A .fastq.gz https://gannet.fish.washington.edu/panopea/NOPP-gigas-ploidy-temp/20220203-tagseq/ \
 --no-check-certificate
 ```
 and unzip them using **gunzip**:
@@ -85,7 +85,7 @@ Trimming and filtering resulted in an ~7% loss in reads.
 
 #### Alignment
 
-After trimming I aligned the reads to the **C gigas** Roslin genome using [bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/manual.shtml). The first step was to create the bowtie2 index for the Rosline genome (.fa file, previously downloaded from gannet) with mitochondrial DNA included.
+After trimming I aligned the reads to the **C gigas** Roslin genome using [bowtie2](https://bowtie-bio.sourceforge.net/bowtie2/manual.shtml). The first step was to create the bowtie2 index for the Rosline genome (.fa file, previously downloaded from gannet) with mitochondrial DNA included.
 
 ```{bash}
 # create bowtie2 index for cgigas genome (took 8 min on Raven)

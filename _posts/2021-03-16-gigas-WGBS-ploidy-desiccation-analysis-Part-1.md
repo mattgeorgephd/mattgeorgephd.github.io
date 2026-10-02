@@ -2,29 +2,29 @@
 layout: post
 title: Tues. Mar. 16, 2021
 subtitle: Bisulfide sequencing analysis - Part 1
-gh-repo: mattgeorgephd/mattgeorge.github.io
+gh-repo: mattgeorgephd/mattgeorgephd.github.io
 gh-badge: [star, fork, follow]
 tags: gigas-WGBS-ploidy-desiccation
 comments: true
 ---
 
-Project name: [gigas-WGBS-ploidy-desiccation](https://github.com/mattgeorgephd/gigas-WGBS-ploidy-desiccation) <br />
+Project name: [gigas-WGBS-ploidy-desiccation](https://github.com/mattgeorgephd/WGBS-gigas-ploidy-desiccation) <br />
 Funding source: [unknown]() <br />
 Species: *Crassostrea gigas* <br />
 variable: ploidy, desiccation, high temperature <br />
 
 
-[next notebook entry](https://mattgeorgephd.github.io/gigas-WGBS-ploidy-desiccation-analysis-Part-2)
+[next notebook entry](https://mattgeorgephd.github.io/gigas-WGBS-ploidy-desiccation-analysis-Part-2/)
 
 
 ### Background:
 We have bisulfide sequencing data from Ronit's desiccation exposure
-experiments using juvenile pacific oysters. Here is the forked [github repo](https://github.com/mattgeorgephd/gigas-WGBS-ploidy-desiccation).
+experiments using juvenile pacific oysters. Here is the forked [github repo](https://github.com/mattgeorgephd/WGBS-gigas-ploidy-desiccation).
 
 List of the progress so far:
-1. Received [WGBS](https://robertslab.github.io/sams-notebook/2020/11/10/Data-Received-C.gigas-Ploidy-WGBS-from-Ronits-Project-via-ZymoResearch.html) data from ZymoResearch
+1. Received [WGBS](https://robertslab.github.io/sams-notebook/posts/2020/2020-11-10-Data-Received---C.gigas-Ploidy-WGBS-from-Ronits-Project-via-ZymoResearch/) data from ZymoResearch
 2. Files were added to the [owl server](https://owl.fish.washington.edu/nightingales/C_gigas/)
-3. [Sam ran FastQC](https://robertslab.github.io/sams-notebook/2020/11/10/FastQC-MultiQC-C.gigas-Ploidy-WGBS-Raw-Sequence-Data-from-Ronits-Project-on-Mox.html). Here is the [multiQC report](https://gannet.fish.washington.edu/Atumefaciens/20201110_cgig_fastqc_ronit-ploidy-wgbs/multiqc_report.html)
+3. [Sam ran FastQC](https://robertslab.github.io/sams-notebook/posts/2020/2020-11-10-FastQC-MultiQC---C.gigas-Ploidy-WGBS-Raw-Sequence-Data-from-Ronits-Project-on-Mox/). Here is the [multiQC report](https://gannet.fish.washington.edu/Atumefaciens/20201110_cgig_fastqc_ronit-ploidy-wgbs/multiqc_report.html)
 
 Here is a list of samples
 
@@ -45,7 +45,7 @@ Desiccation - desiccation for 24 hr at 27C, <br />
 Heat_stress - 1 hr at 45C
 
 ### Pathway forward:
-Now that we have the WGBS files and FastQC didn't find any large errors, the next steps is to run [Bismark](https://rawgit.com/FelixKrueger/Bismark/master/Docs/Bismark_User_Guide.html#i-bismark-genome-preparation). The files are pretty big, so instead of running it locally, I will use the resources of our [hyak_mox server](https://github.com/RobertsLab/hyak_mox/wiki/Running-a-Job). Bismark performs alignments of bisulfite-treated reads to a reference genome and cytosine methylation calls at the same time.
+Now that we have the WGBS files and FastQC didn't find any large errors, the next steps is to run [Bismark](https://felixkrueger.github.io/Bismark/). The files are pretty big, so instead of running it locally, I will use the resources of our [hyak_mox server](https://github.com/RobertsLab/hyak_mox/wiki/Running-a-Job). Bismark performs alignments of bisulfite-treated reads to a reference genome and cytosine methylation calls at the same time.
 
 The steps I will be following during this analysis are:
 
@@ -170,7 +170,7 @@ As well as the job status using the job number:
 
 ![](/post_images/031621/job_status.png)
 
-Once the job is done, the resulting files should be stored on our lab server [gannet](https://gannet.fish.washington.edu:5001/). Here is an example script using rsync:
+Once the job is done, the resulting files should be stored on our lab server [gannet](https://gannet.fish.washington.edu/). Here is an example script using rsync:
 
 ```
   ssh mngeorge@gannet.fish.washington.edu <login>

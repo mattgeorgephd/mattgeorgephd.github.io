@@ -2,7 +2,7 @@
 layout: post
 title: Thu. Mar. 18, 2022
 subtitle: Oyster family transfer
-gh-repo: mattgeorgephd/mattgeorge.github.io
+gh-repo: mattgeorgephd/mattgeorgephd.github.io
 gh-badge: [star, fork, follow]
 tags: NOPP-gigas-ploidy-temp
 comments: true

@@ -1,0 +1,22 @@
+{%- comment -%}
+  Renders one section of _data/publications.yml.
+  Usage: {% include pub-list.html items=site.data.publications.marine start=1 %}
+{%- endcomment -%}
+<ol class="pub-list" start="{{ include.start | default: 1 }}">
+{%- for p in include.items %}
+  <li class="pub">
+    {{ p.authors | replace: '**George MN**', '<strong>George MN</strong>' | replace: '*', '<sup>*</sup>' }}
+    {% if p.year %}({{ p.year }}){% else %}(in prep.){% endif %}.
+    <span class="pub-title">{{ p.title }}</span>
+    {%- if p.journal %} <em>{{ p.journal }}</em>{% if p.details %} {{ p.details }}{% endif %}.{% endif %}
+    {%- if p.doi or p.repo or p.note or p.open_access %}
+    <span class="pub-links">
+      {%- if p.doi %}<a href="https://doi.org/{{ p.doi }}" class="pub-badge" title="Read the article">doi:{{ p.doi }}</a>{% endif -%}
+      {%- if p.open_access %}<span class="pub-badge pub-badge-oa" title="Free to read">open access</span>{% endif -%}
+      {%- if p.repo %}<a href="https://github.com/mattgeorgephd/{{ p.repo }}" class="pub-badge pub-badge-code" title="Data and code on GitHub"><i class="fab fa-github" aria-hidden="true"></i> data &amp; code</a>{% endif -%}
+      {%- if p.note %}<span class="pub-note">{{ p.note }}</span>{% endif -%}
+    </span>
+    {%- endif %}
+  </li>
+{%- endfor %}
+</ol>

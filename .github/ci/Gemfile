@@ -1,0 +1,7 @@
+# Used only by .github/workflows/site-checks.yml to build the site the same way
+# GitHub Pages does and to check links. Not used by GitHub Pages itself.
+source "https://rubygems.org"
+
+gem "github-pages", group: :jekyll_plugins
+gem "html-proofer", "~> 5.0"
+gem "webrick"

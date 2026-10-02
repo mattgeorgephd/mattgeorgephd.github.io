@@ -1,0 +1,151 @@
+# Single source for the Publications page and the CV page.
+# Authors: wrap Matt's name as **George MN**; a trailing * marks a student co-author.
+# Sections render in the order listed here.
+
+in_prep:
+  - authors: "**George MN**, Jain R*, Trigg S, and Roberts SB"
+    title: "Epigenetic divergence in diploid and triploid Pacific oysters following thermal stress."
+    repo: WGBS-gigas-ploidy-desiccation
+  - authors: "**George MN**, Klopp M, and Carrington E"
+    title: "Genetic markers associated with robust attachment in marine mussels following acute exposure to climate stressors."
+    repo: PSMFC-mytilus-byssus-pilot
+  - authors: "**George MN**, Smith S, Gavery M, and Roberts SB"
+    title: "Gene clusters associated with territoriality in sockeye salmon using weighted correlation network analysis."
+    repo: Berdahl-sockeye-salmon
+  - authors: "**George MN** and Blumenthal B"
+    title: "Climate-driven recruitment dynamics in the Washington coastal razor clam fishery."
+    repo: razor-clam-recruitment-analysis
+  - authors: "Payne M, **George MN**, Lowe A, Carrington E, and Ruesink J"
+    title: "Mussel aquaculture in future oceans: fatty acid analysis reveals how climate-driven changes in stratification alter food availability."
+
+marine:
+  - authors: "**George MN**, Cattau O, Middleton MA, Lawson D, Vadopalas B, Gavery M, and Roberts SB"
+    year: 2023
+    title: "Triploid Pacific oysters exhibit stress response dysregulation and elevated mortality following heatwaves."
+    journal: "Global Change Biology"
+    details: "29(24):6969-6987"
+    doi: "10.1111/gcb.16880"
+    repo: NOPP-gigas-ploidy-temp
+  - authors: "Clements J and **George MN**"
+    year: 2022
+    title: "Ocean acidification and bivalve byssus: explaining variable responses using meta-analysis."
+    journal: "Marine Ecology Progress Series"
+    details: "694:89-103"
+    doi: "10.3354/meps14101"
+  - authors: "**George MN**, O'Donnell MJ, Concodello M*, and Carrington E"
+    year: 2022
+    title: "Mussels repair shell damage despite limitations imposed by ocean acidification."
+    journal: "Journal of Marine Science and Engineering"
+    details: "10(3):359"
+    doi: "10.3390/jmse10030359"
+    open_access: true
+  - authors: "**George MN**, Andino J*, Huie J*, and Carrington E"
+    year: 2019
+    title: "Microscale pH and dissolved oxygen fluctuations within mussel aggregations and their implications for mussel attachment and raft aquaculture."
+    journal: "Journal of Shellfish Research"
+    details: "38(3):795-809"
+    doi: "10.2983/035.038.0329"
+  - authors: "Newcomb LA, **George MN**, O'Donnell MJ, and Carrington E"
+    year: 2019
+    title: "Only as strong as the weakest link: structural analysis of the combined effects of elevated temperature and pCO<sub>2</sub> on mussel attachment."
+    journal: "Conservation Physiology"
+    details: "7(1):coz068"
+    doi: "10.1093/conphys/coz068"
+    open_access: true
+  - authors: "**George MN**, Pedigo B*, and Carrington E"
+    year: 2018
+    title: "Hypoxia weakens mussel attachment by interrupting DOPA cross-linking during adhesive plaque curing."
+    journal: "Journal of the Royal Society Interface"
+    details: "15(147):20180489"
+    doi: "10.1098/rsif.2018.0489"
+  - authors: "**George MN** and Carrington E"
+    year: 2018
+    title: "Environmental post-processing increases the adhesion strength of mussel byssus adhesive."
+    journal: "Biofouling"
+    details: "34(4):388-397"
+    doi: "10.1080/08927014.2018.1453927"
+  - authors: "**George MN** and Carrington E"
+    year: 2014
+    title: "Spine reorientation influences drift particle capture efficiency in sea urchins."
+    journal: "Journal of Experimental Marine Biology and Ecology"
+    details: "461:102-106"
+    doi: "10.1016/j.jembe.2014.08.001"
+  - authors: "O'Donnell MJ, **George MN**, and Carrington E"
+    year: 2013
+    title: "Mussel byssus attachment weakened by ocean acidification."
+    journal: "Nature Climate Change"
+    details: "3(6):587-590"
+    doi: "10.1038/nclimate1846"
+    note: "130+ citations (Google Scholar)"
+  - authors: "Swanson BO, **George MN**, Anderson SP*, and Christy JH"
+    year: 2013
+    title: "Evolutionary variation in the mechanics of fiddler crab claws."
+    journal: "BMC Evolutionary Biology"
+    details: "13:137"
+    doi: "10.1186/1471-2148-13-137"
+    open_access: true
+
+biomedical:
+  - authors: "**George MN**, Liu X, Miller AL, Zuiker E*, Xu H, and Lu L"
+    year: 2022
+    title: "Injectable pH-responsive adhesive hydrogels for bone tissue engineering inspired by the underwater attachment strategy of marine mussels."
+    journal: "Biomaterials Advances"
+    details: "133:112606"
+    doi: "10.1016/j.msec.2021.112606"
+  - authors: "Xu H, Liu X, **George MN**, Miller AL, Park S, Xu H, Terzic A, and Lu L"
+    year: 2021
+    title: "Black phosphorus incorporation modulates nanocomposite hydrogel properties and subsequent MC3T3 cell attachment, proliferation, and differentiation."
+    journal: "Journal of Biomedical Materials Research Part A"
+    details: "109(9):1633-1645"
+    doi: "10.1002/jbm.a.37159"
+  - authors: "Sun Y, Liu X, **George MN**, Park S, Gaihre B, Terzic A, and Lu L"
+    year: 2021
+    title: "Enhanced nerve cell proliferation and differentiation on electrically conductive scaffolds embedded with graphene and carbon nanotubes."
+    journal: "Journal of Biomedical Materials Research Part A"
+    details: "109(2):193-206"
+    doi: "10.1002/jbm.a.37016"
+  - authors: "Liu X, **George MN**, Li L, Gamble D*, Miller AL II, Gaihre B, Waletzki BE, and Lu L"
+    year: 2020
+    title: "Injectable electrical conductive and phosphate releasing gel with two-dimensional black phosphorus and carbon nanotubes for bone tissue engineering."
+    journal: "ACS Biomaterials Science & Engineering"
+    details: "6(8):4653-4665"
+    doi: "10.1021/acsbiomaterials.0c00612"
+  - authors: "Liu X, Gaihre B, **George MN**, Miller AL II, Xu H, Waletzki BE, and Lu L"
+    year: 2021
+    title: "3D bioprinting of oligo(poly[ethylene glycol] fumarate) for bone and nerve tissue engineering."
+    journal: "Journal of Biomedical Materials Research Part A"
+    details: "109(1):6-17"
+    doi: "10.1002/jbm.a.37002"
+  - authors: "Liu X, **George MN**, Park S, Miller AL II, Gaihre B, Li L, Waletzki BE, Terzic A, Yaszemski MJ, and Lu L"
+    year: 2020
+    title: "3D-printed scaffolds with carbon nanotubes for bone tissue engineering: fast and homogeneous one-step functionalization."
+    journal: "Acta Biomaterialia"
+    details: "111:129-140"
+    doi: "10.1016/j.actbio.2020.04.047"
+  - authors: "**George MN**, Liu X, Miller AL II, Xu H, and Lu L"
+    year: 2020
+    title: "Phosphate functionalization and enzymatic calcium mineralization synergistically enhance oligo[poly(ethylene glycol) fumarate] hydrogel osteoconductivity for bone tissue engineering."
+    journal: "Journal of Biomedical Materials Research Part A"
+    details: "108(3):515-527"
+    doi: "10.1002/jbm.a.36832"
+  - authors: "Liu X, Miller AL II, Park S, **George MN**, Waletzki BE, Xu H, Terzic A, and Lu L"
+    year: 2019
+    title: "Two-dimensional black phosphorus and graphene oxide nanosheets synergistically enhance cell proliferation and osteogenesis on 3D printed scaffolds."
+    journal: "ACS Applied Materials & Interfaces"
+    details: "11(26):23558-23572"
+    doi: "10.1021/acsami.9b04121"
+
+reviews:
+  - authors: "**George MN**, Leavens KF, and Gadue P"
+    year: 2021
+    title: "Genome editing human pluripotent stem cells to model β-cell disease and unmask novel genetic modifiers."
+    journal: "Frontiers in Endocrinology"
+    details: "12:682625"
+    doi: "10.3389/fendo.2021.682625"
+    open_access: true
+  - authors: "Liu X, Gaihre B, **George MN**, Li Y, Tilton M, Yaszemski MJ, and Lu L"
+    year: 2021
+    title: "2D phosphorene nanosheets, quantum dots, nanoribbons: synthesis and biomedical applications."
+    journal: "Biomaterials Science"
+    details: "9:2768-2803"
+    doi: "10.1039/D0BM01972K"

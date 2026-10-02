@@ -2,13 +2,13 @@
 layout: post
 title: Thu. Apr. 1, 2021
 subtitle: Bisulfide sequencing analysis - Part 2
-gh-repo: mattgeorgephd/mattgeorge.github.io
+gh-repo: mattgeorgephd/mattgeorgephd.github.io
 gh-badge: [star, fork, follow]
 tags: gigas-WGBS-ploidy-desiccation
 comments: true
 ---
 
-Project name: [gigas-WGBS-ploidy-desiccation](https://github.com/mattgeorgephd/gigas-WGBS-ploidy-desiccation) <br />
+Project name: [gigas-WGBS-ploidy-desiccation](https://github.com/mattgeorgephd/WGBS-gigas-ploidy-desiccation) <br />
 Funding source: [unknown]() <br />
 Species: *Crassostrea gigas* <br />
 variable: ploidy, desiccation, high temperature <br />
@@ -18,7 +18,7 @@ variable: ploidy, desiccation, high temperature <br />
 [next notebook entry](https://mattgeorgephd.github.io/gigas-WGBS-ploidy-desiccation-analysis-Part-3/)
 
 ### Background:
-This is continuation of the WGBS analysis I've been running on Ronit's data. The previous post can be found [here](https://mattgeorgephd.github.io/cgigas-ploidy-desiccation-WGBS-analysis-Part-1/). I'll be following Yaamini's [walkthrough](https://yaaminiv.github.io/Hawaii-Gigas-Methylation-Analysis-Part5/) in this post to look at the results of bismark.
+This is continuation of the WGBS analysis I've been running on Ronit's data. The previous post can be found [here](https://mattgeorgephd.github.io/gigas-WGBS-ploidy-desiccation-analysis-Part-1/). I'll be following Yaamini's [walkthrough](https://yaaminiv.github.io/Hawaii-Gigas-Methylation-Analysis-Part5/) in this post to look at the results of bismark.
 
 ### List of the progress so far:
 1. Completed bismark on mox. The output was then transferred to gannet by running the rsync command as outlined in the previous post. The output is available [here](https://gannet.fish.washington.edu/panopea/030521-ronrosM/).
@@ -42,13 +42,13 @@ The deduplication percentages were pretty consistent across samples, with the hi
 
 ### Step 2: Determine effect of ploidy of %mCpG
 
-Previously, Ronit and Shelly used the [MethylFlashGlobalDNA Elisa kit](https://www.epigentek.com/catalog/methylflash-global-dna-methylation-mc-elisa-easy-kit-colorimetric-p-5370.html) to analyze 5-methylcytosine (5-mC) levels in the diploid and triploid cgigas after desiccation stress. Their data and analyses can be found [here](https://github.com/mattgeorgephd/project-gigas_ploidy/tree/master/bisulfide_analysis/ELISA). After playing around with their [R script](https://github.com/mattgeorgephd/project-gigas_ploidy/blob/master/bisulfide_analysis/ELISA/GlobalDNAMeth_Polyploids.R), it looks like they found significant differences between % 5-mC levels across ploidy (p=0.033), desiccation (p=0.001), as well as an significant ploidy:desiccation interaction (p=0.036). <br />
+Previously, Ronit and Shelly used the [MethylFlashGlobalDNA Elisa kit](https://www.epigentek.com/catalog/methylflash-global-dna-methylation-mc-elisa-easy-kit-colorimetric-p-5370.html) to analyze 5-methylcytosine (5-mC) levels in the diploid and triploid cgigas after desiccation stress. Their data and analyses can be found [here](https://github.com/mattgeorgephd/WGBS-gigas-ploidy-desiccation/tree/master/bisulfide_analysis/ELISA). After playing around with their [R script](https://github.com/mattgeorgephd/WGBS-gigas-ploidy-desiccation/blob/master/bisulfide_analysis/ELISA/GlobalDNAMeth_Polyploids.R), it looks like they found significant differences between % 5-mC levels across ploidy (p=0.033), desiccation (p=0.001), as well as an significant ploidy:desiccation interaction (p=0.036). <br />
 
 ![](/post_images/040121/5mC_figure.png)
 
 Following up on this result, I analyzed the results of bismark run on 5 oysters from each ploidy exposed to desiccation at 27C for 24 hours. The dataset is further complicated by the fact that two out of each set of 5 animals were further subjected to a 45C shock for 1 hour following desiccation. <br />
 
-The github repo with the WGBS data and analyses can be found [here](https://github.com/mattgeorgephd/project-gigas_ploidy/tree/master/bisulfide_analysis/WGBS). I ran this [R script](https://github.com/mattgeorgephd/project-gigas_ploidy/blob/master/bisulfide_analysis/WGBS/WGBS%20analysis.R) to analyze the resulting % methylation within CpG islands as reported by MultiQC. <br />
+The github repo with the WGBS data and analyses can be found [here](https://github.com/mattgeorgephd/WGBS-gigas-ploidy-desiccation/tree/master/bisulfide_analysis/WGBS). I ran this [R script](https://github.com/mattgeorgephd/WGBS-gigas-ploidy-desiccation/blob/ef55b3b12245c2a8e6e3e0ebe7f0c984b2a8fa18/bisulfide_analysis/WGBS/WGBS%20analysis.R) to analyze the resulting % methylation within CpG islands as reported by MultiQC. <br />
 
 ![](/post_images/040121/mCpG_figure.png)
 
