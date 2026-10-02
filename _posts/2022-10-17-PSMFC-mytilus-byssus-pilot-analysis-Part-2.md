@@ -2,8 +2,6 @@
 layout: post
 title: Mon. Oct. 17, 2022
 subtitle: PSMFC-mytilus-byssus-pilot Analysis Part 2
-gh-repo: mattgeorgephd/mattgeorgephd.github.io
-gh-badge: [star, fork, follow]
 tags: PSMFC-mytilus-byssus-pilot
 comments: true
 ---

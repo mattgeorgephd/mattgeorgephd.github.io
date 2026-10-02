@@ -1,9 +1,7 @@
 ---
 layout: post
-title: Wed. Dec. 01, 2021
+title: Wed. Dec. 1, 2021
 subtitle: December 2021 - Update & Monthly Goals
-gh-repo: mattgeorgephd/mattgeorgephd.github.io
-gh-badge: [star, fork, follow]
 tags: monthly-goals
 comments: true
 ---

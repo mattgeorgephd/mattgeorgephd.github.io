@@ -1,9 +1,7 @@
 ---
 layout: post
-title: Fri. Dec. 03, 2021
+title: Fri. Dec. 3, 2021
 subtitle: Citrate Synthase Assay
-gh-repo: mattgeorgephd/mattgeorgephd.github.io
-gh-badge: [star, fork, follow]
 tags: tutorials
 comments: true
 ---

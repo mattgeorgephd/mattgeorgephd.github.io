@@ -1,9 +1,7 @@
 ---
 layout: post
-title: Tues. April. 5, 2022
+title: Tue. Apr. 5, 2022
 subtitle: How to collect byssal threads
-gh-repo: mattgeorgephd/mattgeorgephd.github.io
-gh-badge: [star, fork, follow]
 tags: PSMFC-mytilus-byssus-pilot tutorials
 comments: true
 ---

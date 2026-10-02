@@ -1,9 +1,7 @@
 ---
 layout: post
-title: Tues. Mar. 16, 2021
+title: Tue. Mar. 16, 2021
 subtitle: Bisulfite sequencing analysis - Part 1
-gh-repo: mattgeorgephd/mattgeorgephd.github.io
-gh-badge: [star, fork, follow]
 tags: gigas-WGBS-ploidy-desiccation
 comments: true
 ---

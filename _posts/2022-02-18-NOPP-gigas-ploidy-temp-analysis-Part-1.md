@@ -2,8 +2,6 @@
 layout: post
 title: Fri. Feb. 18, 2022
 subtitle: NOPP-gigas-ploidy-temp analysis - Part 1
-gh-repo: mattgeorgephd/mattgeorgephd.github.io
-gh-badge: [star, fork, follow]
 tags: NOPP-gigas-ploidy-temp
 comments: true
 ---
