@@ -14,17 +14,17 @@ comments: true
 
 Determine the sample size needed to detect an immune response in c.gigas after poly(I:C) injection.
 
-[Lafont et al. (2020)](https://doi.org/10.1128/mBio.02777-19) found a 3-fold increase in viveprin expression following injection of poly(I·C) high molecular weight (HMW) (InVivogen; catalog code tlrl-pic) in juvenile oysters (19 μg · g−1 of oyster).  
+[Lafont et al. (2020)](https://doi.org/10.1128/mBio.02777-19) found a 3-fold increase in viperin expression following injection of poly(I·C) high molecular weight (HMW) (InVivogen; catalog code tlrl-pic) in juvenile oysters (19 μg · g−1 of oyster).  
 
 <br>
 
-![](https://journals.asm.org/doi/10.1128/mBio.02777-19#fig7)
+See [Figure 7 of Lafont et al. (2020)](https://journals.asm.org/doi/10.1128/mBio.02777-19#fig7) for the expression time course.
 
 <br />
 
 Given the results, it looks like a 3-fold increase in SACSIN, IRF2, and Viperin would be good assays. I ran a power analysis w/ this Rmd code to determine how many oysters to assign to each group, assuming a worst case variance of 1.5 fold in the control:
 
-```{r}
+```r
 library(pwr)
 
 # Set parameters

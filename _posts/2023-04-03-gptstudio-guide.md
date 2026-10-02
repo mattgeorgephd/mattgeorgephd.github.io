@@ -40,7 +40,7 @@ edit_r_environ(scope="project")
 
 6. Add this line to the .Renviron file (replacing <APIKEY> with your key, keeping the quotes):
 
-```{r}
+```r
 OPENAI_API_KEY= "<APIKEY>"
 ```
 
@@ -50,7 +50,7 @@ OPENAI_API_KEY= "<APIKEY>"
 
 Now that you are all set up, navigate to the ChatGPT shiny app by going to the `Addins` dropdown menu and selecting `ChatGPT`
 
-![](/post_images/20230403/0.png)
+![RStudio Addins menu with the ChatGPT option](/post_images/20230403/0.png)
 
 Within the shiny app, give it the following prompt:
 
@@ -58,7 +58,7 @@ Within the shiny app, give it the following prompt:
 
 Here is what it looked like:
 
-![](/post_images/20230403/0_1.png)
+![ChatGPT Shiny app in RStudio with the scatterplot prompt](/post_images/20230403/0_1.png)
 
 Here was the output:
 
@@ -76,10 +76,10 @@ ggplot(data = iris,aes(Sepal.Length,Petal.Length)) + geom_point()
 ```
 
 Here is what is looks like to run it:
-![](/post_images/20230403/2.png)
+![Running ChatGPT in Source on highlighted R code](/post_images/20230403/2.png)
 
 and here is the results:
-```{r}
+```r
 require(tidyverse)
 require(scales)
 
@@ -101,12 +101,12 @@ ggplot(data = iris, aes(Sepal.Length, Petal.Length, color = Species)) +
 To get this to work, I had to find where `pretty_breaks` came from. Installing and requiring the `scales` package fixed the issue and I was able to run it.
 
 Here is what it looks like:
-![](/post_images/20230403/3.png)
+![Iris scatterplot colored by species with a second y-axis](/post_images/20230403/3.png)
 
 ### Round 2: Let's keep going!
 
 #### Input:
-```{r}
+```r
 # Improve this plot by removing gridlines, setting the minimum of each y axis to zero, make the plot background white, increase the size of points, add a linear regression that plots relationship between Sepal.Length and Petal.Length across all species, and add R-squared value for linear regression to the plot.
 ggplot(data = iris, aes(Sepal.Length, Petal.Length, color = Species)) +
   geom_point() +
@@ -118,7 +118,7 @@ ggplot(data = iris, aes(Sepal.Length, Petal.Length, color = Species)) +
 ```
 
 #### Output:
-```{r}
+```r
 # Solution:
 # Add the following code to the existing code:
 # Remove gridlines
@@ -148,7 +148,7 @@ Error in stat_poly_eq(formula = y ~ x, aes(label = paste(..eq.label..,  :
 
 It looks like it failed to note that the ggpmisc package was required for stat_poly_eq. I installed it and ran it again and got this:
 
-![](/post_images/20230403/4.png)
+![Iris scatterplot after the second round of edits](/post_images/20230403/4.png)
 
 The plot still doesn't look right. The code overlays the whole equation for the regression line and placed it in the upper right hand corner. Let's ask it to fix it.
 
@@ -191,4 +191,4 @@ ggplot(data = iris, aes(Sepal.Length, Petal.Length, color = Species)) +
   annotate("text", label = paste0("R-squared: ", signif(summary(lm(Petal.Length ~ Sepal.Length, data = iris))$r.squared, 3)), x = min(iris$Sepal.Length), y = max(iris$Petal.Length), vjust=1, hjust=0)  # Add R-squared value for linear regression, positioned at top left
 ```
 
-![](/post_images/20230403/5.png)
+![Final iris scatterplot with regression line and R-squared](/post_images/20230403/5.png)

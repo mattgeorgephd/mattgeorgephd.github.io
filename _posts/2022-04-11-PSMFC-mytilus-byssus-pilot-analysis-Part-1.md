@@ -13,7 +13,7 @@ comments: true
 All following code chunks were run on Raven
 
 ### Download tag-seq data
-```{bash}
+```bash
 mkdir raw-data/
 cd raw-data/
 
@@ -25,13 +25,13 @@ wget -r \
 
 ```
 ### unzip .fastq.gz files
-```{bash}
+```bash
 cd raw-data/
 gunzip *.fastq.gz
 
 ```
 ### Run fastqc on untrimmed files
-```{bash}
+```bash
 mkdir fastqc/
 mkdir fastqc/untrimmed/
 
@@ -42,8 +42,7 @@ mkdir fastqc/untrimmed/
 ```
 
 ### Run multiqc
-```{bash}
-
+```bash
 eval "$(/opt/anaconda/anaconda3/bin/conda shell.bash hook)"
 conda activate
 
@@ -55,7 +54,7 @@ multiqc .
 Link to [multiQC report](https://gsafjobs.icmb.utexas.edu/qc/JA22078/SA22060/multiqc/multiqc_report.html) untrimmed sequences
 
 ### trim adapter sequences
-```{bash}
+```bash
 mkdir trim-fastq/
 cd raw-data
 
@@ -72,7 +71,7 @@ done
 
 ```
 ### Run fastqc on trimmed files
-```{bash}
+```bash
 mkdir fastqc/
 mkdir fastqc/trimmed/
 
@@ -83,8 +82,7 @@ mkdir fastqc/trimmed/
 
 ```
 ### Run multiqc on trimmed files
-```{bash}
-
+```bash
 eval "$(/opt/anaconda/anaconda3/bin/conda shell.bash hook)"
 conda activate
 
@@ -94,7 +92,7 @@ multiqc .
 
 ```
 ### concatenate fastq files by lane
-```{bash}
+```bash
 mkdir merged-fastq
 cd trim-fastq/
 
@@ -114,7 +112,7 @@ Link to [multiQC report](https://gannet.fish.washington.edu/panopea/PSMFC-mytilu
 
 ### [RAVEN] Download mytilus trossulus transcriptome - https://www.ncbi.nlm.nih.gov/sra/SRX3198554
 ### Tutorial: https://blogs.iu.edu/ncgas/2021/02/22/a-beginners-guide-to-the-sra/
-```{bash}
+```bash
 # /home/shared/sratoolkit.2.11.2-ubuntu64/bin/vdb-config --interactive
 
 mkdir SRA/

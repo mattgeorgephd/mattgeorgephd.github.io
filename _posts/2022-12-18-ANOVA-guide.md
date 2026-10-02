@@ -16,7 +16,7 @@ Link to [dataset](https://raw.githubusercontent.com/mattgeorgephd/mattgeorgephd.
 2. **Normality** - The response variable (and any numeric factors) has a normal distribution
 3. **Homoscedasticity** - The sample variance across factors is similar
 
-```{R}
+```r
 # Test normality; transform if necessary
 
 # Define dataset
@@ -49,19 +49,19 @@ dat_stat$response <- test_me # overwrite
 
 | untransformed | transformed |
 | :---:  | :---: |
-| ![](https://github.com/mattgeorgephd/mattgeorgephd.github.io/blob/master/guides/2022-12-18-ANOVA/QQ_untransformed.png?raw=true)  | ![](https://github.com/mattgeorgephd/mattgeorgephd.github.io/blob/master/guides/2022-12-18-ANOVA/QQ_transformed.png?raw=true) |      
+| ![Q-Q plot of untransformed residuals](/guides/2022-12-18-ANOVA/QQ_untransformed.png)  | ![Q-Q plot of transformed residuals](/guides/2022-12-18-ANOVA/QQ_transformed.png) |      
 
 ## STEP 2: Run ANOVA
-```{r}
+```r
 # Run ANOVA
 my_test <- aov(response ~ ploidy * timepoint * treatment, data = dat_stat)
 my_test_summary <- summary(my_test)
 summary(my_test)
 ```
-![](https://github.com/mattgeorgephd/mattgeorgephd.github.io/blob/master/guides/2022-12-18-ANOVA/model.png?raw=true)
+![R console output of the ANOVA model summary](/guides/2022-12-18-ANOVA/model.png)
 
 ## STEP 3: compare model AIC scores
-```{r}
+```r
 # Compare model AIC scores (lowest score wins)
 other <- aov(response ~ ploidy * timepoint, data = dat_stat)
 
@@ -70,24 +70,24 @@ model.names <- c("ploidy:timepoint:treatment", "ploidy:timepoint")
 
 aictab(model.set, modnames = model.names)
 ```
-![](https://github.com/mattgeorgephd/mattgeorgephd.github.io/blob/master/guides/2022-12-18-ANOVA/AIC.png?raw=true)
+![R console output of the AIC model comparison table](/guides/2022-12-18-ANOVA/AIC.png)
 
 ## STEP 4: Check for Homoscedasticity across factors in model
-```{r}
+```r
 leveneTest(response ~ interaction(ploidy,timepoint,treatment), dat_stat)
 ```
-![](https://github.com/mattgeorgephd/mattgeorgephd.github.io/blob/master/guides/2022-12-18-ANOVA/homogeneity.png?raw=true)
+![R console output of Levene's test for homogeneity of variance](/guides/2022-12-18-ANOVA/homogeneity.png)
 
 ## STEP 5: Run post-hoc test if interaction is significant
-```{r}
+```r
 tx <- with(dat_stat, interaction(timepoint,treatment,ploidy)) # build interaction
 amod <- aov(response ~ tx, data = dat_stat) # run model
 mult_comp <- HSD.test(amod, "tx", group=TRUE, console=TRUE) # run HSD test
 ```
-![](https://github.com/mattgeorgephd/mattgeorgephd.github.io/blob/master/guides/2022-12-18-ANOVA/HSD.png?raw=true)
+![R console output of the Tukey HSD test with group letters](/guides/2022-12-18-ANOVA/HSD.png)
 
 Link to [AOV model output](https://raw.githubusercontent.com/mattgeorgephd/mattgeorgephd.github.io/master/guides/2022-12-18-ANOVA/aov.csv) <br/>
 Link to [HSD output](https://raw.githubusercontent.com/mattgeorgephd/mattgeorgephd.github.io/master/guides/2022-12-18-ANOVA/HSD.csv)
 
 ## STEP 6: Plot w/ group labels
-![](https://github.com/mattgeorgephd/mattgeorgephd.github.io/blob/master/guides/2022-12-18-ANOVA/atpase_suppl.png?raw=true)
+![Example plot with Tukey HSD group labels](/guides/2022-12-18-ANOVA/atpase_suppl.png)

@@ -315,3 +315,27 @@ h2[id] { scroll-margin-top: 90px; }
   .nb-nav-next { text-align: left; margin-left: 0; }
   .nb-date { flex-basis: 100%; }
 }
+
+/* Captioned image grids in notebook entries: <div class="nb-figs"><figure>…</figure></div> */
+.nb-figs {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.75rem;
+  margin: 1rem 0 1.5rem;
+}
+.nb-figs.nb-figs-wide { grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
+.nb-figs figure, .blog-post figure.nb-fig { margin: 0; }
+.nb-figs img, .blog-post figure.nb-fig img {
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid var(--rule);
+}
+.nb-figs figcaption, .blog-post figure.nb-fig figcaption {
+  font-size: 0.85rem;
+  line-height: 1.4;
+  color: var(--muted);
+  margin-top: 0.3rem;
+}
+.blog-post figure.nb-fig { margin: 1rem 0 1.5rem; }
+.nb-table { font-size: 0.9rem; }
+.nb-table td, .nb-table th { vertical-align: top; }

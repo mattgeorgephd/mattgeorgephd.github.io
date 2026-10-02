@@ -34,7 +34,7 @@ Looking across region, it wasn't much better:
 
 I used the PWR package to determine the number of samples that we need to sequence given the variation observed, where X is the variation:
 
-```{r}
+```r
 library(pwr)
 
 # Set parameters

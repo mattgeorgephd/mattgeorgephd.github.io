@@ -28,7 +28,7 @@ At the end of the experiment, tissue from animals will be removed and frozen at 
 
 Pt. Whitney has the space and resources for 4 large seawater tanks:
 
-![](/post_images/111320/tank.png).
+![Large seawater tank at the Point Whitney shellfish laboratory](/post_images/111320/tank.jpg)
 
 Each tank has the following constraints:
 
@@ -38,9 +38,9 @@ Each tank has the following constraints:
 
 To prevent the exchange of genetic material or effluent, families will need to adequately separated from one another during the experiment and have access to flowing seawater. To accomplish this, we have decided to house oysters in "silos" made from PVC pipe.
 
-![](/post_images/111320/silo.png)
+![Silo made from PVC pipe with a mesh screen, shown in three assembly steps](/post_images/111320/silo.jpg)
 
-Silos have a 3" ID and sit withon a slighly shorter 4" ID pipe that is capped on the end. Water will flow through a manifold (likely smaller ID pipe with an array of drippers) into the top of each silo, the added weight of which will push water down through the bottom of the of the 3" and up and over the 4" pipe. A spacer will be added into the bottom of the 4" pipe to allow for adequate room for water flow. Oysters will be secured within the 3" PVC pipe with a netting affixed to the bottom.
+Silos have a 3" ID and sit within a slightly shorter 4" ID pipe that is capped on the end. Water will flow through a manifold (likely smaller ID pipe with an array of drippers) into the top of each silo, the added weight of which will push water down through the bottom of the of the 3" and up and over the 4" pipe. A spacer will be added into the bottom of the 4" pipe to allow for adequate room for water flow. Oysters will be secured within the 3" PVC pipe with a netting affixed to the bottom.
 
 This design results in:
 
@@ -48,7 +48,7 @@ This design results in:
 2. 140 total replicates.
 3. Effluent flows over the side of each 4" silo without coming into contact with oysters in other tanks.
 
-![](/post_images/111320/tank_design.png)
+![SketchUp drawing of the tank holding an array of silos, with dimensions](/post_images/111320/tank_design.png)
 
 This would allow for:
 

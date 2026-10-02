@@ -11,7 +11,7 @@ comments: true
 I think I fixed the issue with low alignment scores that I was getting with HISAT2, which is a preferred aligner for TagSeq data because it is splice aware, unlike BowTie2. I hard trimmed the first 15 bp (`-u 15`) of the TagSeq transcripts using the following:
 
 ### trim adapter sequences
-```{bash}
+```bash
 mkdir trim-fastq/
 cd raw-data/
 
@@ -40,12 +40,12 @@ Looking through the results, I see issues with the following samples:
 I ran DESeq2 on all aligned reads using this [R script](https://github.com/mattgeorgephd/NOPP-gigas-ploidy-temp/blob/main/202107_EXP2/tag-seq/scripts/2_DESeq2_analysis-gigas-unfiltered.Rmd), without excluding samples.
 
 Here is the pheatmap comparing all samples:
-![](https://github.com/mattgeorgephd/NOPP-gigas-ploidy-temp/blob/main/202107_EXP2/tag-seq/output/unfiltered/HISAT2/all_treatments/ALL-TREATMENTS-pheatmap.png?raw=true)
+![Sample-distance heatmap for all samples](/post_images/20220906/all_treatments-ALL-TREATMENTS-pheatmap.png)
 
 Looking at the map it looks like `R53` and `X42` may also be a problem, but lets run the comparisons to see if it stands out. I ran DESeq2 again, removing `D54`, `N56`, and `X44` using the following [R script](https://github.com/mattgeorgephd/NOPP-gigas-ploidy-temp/blob/main/202107_EXP2/tag-seq/scripts/2_DESeq2_analysis-gigas-filtered.Rmd). The analysis yielded 28,877 DEGs.
 
 The all-treatments biplot agreed that `R53` and `X42` is an outlier, while also identifying `M43` and `N54`.
-![](https://github.com/mattgeorgephd/NOPP-gigas-ploidy-temp/blob/main/202107_EXP2/tag-seq/output/filtered/HISAT2_multiqc_filter_only/all_treatments/ALL-TREATMENTS-BIPLOT.png?raw=true)
+![PCA biplot for all treatments identifying outlier samples](/post_images/20220906/all_treatments-ALL-TREATMENTS-BIPLOT.png)
 
 ### Run DESeq2 w/ filters
 I used the following code to filter bad/outlier samples,
@@ -91,20 +91,20 @@ Across all samples, `31,371` genes were identified and `19,089` genes were remov
 
 Here are some results:
 **PCA: All treatments:**
-![](https://github.com/mattgeorgephd/NOPP-gigas-ploidy-temp/blob/main/202107_EXP2/tag-seq/output/filtered/HISAT2_multiqc_biplot/all_treatments/ALL-TREATMENTS-PCA.png?raw=true)
+![PCA of gene expression for all treatments](/post_images/20220906/all_treatments-ALL-TREATMENTS-PCA.png)
 
 **PCA: Diploid only:**
-![](https://github.com/mattgeorgephd/NOPP-gigas-ploidy-temp/blob/main/202107_EXP2/tag-seq/output/filtered/HISAT2_multiqc_biplot/diploid/ALL-TREATMENTS-DIPLOID-PCA.png?raw=true)
+![PCA of gene expression for diploid oysters only](/post_images/20220906/diploid-ALL-TREATMENTS-DIPLOID-PCA.png)
 
 **PCA: Triploid only:**
-![](https://github.com/mattgeorgephd/NOPP-gigas-ploidy-temp/blob/main/202107_EXP2/tag-seq/output/filtered/HISAT2_multiqc_biplot/triploid/ALL-TREATMENTS-TRIPLOID-PCA.png?raw=true)
+![PCA of gene expression for triploid oysters only](/post_images/20220906/triploid-ALL-TREATMENTS-TRIPLOID-PCA.png)
 
 **PCA: Multiple comparisons by ploidy:**
 
 |  comparison | diploid   | triploid   |
 |:---:|:---:|:---:|
-|single-stressor v control   | ![](https://github.com/mattgeorgephd/NOPP-gigas-ploidy-temp/blob/main/202107_EXP2/tag-seq/output/filtered/HISAT2_multiqc_biplot/diploid_heat/DIPLOID-HEAT-PCA.png?raw=true)  | ![](https://github.com/mattgeorgephd/NOPP-gigas-ploidy-temp/blob/main/202107_EXP2/tag-seq/output/filtered/HISAT2_multiqc_biplot/triploid_heat/TRIPLOID-HEAT-PCA.png?raw=true)  |
-|multi-stressor v control | ![](https://github.com/mattgeorgephd/NOPP-gigas-ploidy-temp/blob/main/202107_EXP2/tag-seq/output/filtered/HISAT2_multiqc_biplot/diploid_desiccation/DIPLOID-DESICCATION-PCA.png?raw=true)  | ![](https://github.com/mattgeorgephd/NOPP-gigas-ploidy-temp/blob/main/202107_EXP2/tag-seq/output/filtered/HISAT2_multiqc_biplot/triploid_desiccation/TRIPLOID-DESICCATION-PCA.png?raw=true)  |
+|single-stressor v control   | ![PCA of diploid oysters, single-stressor vs. control](/post_images/20220906/diploid_heat-DIPLOID-HEAT-PCA.png)  | ![PCA of triploid oysters, single-stressor vs. control](/post_images/20220906/triploid_heat-TRIPLOID-HEAT-PCA.png)  |
+|multi-stressor v control | ![PCA of diploid oysters, multi-stressor vs. control](/post_images/20220906/diploid_desiccation-DIPLOID-DESICCATION-PCA.png)  | ![PCA of triploid oysters, multi-stressor vs. control](/post_images/20220906/triploid_desiccation-TRIPLOID-DESICCATION-PCA.png)  |
 
 **DEG: significant genes by treatment:**
 </br> Differentially expressed genes with p<0.05 and log2fold change > 1.5, using the `apeglm` shrinkage estimator
@@ -118,7 +118,7 @@ Here are some results:
 
 | comparison   | control | single-stressor   | multi-stressor   |
 |:---:|---|---| --- |
-| ploidy | ![](https://github.com/mattgeorgephd/NOPP-gigas-ploidy-temp/blob/main/202107_EXP2/tag-seq/output/filtered/HISAT2_multiqc_biplot/control_ploidy/CONTROL-PLOIDY-PCA.png?raw=true) | ![](https://github.com/mattgeorgephd/NOPP-gigas-ploidy-temp/blob/main/202107_EXP2/tag-seq/output/filtered/HISAT2_multiqc_biplot/heat_ploidy/HEAT-PLOIDY-PCA.png?raw=true) | ![](https://github.com/mattgeorgephd/NOPP-gigas-ploidy-temp/blob/main/202107_EXP2/tag-seq/output/filtered/HISAT2_multiqc_biplot/desiccation_ploidy/DESICCATION-PLOIDY-PCA.png?raw=true) |
+| ploidy | ![PCA comparing diploid and triploid oysters, control treatment](/post_images/20220906/control_ploidy-CONTROL-PLOIDY-PCA.png) | ![PCA comparing diploid and triploid oysters, single-stressor treatment](/post_images/20220906/heat_ploidy-HEAT-PLOIDY-PCA.png) | ![PCA comparing diploid and triploid oysters, multi-stressor treatment](/post_images/20220906/desiccation_ploidy-DESICCATION-PLOIDY-PCA.png) |
 
 **DEG: significant genes by treatment:**
 

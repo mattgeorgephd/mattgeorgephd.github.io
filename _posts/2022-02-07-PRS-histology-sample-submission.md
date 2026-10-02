@@ -17,7 +17,7 @@ comments: true
 
 4. Here is an example of a histology [slide diagram](https://github.com/mattgeorgephd/NOPP-gigas-ploidy-temp/blob/main/202107_EXP2/histology/histology_cassette_diagram.jpg).
 
-5. Analysis of oyster gonad slides are [here](https://drlawson.github.io/Oyster-Pics-for-Matt/)
+5. Oyster gonad slides were analyzed by D. Lawson; the online gallery of slide images (drlawson.github.io/Oyster-Pics-for-Matt) is no longer available.
 
 ### Submission Instructions:
 

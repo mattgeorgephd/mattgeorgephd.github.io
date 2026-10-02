@@ -46,7 +46,7 @@ The steps I will be following during this analysis are:
 
 ```ssh mngeorge@mox.hyak.uw.edu```
 
-![](/post_images/031621/login_successful.png)
+![Terminal showing a successful login to the Mox cluster](/post_images/031621/login_successful.png)
 
 ### Step 2: slurm script and job scheduler
 
@@ -150,13 +150,13 @@ After saving, I then added to the queue:
 
 You can check the position in the queue using squeue:
 
-![](/post_images/031621/squeue.png)
+![squeue output showing the job's position in the queue](/post_images/031621/squeue.png)
 
 As well as the job status using the job number:
 
 ``` scontrol show job 1740292 ```
 
-![](/post_images/031621/job_status.png)
+![scontrol output showing the status of job 1740292](/post_images/031621/job_status.png)
 
 Once the job is done, the resulting files should be stored on our lab server [gannet](https://gannet.fish.washington.edu/). Here is an example script using rsync:
 

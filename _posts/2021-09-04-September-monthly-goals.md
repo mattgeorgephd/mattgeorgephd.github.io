@@ -18,7 +18,7 @@ I also plan on getting my github account organized.
 2. ~~Collect tissue for the [gigas-WGS-ploidy](https://github.com/mattgeorgephd/gigas-WGS-ploidy) project~~
 3. Work on notebook posts detailing progress on [gigas-WGBS-ploidy-desiccation](https://github.com/mattgeorgephd/WGBS-gigas-ploidy-desiccation) project analysis
 4. Complete gigas-WGBS-ploidy-desiccation [manuscript](https://docs.google.com/document/d/17mcGDI-TWmU4vgBXmiXmeofe4qEuFH5inBKBHhG9tzg/edit)
-5. ~~Complete and submit [byssal thread meta analaysis]()~~
+5. ~~Complete and submit [byssal thread meta-analysis](https://doi.org/10.3354/meps14101)~~
 6. Start PSMFC mussel byssus transcriptome experiment
 7. ~~Analyze heat-only respirometry dataset for [NOPP-gigas-ploidy-temp](https://github.com/mattgeorgephd/NOPP-gigas-ploidy-temp)~~
 8. Organize and push NOPP-gigas-ploidy-temp data to github

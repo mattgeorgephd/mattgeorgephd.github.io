@@ -11,7 +11,7 @@ comments: true
 After comparing analyses and looking at genome feature locations, we decided to continue using the Ronit dataset with Yaamini controls to see what the processes look like.
 
 ### GOterm annotation
-GOterm annotation was carried out using this [jupyter-notebook]()
+GOterm annotation was carried out in a Jupyter notebook (not archived in the project repository).
 
 The key outputs I got from this notebook are:
 1. A master annotation table (cgigas_uk_roslin_v1_rna_from_genomic_annot.transcript.tab).
@@ -25,16 +25,16 @@ I created a unique notebook for each dataset. Ronit's data had a lot of GO terms
 
 Here is the prior table for reference:
 Table 1. DML counts from each analysis
-![](/post_images/100421/DML_count_table.png)
+![Table of differentially methylated locus counts from each analysis](/post_images/100421/DML_count_table.png)
 
 Figure 1. GO terms (counts + percentages). BP = biological processes, CC = cellular components, MF = molecular functions.
-![](/post_images/20211115/GOterms_table.jpg)
+![Table of enriched GO term counts and percentages by category](/post_images/20211115/GOterms_table.jpg)
 
 Figure 2. Unique transcripts, genes, and gene products (counts). BP = biological processes, CC = cellular components, MF = molecular functions.
-![](/post_images/20211115/Genes_table.jpg)
+![Table of unique transcripts, genes, and gene products by GO category](/post_images/20211115/Genes_table.jpg)
 
 Figure 3. Unique DML in Genes w/ Enriched GO terms (counts).
-![](/post_images/20211115/Unique_DML_in_Genes_table.jpg)
+![Table of unique DML in genes with enriched GO terms (counts)](/post_images/20211115/Unique_DML_in_Genes_table.jpg)
 
 Figure 4. Unique DML in Genes w/ Enriched GO terms (percentages).
-![](/post_images/20211115/Unique_DML_in_Genes_percentages_table.png)
+![Table of unique DML in genes with enriched GO terms (percentages)](/post_images/20211115/Unique_DML_in_Genes_percentages_table.png)

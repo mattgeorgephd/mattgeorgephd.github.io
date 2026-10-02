@@ -34,8 +34,8 @@ Samples for [submission](https://docs.google.com/spreadsheets/d/1zZ6L05j-SyYJbzz
 
 Here are the nanodrop results. Both have a 260/280 ratio of ~2 and the tails are clean, which indicates pure RNA. The Qubit concentrations are more accurate.
 
-![](/post_images/20221017/MTF.jpg)
+![NanoDrop absorbance spectrum for the MTF RNA sample](/post_images/20221017/MTF.jpg)
 
-![](/post_images/20221017/MTG.jpg)
+![NanoDrop absorbance spectrum for the MTG RNA sample](/post_images/20221017/MTG.jpg)
 
 100 ul of each sample were submitted to the GSAF on 10/18/2022.

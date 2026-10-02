@@ -23,4 +23,4 @@ For analysis I will be leaning on notebook entries by:
 
 1. [Laura Spencer](https://nbviewer.org/github/laurahspencer/O.lurida_QuantSeq-2020/blob/master/notebooks/2020-QuantSeq-Processing_Raw-to-Counts.ipynb);
 2. [Ariana Huffmyer](https://github.com/AHuffmyer/EarlyLifeHistory_Energetics/blob/595b94c9a82233aed4526811b516f37af1c1ee42/Mcap2020/Scripts/TagSeq/TagSeq_BioInf_genomeV2.md); and
-3. Sam Gurr (oyster Tag-seq pipeline; the original notebook link is no longer online)
+3. [Sam Gurr](https://github.com/samgurr/samgurr.github.io/blob/ca9c83b582fa0f72bddc2f0d52d62489358a94ba/_posts/2022-02-18-Oyster-TagSeq-Pipeline.md) (oyster TagSeq pipeline; the original notebook URL moved, so this links the archived source)
