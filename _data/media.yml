@@ -1,0 +1,61 @@
+# Media coverage and popular articles, newest first. Used by the In the News page and the CV.
+# A missing url means no stable link has been confirmed yet.
+- year: 2024
+  title: "So long triploids, hello creamy oysters"
+  outlet: "Hakai Magazine"
+  date: "May 2024"
+  url: "https://hakaimagazine.com/news/so-long-triploids-hello-creamy-oysters/"
+  note: "Feature on our Global Change Biology study of triploid oyster mortality during heatwaves."
+  also:
+    - outlet: "Popular Science"
+      title: "Climate change is coming for your oysters"
+      url: "https://www.popsci.com/environment/climate-change-oysters/"
+    - outlet: "The Atlantic"
+- year: 2023
+  title: "Marine heatwaves impact mortality of triploid Pacific oysters"
+  outlet: "Global Change Biology (invited commentary by D.T. Manahan)"
+  date: "2023"
+  url: "https://doi.org/10.1111/gcb.16980"
+  note: "Commentary on George et al. (2023)."
+- year: 2019
+  title: "What we can learn from how mussels attach to surfaces underwater"
+  outlet: "Friday Harbor Laboratories Tide Bites, Vol. 67"
+  date: "March 2019"
+  url: "https://depts.washington.edu/fhl/tidebites/Vol67/index.html"
+  note: "Also published in the San Juan Islander."
+- year: 2018
+  title: "Hanging by a Thread: Mussels in a Changing Ocean"
+  outlet: "Washington Sea Grant (animated video)"
+  date: "February 2018"
+  url: "https://www.youtube.com/watch?v=ew3cGFiNbs0"
+  note: "Animation by Abby Lunstrum, Meg Chadsey, and Laura Newcomb."
+- year: 2016
+  title: "Acid attack: can mussels hang on for much longer?"
+  outlet: "UW News"
+  date: "July 2016"
+  url: "https://www.washington.edu/news/2016/07/06/acid-attack-can-mussels-hang-on-for-much-longer/"
+  also:
+    - outlet: "ScienceDaily"
+      url: "https://www.sciencedaily.com/releases/2016/07/160705203143.htm"
+    - outlet: "Phys.org"
+      url: "https://phys.org/news/2016-07-acid-attackcan-mussels-longer.html"
+- year: 2016
+  title: "Ocean acidification is eating into mussels"
+  outlet: "Grist"
+  date: "July 2016"
+  url: "https://grist.org/news/ocean-acidification-is-eating-into-mussels/"
+- year: 2014
+  title: "Mussels lose footing in more acidic ocean"
+  outlet: "Scientific American"
+  date: "September 2014"
+  url: "https://www.scientificamerican.com/article/mussels-lose-footing-in-more-acidic-ocean/"
+- year: 2013
+  title: "Blue mussels 'hang on' along rocky shores: for how long?"
+  outlet: "Phys.org (National Science Foundation)"
+  date: "March 2013"
+  url: "https://phys.org/news/2013-03-blue-mussels-rocky-shores.html"
+- year: 2013
+  title: "Mussels cramped by environmental factors"
+  outlet: "UW News"
+  date: "February 2013"
+  url: "https://www.washington.edu/news/2013/02/18/mussels-cramped-by-environmental-factors/"

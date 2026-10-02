@@ -2,7 +2,7 @@
 layout: post
 title: Sun. Jan. 30, 2022
 subtitle: February 2022 - Update & Monthly Goals
-gh-repo: mattgeorgephd/mattgeorge.github.io
+gh-repo: mattgeorgephd/mattgeorgephd.github.io
 gh-badge: [star, fork, follow]
 tags: monthly-goals
 comments: true

@@ -1,0 +1,52 @@
+name: Site checks
+
+on:
+  pull_request:
+  push:
+    branches: [master]
+  schedule:
+    - cron: "17 14 * * 1" # weekly, Monday morning Pacific time
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-check:
+    runs-on: ubuntu-latest
+    env:
+      BUNDLE_GEMFILE: ${{ github.workspace }}/.github/ci/Gemfile
+      JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      PAGES_REPO_NWO: ${{ github.repository }}
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+
+      - name: Build with the GitHub Pages toolchain
+        run: bundle exec jekyll build --trace
+
+      - name: Check internal links, images, and anchors
+        run: bundle exec ruby .github/ci/check_internal_links.rb _site
+
+      # External links are reported in the job summary but do not fail the
+      # build: old notebook entries cite third-party pages that come and go.
+      - name: Report external links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress
+            --root-dir ${{ github.workspace }}/_site
+            --scheme https
+            --scheme http
+            --max-concurrency 8
+            --timeout 30
+            --accept 200,203,206,429
+            --exclude-path _site/feed.xml
+            --exclude-path _site/sitemap.xml
+            _site
+          fail: false
+          jobSummary: true

@@ -2,7 +2,7 @@
 layout: post
 title: Wed. Feb. 17, 2022
 subtitle: PRS histology sample submission
-gh-repo: mattgeorgephd/mattgeorge.github.io
+gh-repo: mattgeorgephd/mattgeorgephd.github.io
 gh-badge: [star, fork, follow]
 tags: tutorials
 comments: true

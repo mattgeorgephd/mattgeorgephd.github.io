@@ -1,0 +1,18 @@
+# External links the weekly link check should skip: login-gated, private,
+# or sites that block automated requests (they would always show as errors).
+^https?://172\.
+^https?://[^/]*\.local
+^https://docs\.google\.com/
+^https://[^/]*\.slack\.com/
+^https://chat\.openai\.com/
+^https://platform\.openai\.com/
+^https://dossier\.interfolio\.com/
+^https://tixemployee\.uw\.edu/
+^https://(www\.)?linkedin\.com/
+^https://(www\.)?researchgate\.net/
+^https://scholar\.google\.com/
+^https://(www\.)?amazon\.com/
+^https://(www\.)?etsy\.com/
+^https://(www\.)?alibaba\.com/
+^https://ghbtns\.com/
+^https://gannet\.fish\.washington\.edu:5001

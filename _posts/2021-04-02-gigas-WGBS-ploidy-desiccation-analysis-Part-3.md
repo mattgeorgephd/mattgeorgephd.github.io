@@ -2,13 +2,13 @@
 layout: post
 title: Thu. Apr. 2, 2021
 subtitle: Bisulfide sequencing analysis - Part 3
-gh-repo: mattgeorgephd/mattgeorge.github.io
+gh-repo: mattgeorgephd/mattgeorgephd.github.io
 gh-badge: [star, fork, follow]
 tags: gigas-WGBS-ploidy-desiccation
 comments: true
 ---
 
-Project name: [gigas-WGBS-ploidy-desiccation](https://github.com/mattgeorgephd/gigas-WGBS-ploidy-desiccation) <br />
+Project name: [gigas-WGBS-ploidy-desiccation](https://github.com/mattgeorgephd/WGBS-gigas-ploidy-desiccation) <br />
 Funding source: [unknown]() <br />
 Species: *Crassostrea gigas* <br />
 variable: ploidy, desiccation, high temperature <br />
@@ -30,7 +30,7 @@ This is continuation of the WGBS analysis I've been running on Ronit's data. The
 Use [MethylKit](https://bioconductor.org/packages/release/bioc/vignettes/methylKit/inst/doc/methylKit.html) to identify differentially methylated loci (DMLs) between diploid and triploid cgigas after desiccation stress. I'll be following Yaamini's [walkthrough](https://yaaminiv.github.io/DML-Analysis-Part13/) in this post to process *.deduplicated.sorted.bam files, running an modified version of this [R markdown file](https://github.com/RobertsLab/project-virginica-oa/blob/master/analyses/2018-10-11-MethylKit-Parameter-Testing/2018-10-11-MethylKit-Parameter-Testing.Rmd) that produces results using 1x, 3x, and 5x coverage.
 
 ### Step 1: Get MethylKit installed
-My R file can be found [here](https://github.com/mattgeorgephd/gigas-WGBS-ploidy-desiccation/blob/99dd32b71c4c8de6c08dad796de0bc4379c9c3c2/bisulfide_analysis/WGBS/code/2_WGBS_Methylkit.R). After some version compatibility issues, I was able to get "devtools" and "methylkit" installed and up-to-date by running R Studio as an administrator and running the following code chunk, opting to update all:
+My R file can be found [here](https://github.com/mattgeorgephd/WGBS-gigas-ploidy-desiccation/blob/99dd32b71c4c8de6c08dad796de0bc4379c9c3c2/bisulfide_analysis/WGBS/code/2_WGBS_Methylkit.R). After some version compatibility issues, I was able to get "devtools" and "methylkit" installed and up-to-date by running R Studio as an administrator and running the following code chunk, opting to update all:
 
 ```{r}
 install.packages("devtools") #Install the devtools package

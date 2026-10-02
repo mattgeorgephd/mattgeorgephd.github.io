@@ -2,7 +2,7 @@
 layout: post
 title: Sun. Dec. 18, 2022
 subtitle: ANOVA guide
-gh-repo: mattgeorgephd/mattgeorge.github.io
+gh-repo: mattgeorgephd/mattgeorgephd.github.io
 gh-badge: [star, fork, follow]
 tags: tutorials
 comments: true

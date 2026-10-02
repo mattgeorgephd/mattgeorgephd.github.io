@@ -2,7 +2,7 @@
 layout: post
 title: Tues. Jan. 10, 2023
 subtitle: January 2023 - Running Account
-gh-repo: mattgeorgephd/mattgeorge.github.io
+gh-repo: mattgeorgephd/mattgeorgephd.github.io
 gh-badge: [star, fork, follow]
 tags: monthly-goals
 comments: true

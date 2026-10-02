@@ -2,7 +2,7 @@
 layout: post
 title: Sun. Sep. 04, 2022
 subtitle: Berdahl-sockeye-salmon analysis - Part 1
-gh-repo: mattgeorgephd/mattgeorge.github.io
+gh-repo: mattgeorgephd/mattgeorgephd.github.io
 gh-badge: [star, fork, follow]
 tags: Berdahl-sockeye-salmon
 comments: true
@@ -26,7 +26,7 @@ variable: behavior: territorial, social <br />
 
 ## Tag-seq analysis - Gonad Samples
 
-I received [Tag-seq](https://dnatech.genomecenter.ucdavis.edu/tag-seq-gene-expression-profiling/) results from GSAF. Raw sequences were processed using the this [R script](https://github.com/mattgeorgephd/Berdahl-sockeye-salmon/blob/main/tag-seq/code/1_process-tagseq-data-salmon.Rmd).
+I received [Tag-seq](https://dnatech.genomecenter.ucdavis.edu/tag-seq-gene-expression-profiling/) results from GSAF. Raw sequences were processed using the this [R script](https://github.com/mattgeorgephd/Berdahl-sockeye-salmon/blob/2d11b440bdbbf1a4dbf2da5cb30e66d45890ce7e/tag-seq/code/1_process-tagseq-data-salmon.Rmd).
 
 Raw sequences were downloaded from Gannet:
 ```
@@ -34,7 +34,7 @@ Raw sequences were downloaded from Gannet:
 wget -r \
 --no-directories --no-parent \
 -P . \
--A .fastq.gz https://gannet.fish.washington.edu/panopea/berdahl-sockeye-salmon/20220714-tagseq/ \
+-A .fastq.gz https://gannet.fish.washington.edu/panopea/berdahl-sockeye-salmon/20220714-tagseq-gonad/ \
 --no-check-certificate
 ```
 
@@ -69,7 +69,7 @@ while read prefix; do
 done
 # I moved files to merged-fastq
 ```
-Sequences were aligned to the [O. nerka genome](https://www.ncbi.nlm.nih.gov/assembly/GCF_006149115.2) using hisat2 (a splice aware aligner):
+Sequences were aligned to the [O. nerka genome](https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_006149115.2/) using hisat2 (a splice aware aligner):
 
 
 ```{bash}

@@ -1,21 +1,15 @@
 ---
 layout: page
-title: My Lab Notebook
-subtitle: 
-use-site-title: true
+title: Lab Notebook
+subtitle: Open records of experiments and analyses, 2020-2023
+share-description: Open online lab notebook of Matthew N. George documenting oyster, mussel, and salmon experiments, sequencing analyses, and R guides.
 ---
 
-<meta property="og:image" content="{{ post.thumbnail }}">
+<p>Day-to-day methods, code, and results from my work at the University of Washington and NOAA, shared openly to support reproducibility. Project repositories are listed on the <a href="{{ '/code/' | relative_url }}">Code &amp; Data</a> page.</p>
 
-<div class="container" >
-         <div id="archives">
-             browse by <a title="The complete archive of {{ site.name }}'s Notebook by category"
-                          href="{{ site.url}}{{site.baseurl}}/categoryview">category</a> or <a title="The complete archive of
-     {{ site.name }}'s Notebook by month"
-     href="{{ site.url}}{{site.baseurl}}/monthview">date</a> or <a title="The complete archive of
-     {{ site.name }}'s Notebook by tag"
-     href="{{ site.url}}{{site.baseurl}}/tagview">tag</a>
-     </div>
+<div id="archives">
+  Browse by <a href="{{ '/categoryview/' | relative_url }}">category</a>, <a href="{{ '/monthview/' | relative_url }}">date</a>, or <a href="{{ '/tagview/' | relative_url }}">tag</a>.
+</div>
 
 <div class="posts-list">
   {% for post in paginator.posts %}

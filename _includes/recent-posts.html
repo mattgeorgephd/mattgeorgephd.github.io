@@ -1,0 +1,9 @@
+{%- comment -%} Short list of the newest lab notebook entries. Usage: {% include recent-posts.html limit=4 %} {%- endcomment -%}
+<ul class="recent-posts">
+{%- for post in site.posts limit: include.limit %}
+  <li>
+    <a href="{{ post.url | relative_url }}">{{ post.subtitle | default: post.title }}</a>
+    <span class="recent-posts-date">{{ post.date | date: "%b %Y" }}</span>
+  </li>
+{%- endfor %}
+</ul>

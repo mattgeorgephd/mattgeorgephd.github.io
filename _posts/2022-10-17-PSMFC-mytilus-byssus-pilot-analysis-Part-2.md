@@ -2,7 +2,7 @@
 layout: post
 title: Mon. Apr. 11, 2022
 subtitle: PSMFC-mytilus-byssus-pilot Analysis Part 1
-gh-repo: mattgeorgephd/mattgeorge.github.io
+gh-repo: mattgeorgephd/mattgeorgephd.github.io
 gh-badge: [star, fork, follow]
 tags: PSMFC-mytilus-byssus-pilot
 comments: true
@@ -14,8 +14,6 @@ Species: *mytilus galloprovincialis*, *mytilus trossulus* <br />
 variable: OA, DO, seawater temperature, desiccation <br />
 
 [<< previous notebook entry <<](https://mattgeorgephd.github.io/PSMFC-mytilus-byssus-pilot-analysis-Part-1/)
- |
-[>> next notebook entry >>](https://mattgeorgephd.github.io/PSMFC-mytilus-byssus-pilot-analysis-Part-3/)
 
 ------------------------------------------------------------------------------------------------------
 ### RNA-seq for de novo transcriptome assembly

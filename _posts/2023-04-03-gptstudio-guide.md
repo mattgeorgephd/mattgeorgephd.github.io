@@ -2,7 +2,7 @@
 layout: post
 title: Mon. Apr. 3, 2023
 subtitle: gptstudio guide
-gh-repo: mattgeorgephd/mattgeorge.github.io
+gh-repo: mattgeorgephd/mattgeorgephd.github.io
 gh-badge: [star, fork, follow]
 tags: tutorials
 comments: true
@@ -15,8 +15,6 @@ Here is the readme for the [gptstudio package](https://cran.r-project.org/web/pa
 Here is the [R markdown file](/post_images/20230403/gptstudio_guide.Rmd) used in this guide
 
 Our goal is to use gptstudio to write and improve code by chatting:
-
-![](https://media.licdn.com/dms/image/C5622AQE-HSETS-ecDA/feedshare-shrink_800/0/1679282606912?e=1682553600&v=beta&t=3FlotfxJ8XoICwS7SCIFvrn25nHZCkxmlXw2fji9hmg)
 
 ### Step 1: Setup OpenAI Key + Rstudio
 1. Make an [OpenAI account](https://chat.openai.com/auth/login)

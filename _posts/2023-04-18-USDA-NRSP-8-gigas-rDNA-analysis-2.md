@@ -1,8 +1,8 @@
 ---
 layout: post
-title: USDA-NRSP-8-gigas-rDNA Analysis Part 2
-subtitle: Tues. Apr. 18, 2023
-gh-repo: mattgeorgephd/mattgeorge.github.io
+title: Tues. Apr. 18, 2023
+subtitle: USDA-NRSP-8-gigas-rDNA Analysis Part 2
+gh-repo: mattgeorgephd/mattgeorgephd.github.io
 gh-badge: [star, fork, follow]
 tags: USDA-NRSP-8-gigas-rDNA
 comments: true
@@ -15,8 +15,6 @@ Species: *crassostrea gigas* <br>
 variable: ploidy <br>
 
 [<< previous notebook entry <<](https://mattgeorgephd.github.io/USDA-NRSP-8-gigas-rDNA-analysis-1/)
- |
-[>> next notebook entry >>](https://mattgeorgephd.github.io/USDA-NRSP-8-gigas-rDNA-analysis-3/)
 
 ------------------------------------------------------------------------------------------------------
 
@@ -60,7 +58,7 @@ User:	mngeorge_uw <br>
 Password:	pxLSUtDDLhprLvLkweVf <br>
 Port:	22 <br>
 
-The Genewiz download guide is provided [here](https://f.hubspotusercontent00.net/hubfs/3478602/Sell%20Sheet%20Collateral%20Library/NGS/NGS%20User%20Guides/NGS_sFTP-Data-Download-Guide_Option%201_Nov03_2020.pdf). I downloaded the sequencing files directly to our lab sequencing repository "nightingales" on owl. Here is link to the [C_gigas folder](http://owl.fish.washington.edu/nightingales/C_gigas/). Here is the code used to transfer:
+The Genewiz download guide is provided [here](https://f.hubspotusercontent00.net/hubfs/3478602/Sell%20Sheet%20Collateral%20Library/NGS/NGS%20User%20Guides/NGS_sFTP-Data-Download-Guide_Option%201_Nov03_2020.pdf). I downloaded the sequencing files directly to our lab sequencing repository "nightingales" on owl. Here is link to the [C_gigas folder](https://owl.fish.washington.edu/nightingales/C_gigas/). Here is the code used to transfer:
 
 ```
 # Login to owl
@@ -120,7 +118,7 @@ cd fastqc/untrimmed/
 multiqc .
 ```
 
-The multiqc report for the raw data is [here](http://172.25.149.12:8787/files/USDA-NRSP-8-gigas-rDNA/fastqc/untrimmed/multiqc_report.html)
+The multiqc report for the raw data is [here](https://gannet.fish.washington.edu/panopea/USDA-NRSP-8-gigas-rDNA/multiqc_report-raw-data.html)
 
 
 I then trimmed adapter sequences (hard trimmed first 10 bps):
@@ -192,7 +190,7 @@ cd fastqc/trim-merge/
 multiqc .
 ```
 
-Here is the final multiqc report for the trimmed and merged files can be found [here](http://172.25.149.12:8787/files/USDA-NRSP-8-gigas-rDNA/fastqc/trim-merge/multiqc_report.html)
+Here is the final multiqc report for the trimmed and merged files can be found [here](https://gannet.fish.washington.edu/panopea/USDA-NRSP-8-gigas-rDNA/multiqc_report-trim-merge.html)
 
 The files are on Raven in:
 

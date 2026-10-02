@@ -1,26 +1,41 @@
 ---
 layout: page
-title: Matthew N. George, Ph.D.
-subtitle: Postdoctoral Researcher, University of Washington & NOAA Northwest Fisheries Science Center
+title: About
+subtitle: Marine biologist, fisheries scientist, and open-science advocate
+share-description: Background of Matthew N. George, Ph.D., a marine biologist at the Washington Department of Fish and Wildlife who studies climate impacts on shellfish using ecophysiology, genomics, and fisheries science.
 ---
 
-### Profiles
-[CV](https://mattgeorgephd.github.io/CV/Matthew_N_George_CV_2020.pdf) | [ORCID](https://orcid.org/0000-0003-1264-8667) | [LinkedIn](https://www.linkedin.com/in/matt-george-65a4b94b/)
+<p class="cv-actions">
+  <a class="btn-outline" href="{{ '/cv/' | relative_url }}">CV</a>
+  <a class="btn-outline" href="https://scholar.google.com/citations?user=UwQnG2IAAAAJ">Google Scholar</a>
+  <a class="btn-outline" href="https://orcid.org/0000-0003-1264-8667">ORCID</a>
+  <a class="btn-outline" href="https://github.com/mattgeorgephd">GitHub</a>
+  <a class="btn-outline" href="https://www.linkedin.com/in/matt-george-65a4b94b/">LinkedIn</a>
+</p>
 
+## Now
 
-### Current Research
-I'm a Research Scientist working with [Steven Roberts](http://faculty.washington.edu/sr320/) in the [School of Aquatic and Fishery Sciences](https://fish.uw.edu/) at the University of Washington in Seattle and Mackenzie Gavery at the [NOAA Northwest Fisheries Science Center](https://www.fisheries.noaa.gov/about/northwest-fisheries-science-center). My research leverages state-of-the-art genomics tools to study environment-physiology interactions within marine organisms, with a particular emphasis on the molecular mechanisms that make aquaculture species within Washington State resilient to environmental change. Through my work I routinely conduct field and laboratory experiments to generate large-scale 'omics' datasets (e.g. epigenomics, proteomics, and metabolomics) that can be used to characterize the genetic diversity present within natural populations and aid in conservation efforts and the development of criteria for broodstock selection within the aquaculture industry. To process these diverse datasets, I develop and implement bioinformatics pipelines for data normalization, statistical analyses, and biological pathway analyses. I use an [open access online lab notebook](https://mattgeorgephd.github.io/notebook/) and [GitHub](https://mattgeorgephd.github.io/) to publicly share my analyses and support reproducibility.
+I am a Fish and Wildlife Biologist IV in the Fish Program's Intergovernmental Ocean Policy Division at the [Washington Department of Fish and Wildlife](https://wdfw.wa.gov/) (WDFW), where I serve as principal investigator and lead of the Coastal Shellfish Unit. The unit has 16 staff and eight program budgets totaling $1.8M. Our work supports commercial shellfish fisheries worth more than $120M a year and eight recreational fisheries on Washington's outer coast, including [Pacific razor clam](https://wdfw.wa.gov/fishing/shellfishing-regulations/razor-clams) and [coastal Dungeness crab](https://wdfw.wa.gov/fishing/commercial/crab/coastal/about).
 
-My research addresses the overarching aim of identifying responses in molecular systems that could be predictive of species tolerance for environmental change. I aim for my research to contribute to informing policy in both aquaculture industries and conservation, and to contribute to education around how climate change may impact ecosystems. Towards this, I collaborate with commercial, tribal, and governmental fisheries organizations, and actively participate in outreach and extension activites.
+Day to day, that means designing monitoring programs, building quantitative assessments of harvest, effort, and biological data, and turning the results into management recommendations for agency leadership, policymakers, tribal co-managers, and the Fish and Wildlife Commission. Much of the analysis behind that work is public on [GitHub]({{ '/code/' | relative_url }}).
 
-### Background
-I received my Ph.D. from the University of Washington, where I studied how environmental changes illicit changes in the gene expression, physiology, and performance of biomaterials within marine mussels. My project explored how ocean pH, oxygen, and temperature impact the structure of byssal threads, protein-based adhesive fibers that mussels use to attach to substrates underwater. This project required that I use techniques from genomics, ecology, cell and molecular biology, biochemistry, and materials science to characterize the impact of direct (environment-material) and indirect (environment-genome) factors that alter the function of the adhesive, resulting in five publications (three first-author) in the journals [Nature Climate Change](https://www.nature.com/articles/nclimate1846), [Biofouling](https://www.tandfonline.com/doi/abs/10.1080/08927014.2018.1453927), [Journal of the Royal Society Interface](https://royalsocietypublishing.org/doi/10.1098/rsif.2018.0489), [Conservation Physiology](https://academic.oup.com/conphys/article/7/1/coz068/5610355), and the [Journal of Shellfish Research](https://bioone.org/journals/journal-of-shellfish-research/volume-38/issue-3/035.038.0329/Microscale-pH-and-Dissolved-Oxygen-Fluctuations-within-Mussel-Aggregations-and/10.2983/035.038.0329.full).
+## Research background
 
-After the completion of my degree in 2018, I accepted two 1-year Postdoctoral Fellowships within the [Department of Physiology and Biomedical Engineering](https://www.mayo.edu/research/departments-divisions/department-physiology-biomedical-engineering/overview) at the Mayo Clinic and the [Center for Cellular and Molecular Therapeutics](https://ccmt.research.chop.edu/) at the Children's Hospital of Philadelphia, two of the top-ranked hospitals in the country. I took these positions because it allowed me to received training in cutting edge techniques within genomics (RNA-seq), cell and molecular biology (stem cell culture), and gene editing (leniviral transfection, CRISPR/cas9). After two years of postdoctoral training within an applied biomedical setting, I plan to apply the techniques I have learned towards the cultivation of fish and shellfish species that are resilient to  climate warming, ocean acidification, and hypoxia to safegaurd the continued production of sustainable seafood within the United States.
+I have spent more than 14 years working at the interface of ecophysiology and genomics to understand how climate change affects marine organisms, especially commercially and ecologically important shellfish. My research pairs physiological assays (metabolic rate, biomechanics, stress tolerance) with genomic and epigenomic approaches (RNA-seq, bisulfite sequencing, SNP analysis) to identify the mechanisms behind responses to ocean acidification, marine heatwaves, and hypoxia. That work has produced [20 peer-reviewed publications]({{ '/publications/' | relative_url }}), including articles in *Nature Climate Change* and *Global Change Biology*, and has been [featured]({{ '/media/' | relative_url }}) in *The Atlantic*, *Scientific American*, and *Popular Science*.
 
-### Contact
- **Email:** [mngeorge@uw.edu](mailto:mngeorge@uw.edu)  
+**Research Scientist, University of Washington and NOAA (2020-2023).** In a joint appointment with the [Cooperative Institute for Climate, Ocean, & Ecosystem Studies](https://cicoes.uw.edu/), I worked with [Steven Roberts](https://faculty.washington.edu/sr320/) in the [School of Aquatic and Fishery Sciences](https://fish.uw.edu/) and Mackenzie Gavery at the [NOAA Northwest Fisheries Science Center](https://www.fisheries.noaa.gov/about/northwest-fisheries-science-center). I led projects with state and federal agencies, tribes, and industry on why triploid Pacific oysters die during marine heatwaves, how hatchery conditioning can improve seed survival, which genes predict strong attachment in farmed mussels, and how gene expression relates to behavior in sockeye salmon. I helped secure funding from NOAA, USDA, and the Pacific States Marine Fisheries Commission for this work. See [Research]({{ '/research/' | relative_url }}).
 
- **Office:** School of Aquatic and Fishery Sciences, FTR 234  
+**Postdoctoral training in biomedicine (2018-2020).** At the Mayo Clinic Department of Physiology and Biomedical Engineering and the [Center for Cellular and Molecular Therapeutics](https://research.chop.edu/ccmt) at the Children's Hospital of Philadelphia, I trained in quantitative molecular assays, stem cell culture, genome editing, and large-scale gene expression analysis. I joined those labs to bring those tools back to marine species facing climate change.
 
- **Mailing address:** School of Aquatic and Fishery Sciences, University of Washington, 1122 NE Boat Street, Room 116, Seattle, WA 98105
+**Ph.D., University of Washington (2018).** As an NSF Graduate Research Fellow with [Emily Carrington](https://depts.washington.edu/nucella/), I studied how ocean pH, oxygen, and temperature change the byssal threads that mussels use to attach underwater. The dissertation, *Mussel attachment in a dynamic ocean: an ecomechanical perspective*, drew on ecology, biochemistry, materials science, and gene expression. It led to papers in [*Nature Climate Change*](https://doi.org/10.1038/nclimate1846), [*Biofouling*](https://doi.org/10.1080/08927014.2018.1453927), [*Journal of the Royal Society Interface*](https://doi.org/10.1098/rsif.2018.0489), [*Conservation Physiology*](https://doi.org/10.1093/conphys/coz068), and the [*Journal of Shellfish Research*](https://doi.org/10.2983/035.038.0329). Before graduate school, I designed, commissioned, and operated the [Ocean Acidification Environmental Laboratory](https://fhl.uw.edu/facilities-resources/other-research-facilities-resources/ocean-acidification-environmental-laboratory/) at Friday Harbor Laboratories, including 16 flow-through mesocosms with programmable temperature, pH, and oxygen control.
+
+**B.Sc., Gonzaga University (2010).** Biology, with a concentration in biological research methods, supported by a Howard Hughes Medical Institute undergraduate research fellowship.
+
+## Open science
+
+I share analyses as they happen. Code and data live on [GitHub](https://github.com/mattgeorgephd), and laboratory work from 2020 to 2023 is documented in an [open online lab notebook]({{ '/notebook/' | relative_url }}), alongside how-to guides on [ANOVA in R]({{ '/ANOVA-guide/' | relative_url }}) and [coding with gptstudio]({{ '/gptstudio-guide/' | relative_url }}).
+
+## Contact
+
+**Email:** [mattgeorgephd@gmail.com](mailto:mattgeorgephd@gmail.com)<br>
+**Location:** Olympia, Washington, USA

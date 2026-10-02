@@ -14,18 +14,26 @@ author: Matthew N. George, Ph.D.
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  CV: "https://mattgeorgephd.github.io/CV_2022.pdf"
   About: "aboutme"
+  Research:
+    - Projects: "research"
+    - Publications: "publications"
+    - Presentations: "presentations"
+    - Code & Data: "code"
+  CV: "cv"
   Lab Notebook: "notebook"
-  Publications: "publications"
-  Outreach: "outreach"
-  Teaching: "Teaching"
+  Teaching & Service:
+    - Teaching: "Teaching"
+    - Service & Outreach: "outreach"
+  In the News: "media"
 
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/Headshot_MNG_square.jpg"
+# Navbar avatar removed: with six menu items it overlapped the links at common laptop widths.
+# The headshot is shown on the home page instead.
+# avatar: "/assets/img/headshot-480.jpg"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -40,8 +48,9 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "mngeorge@uw.edu"
+  email: "mattgeorgephd@gmail.com"
   ORCID: 0000-0003-1264-8667
+  google-scholar: "citations?user=UwQnG2IAAAAJ"
   github: mattgeorgephd
   linkedin: matt-george-65a4b94b
 
@@ -64,7 +73,7 @@ social-network-links:
 
 # If you want to show a link to an RSS in the footer, add the site description here.
 # If you don't want to show an RSS link, remove the following line.
-# rss-description: This website is a virtual proof that I'm awesome
+rss-description: Open lab notebook of Matthew N. George, marine biologist
 
 # --- General options --- #
 
@@ -78,7 +87,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "http://mattgeorgephd.github.io"
+url-pretty: "mattgeorgephd.github.io"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
@@ -90,7 +99,7 @@ feed_show_excerpt: true
 feed_show_tags: true
 
 # The keywords to associate with your website, for SEO purposes
-#keywords: "my,list,of,keywords"
+keywords: "marine biology, shellfish, fisheries management, ecophysiology, genomics, epigenetics, climate change, Pacific oyster, razor clam, Dungeness crab, mussel byssus"
 
 # --- Colours / background image --- #
 
@@ -101,8 +110,8 @@ navbar-text-col: "#404040"
 navbar-border-col: "#DDDDDD"
 page-col: "#FFFFFF"
 text-col: "#404040"
-link-col: "#008AFF"
-hover-col: "#0085A1"
+link-col: "#0A6C8F"
+hover-col: "#064E68"
 footer-col: "#EAEAEA"
 footer-text-col: "#777777"
 footer-link-col: "#404040"
@@ -115,11 +124,11 @@ footer-link-col: "#404040"
 #page-img: "/assets/img/bgimage.png"
 
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
-#mobile-theme-col: "#0085A1"
+mobile-theme-col: "#0A6C8F"
 
 # For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
-#site-css:
-#  - "/assets/css/custom-styles.css"
+site-css:
+  - "/assets/css/custom.css"
 
 # If you have common JavaScript files that should be included in every page, list them here
 #site-js:
@@ -223,6 +232,13 @@ exclude:
   - README.md
   - screenshot.png
   - docs/
+  - beautiful-jekyll-theme.gemspec
+  - staticman.yml
+  # Jekyll's defaults, restated because this list replaces them
+  - vendor/
+  - .bundle/
+  - node_modules/
+  - .jekyll-cache/
 
 # prose.io config
 prose:

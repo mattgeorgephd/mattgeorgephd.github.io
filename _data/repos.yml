@@ -1,0 +1,27 @@
+# Public GitHub repositories featured on the Code & Data page and linked from
+# the Research and Publications pages. Keys match repository names under
+# https://github.com/mattgeorgephd.
+
+fisheries:
+  - name: Coastal-Rec-Crab-BSS
+    title: "Recreational Dungeness crab harvest estimation, Grays Harbor / Westport"
+    description: "Bayesian state-space and stratified point estimators of recreational crab effort, catch rate, and harvest for shore and private-boat crabbers, with a modular R and Stan pipeline and regression diagnostics."
+    tools: "R, Stan"
+  - name: razor-clam-recruitment-analysis
+    title: "Razor clam recruitment and climate"
+    description: "Climate-driven recruitment analysis for the Washington coastal recreational Pacific razor clam fishery, 1997-2025."
+    tools: "R"
+
+shellfish:
+  - name: NOPP-gigas-ploidy-temp
+    title: "Ploidy and marine heatwaves in Pacific oysters"
+    description: "Hatchery experiments on diploid and triploid oysters exposed to elevated temperature and desiccation: mortality, respiration, feeding, enzyme activity, and Tag-seq gene expression. Data and code behind George et al. (2023) Global Change Biology."
+    tools: "R, Bash"
+  - name: PSMFC-mytilus-byssus-pilot
+    title: "Genomic markers of mussel attachment"
+    description: "Byssal thread strength of <i>Mytilus trossulus</i> under acidification, warming, and hypoxia, linked to foot and gill Tag-seq, Iso-Seq transcriptome assembly, and enrichment analyses."
+    tools: "R, Bash"
+  - name: Berdahl-sockeye-salmon
+    title: "Gene expression and behavior in sockeye salmon"
+    description: "Tag-seq differential expression and gene co-expression networks associated with territorial and social behavior in sockeye salmon, rebuilt as a reproducible Quarto project."
+    tools: "R, Quarto"
