@@ -54,12 +54,12 @@ Using the good samples, I compared territorial vs. social salmon and generated t
 
 |   |   |
 |---|---|
-| ![](https://github.com/mattgeorgephd/Berdahl-sockeye-salmon/blob/2d11b440bdbbf1a4dbf2da5cb30e66d45890ce7e/tag-seq/DESEQ_output/gonad/GONAD-PCA.png?raw=true)  |  ![](https://github.com/mattgeorgephd/Berdahl-sockeye-salmon/blob/2d11b440bdbbf1a4dbf2da5cb30e66d45890ce7e/tag-seq/DESEQ_output/gonad/GONAD-PAIRS.png?raw=true) |   |
-|  ![](https://github.com/mattgeorgephd/Berdahl-sockeye-salmon/blob/2d11b440bdbbf1a4dbf2da5cb30e66d45890ce7e/tag-seq/DESEQ_output/gonad/GONAD-pheatmap.png?raw=true) | ![](https://github.com/mattgeorgephd/Berdahl-sockeye-salmon/blob/2d11b440bdbbf1a4dbf2da5cb30e66d45890ce7e/tag-seq/DESEQ_output/gonad/Volcano_all_genes.png?raw=true)  |
+| ![PCA of gonad gene expression](/post_images/20220905/gonad-GONAD-PCA.png)  |  ![Pairs plot of the leading principal components for gonad samples](/post_images/20220905/gonad-GONAD-PAIRS.png) |   |
+|  ![Sample-distance heatmap for gonad samples](/post_images/20220905/gonad-GONAD-pheatmap.png) | ![Volcano plot of all genes in gonad tissue](/post_images/20220905/gonad-Volcano_all_genes.png)  |
 
 I also tested the impact of different shrinkage estimators (normal, apeglm, or ashr). The makers of DESeq2 suggest that the apeglm is the best.
 
-![](https://github.com/mattgeorgephd/Berdahl-sockeye-salmon/blob/2d11b440bdbbf1a4dbf2da5cb30e66d45890ce7e/tag-seq/DESEQ_output/gonad/MA_plots.png?raw=true)
+![MA plots comparing normal, apeglm, and ashr shrinkage estimators](/post_images/20220905/gonad-MA_plots.png)
 
 After running all estimators on the DEG list and filtering by a log2fold change cutoff of 1.5 and a p value cutoff of 0.05 I got the following results:
 
@@ -79,7 +79,7 @@ After running all estimators on the DEG list and filtering by a log2fold change 
 
 Using the apeglm shrinkage estimator and significance cutoffs, I generated the following volcano plot:
 
-![](https://github.com/mattgeorgephd/Berdahl-sockeye-salmon/blob/2d11b440bdbbf1a4dbf2da5cb30e66d45890ce7e/tag-seq/DESEQ_output/gonad/Volcano_sig_genes_apeglm.png?raw=true)
+![Volcano plot of significant genes using the apeglm shrinkage estimator](/post_images/20220905/gonad-Volcano_sig_genes_apeglm.png)
 
 Here is the [full significant apeglm-DEG list](https://github.com/mattgeorgephd/Berdahl-sockeye-salmon/blob/2d11b440bdbbf1a4dbf2da5cb30e66d45890ce7e/tag-seq/DESEQ_output/gonad/GONAD-SIG-DEG-apeglm.csv).
 

@@ -11,7 +11,7 @@ comments: true
 
 After dealing with some covid-19 imposed supply chain issues, the first tank prototype with 35 silos has been completed.
 
-![](/post_images/113020/tank_full.png)
+![Completed prototype tank holding 35 silos](/post_images/113020/tank_full.jpg)
 
 Table 1: Supplies List (silos and manifold)
 
@@ -30,18 +30,18 @@ Table 1: Supplies List (silos and manifold)
 
 A view of the silos and tank inside:
 
-![](/post_images/113020/tank_inside.png)
+![View of the silos inside the prototype tank](/post_images/113020/tank_inside.jpg)
 
 The tank prototype installed at point whitney:
 
-![](/post_images/113020/tank_installed.png)
+![Prototype tank installed at Point Whitney](/post_images/113020/tank_installed.jpg)
 
 Side view of the manifold with push-to-connect fittings installed:
 
-![](/post_images/113020/manifold.png)
+![Side view of the water manifold with push-to-connect fittings](/post_images/113020/manifold.jpg)
 
 Manifold flow test:
 
-<video width="700" height="525" controls>
+<video style="width:100%;max-width:700px" controls preload="metadata">
   <source src="/post_images/113020/manifold_test.mp4" type="video/mp4">
 </video>

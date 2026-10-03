@@ -7,56 +7,121 @@ tags: PSMFC-mytilus-byssus-pilot tutorials
 comments: true
 ---
 
-### 1. Specimen collection
-500 Mussels (*Mytilus trossulus* and *M. galloprovincialis*) were collected from [Penn Cove Shellfish's](http://www.penncoveshellfish.com/) farm located on Whidbey Island, WA. Mussels were removed directly from aquaculture lines to prevent stress associated with harvesting/packaging. Here are a few pictures of the farm:
+This protocol describes how mussels were sourced, how they were induced to attach to standardized mica substrates, and how their byssal threads were collected and stored for mechanical testing in the PSMFC byssus pilot. The same platform design can be reused for any experiment that needs threads on a smooth, uniform surface.
 
-|   |   |
-|---|---|
-| ![](/post_images/20220405/farm1.jpg)  | ![](/post_images/20220405/farm4.jpg)  |
-| ![](/post_images/20220405/farm3.jpg)  | ![](/post_images/20220405/farm2.jpg)  |
-| ![](/post_images/20220405/label1.jpg)  | ![](/post_images/20220405/label2.jpg)  |
+## 1. Specimen collection
 
-### 2. Thread production
-#### 2.1. Material selection and sourcing
-Our goal was to have mussels produce threads on mica. Mica is a great surface due to its hydrophilicity and crystalline structure - resulting in a smooth and reproducible surface to detect differences in adhesion, absent of artifacts from surface topography or chemical heterogeneity. If unavailable, alternatives include cellulose acetate. Metals and hydrophobic surfaces should be avoided (unless part of the study design).
+About 500 mussels (*Mytilus trossulus* and *M. galloprovincialis*) were obtained from [Penn Cove Shellfish](https://www.penncoveshellfish.com/) (Coupeville, WA). Mussels were taken directly from the aquaculture lines rather than from packed product, to avoid the stress of commercial harvesting and packaging. According to the shipping tags, the two lots were:
 
-Sheets of mica can be purchased from various suppliers. The main challenge is getting enough sheets in the right size range / thickness. The keyword to search for is natural "muscovite" mica sheets/tile for craft or insulation purposes. Stuff like [this](https://www.amazon.com/CHDUYUHMAOY-Waveguide-Insulation-Suitable-Turntable/dp/B09ZB5R4F1/ref=sr_1_2?crid=G1GS7TOO2VG1&keywords=muscovite+mica+sheet&qid=1683310222&s=arts-crafts&sprefix=muscovite+mica+shee%2Carts-crafts%2C123&sr=1-2) won't work - the mica is ground up, mixed with a thermo-resilient adhesive, and pressed into shapes. You can buy [natural large slabs](https://www.amazon.com/US-Artquest-Graphic-Products-Stencil/dp/B00161O5UI/ref=sr_1_2?crid=G1GS7TOO2VG1&keywords=muscovite+mica+sheet&qid=1683310341&s=arts-crafts&sprefix=muscovite+mica+shee%2Carts-crafts%2C123&sr=1-2) but they are often too thick, not uniformly shaped, and expensive. Inexpensive sheets [like](https://www.amazon.com/Xiaoyztan-Insulating-Replacement-Microwave-Repairing/dp/B07P4CG33S?ref_=ast_sto_dp) this would be great, but they are cut too small. The minimum size that I have used in the past were 2" x 2.3" x 0.1" (thickness).
+<div class="table-wrap" markdown="1">
 
-Here are a few options I found:
-1. This [etsy seller](https://www.etsy.com/listing/820460402/mica-tiles-pak-clear-mica-stove-mica?gpla=1&gao=1&utm_source=google&utm_medium=cpc&utm_campaign=shopping_us_a-craft_supplies_and_tools-other&utm_custom1=_k_Cj0KCQjw0tKiBhC6ARIsAAOXutnWuGhrMTc42UH6KvUGEz4Stw4YX8vTdZ2SxSF9hgcSpnhO6tl3Z2AaAoBDEALw_wcB_k_&utm_content=go_12569400892_126353598184_507394709452_pla-295462056907_c__820460402_171843626&utm_custom2=12569400892&gclid=Cj0KCQjw0tKiBhC6ARIsAAOXutnWuGhrMTc42UH6KvUGEz4Stw4YX8vTdZ2SxSF9hgcSpnhO6tl3Z2AaAoBDEALw_wcB&variation0=2616478195) has tiles in 2"x3", 3"x3", and 3"x5" sizes, sold in packages of 10. You could buy across multiple sizes and cut so they are uniform. Rather expensive. Delivery by the end of month (maybe see if you can ship direct to France?)
-2. There looks to be a direct supplier listed on [alibaba](https://www.alibaba.com/product-detail/Wholesale-Natrual-Mica-Flakes-Price-Muscovite_1600553787122.html?spm=a2700.galleryofferlist.normal_offer.d_title.733c532dzkDhW4). Cheap pricing and will cut to size and provide bulk pricing. Worth reaching out and ordering a bunch for future projects.
+| Lot (as labeled) | Species | Harvest location | Harvested | Shipped | Quantity |
+|---|---|---|---|---|---|
+| Penn Cove mussels | *M. trossulus* | Penn Cove rafts, Whidbey Island, WA | 21 Oct 2021 | 21 Oct 2021 | 5 lb |
+| Mediterranean mussels | *M. galloprovincialis* | Totten Inlet, WA (harvest area WA-0046-SP) | 20 Oct 2021 | 21 Oct 2021 | 5 lb |
 
-#### 2.2. Mussel platform construction
+</div>
 
-Once I got the mica sheets, I needed a reproducible way to get mussels to attach to them. I came up with a modular design using Legos and pieces of acrylic due to size from a larger [sheet](https://www.amazon.com/2-Pack-Clear-Acrylic-Sheet-Plexiglass/dp/B0899QVSY1/ref=sr_1_2?crid=GGAIL6J484SY&keywords=acrylic+sheet&qid=1683568676&sprefix=arcylic+sheet%2Caps%2C141&sr=8-2). You can purchase loose Legos in various sizes. I found that the 2x3 size worked, but the [2x4 size](https://www.amazon.com/dp/B07YN6K5M4/ref=sspa_dk_detail_1?psc=1&pd_rd_i=B07YN6K5M4&pd_rd_w=K61US&content-id=amzn1.sym.89ee1d2e-380f-4a05-89e5-d22eb0a17762&pf_rd_p=89ee1d2e-380f-4a05-89e5-d22eb0a17762&pf_rd_r=02S5993SM4Q4RR2SY134&pd_rd_wg=ldDra&pd_rd_r=078d5073-308e-4ed9-8a43-3f5b0d921427&s=toys-and-games&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFRWDE0S1hPVVM4UlQmZW5jcnlwdGVkSWQ9QTA1MjkyMjUyQ0MzNVlBRlVJM1o2JmVuY3J5cHRlZEFkSWQ9QTAxMTY5ODVEQTcwVVlFTzlJRE8md2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWMmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl) worked best. Here is the workflow for platform construction:
+<div class="nb-figs">
+<figure><img src="/post_images/20220405/farm1.jpg" alt="Rows of mussel rafts floating in Penn Cove under an overcast sky" loading="lazy"><figcaption>Mussel rafts in Penn Cove, Whidbey Island.</figcaption></figure>
+<figure><img src="/post_images/20220405/farm2.jpg" alt="A work boat moored beside mussel rafts" loading="lazy"><figcaption>Work boat alongside the rafts.</figcaption></figure>
+<figure><img src="/post_images/20220405/farm3.jpg" alt="Culture lines hanging in rows from a mussel raft" loading="lazy"><figcaption>Culture lines hanging from a raft.</figcaption></figure>
+<figure><img src="/post_images/20220405/farm4.jpg" alt="A culture line densely covered with mussels lifted from the water" loading="lazy"><figcaption>Mussels growing on a culture line.</figcaption></figure>
+<figure><img src="/post_images/20220405/label2.jpg" alt="Penn Cove Shellfish tag: Penn Cove mussels, harvested 10/21/21 at Penn Cove Rafts, WA, 5 lb" loading="lazy"><figcaption>Shipping tag, <i>M. trossulus</i> lot.</figcaption></figure>
+<figure><img src="/post_images/20220405/label1.jpg" alt="Penn Cove Shellfish tag: Mediterranean mussels, harvested 10/20/21 at Totten Inlet, WA, 5 lb" loading="lazy"><figcaption>Shipping tag, <i>M. galloprovincialis</i> lot.</figcaption></figure>
+</div>
 
-1. Acrylic sheet was cut to size (same size as mica sheets)
-2. Lego bricks were superglued to the acrylic blocks
-3. Mica sheets were placed on acrylic blocks and affixed using cut pieces of [1/4" OD tubing](https://www.amazon.com/Plastic-Tubing-Filter-Aquariums-Refrigerators/dp/B071D9G94B/ref=sr_1_5?keywords=1%2F4+od+polyethylene+tubing&qid=1683569659&sprefix=1%2F4%22+OD+poly%2Caps%2C181&sr=8-5), sliced along their length with a razor blade. Tubing slid onto acrylic blocks, pinching the mica sheet in place. See pictures below.
-4. Blocks were placed in a array on a [Lego baseplate](https://www.amazon.com/LEGO-6384599-Green-Baseplate/dp/B09JKVKC47/ref=sr_1_1?crid=2DLSZBTZUYRVM&keywords=lego%2Bplatform&qid=1683569953&sprefix=lego%2Bplatform%2Caps%2C180&sr=8-1&th=1). The baseplate may need to weighted so they don't float - I did this by rubber-banding them to some tiles we had laying around.
-5. Two mussels were then placed on each platform, valve opening down. To prevent movement, a rubber band was wrapped around each platform, securing both mussels together and to the platform.
+## 2. Thread production
 
-| construction steps -->  |   |   |
+### 2.1 Choosing a substrate
+
+Mussels were induced to attach to mica. Muscovite mica is hydrophilic and cleaves into smooth, crystalline sheets, giving a reproducible surface on which differences in adhesion are not confounded by surface roughness or chemical heterogeneity. Cellulose acetate is a reasonable alternative. Metals and hydrophobic surfaces should be avoided unless they are part of the study design.
+
+The main challenge is finding enough natural mica sheets of the right size and thickness. Search for natural "muscovite" mica sheets or tiles sold for crafts or electrical insulation, and check that they are natural rather than reconstituted. The smallest sheets I have used successfully were **2 in × 2.3 in, about 0.1 in thick**.
+
+<div class="table-wrap" markdown="1">
+
+| Mica option | Suitable? | Notes | Example listing (2022-23) |
+|---|---|---|---|
+| Pressed (reconstituted) mica, e.g. microwave waveguide covers | No | Ground mica mixed with a heat-resistant binder and pressed into shape; the surface is not crystalline. | [Amazon B09ZB5R4F1](https://www.amazon.com/dp/B09ZB5R4F1) |
+| Natural mica slabs sold for art and stenciling | Rarely | Natural mica, but usually too thick, irregular in shape, and expensive. | [Amazon B00161O5UI](https://www.amazon.com/dp/B00161O5UI) |
+| Natural mica sheets for microwave repair | No | Inexpensive and natural, but cut too small. | [Amazon B07P4CG33S](https://www.amazon.com/dp/B07P4CG33S) |
+| Clear mica tiles, 2×3, 3×3, and 3×5 in, packs of 10 | Yes | Works; buy several sizes and trim to a uniform size. Relatively expensive. | [Etsy listing 820460402](https://www.etsy.com/listing/820460402) |
+| Bulk natural muscovite sheets from a manufacturer | Yes | Cuts to size with bulk pricing; worth contacting for large or repeat orders. | [Alibaba listing 1600553787122](https://www.alibaba.com/product-detail/Wholesale-Natrual-Mica-Flakes-Price-Muscovite_1600553787122.html) |
+
+</div>
+
+### 2.2 Building the attachment platforms
+
+Each mica sheet is held on a small acrylic block that snaps onto a LEGO baseplate, so platforms can be arranged, moved, and replaced individually.
+
+**Materials**
+
+<div class="table-wrap" markdown="1">
+
+| Item | Specification | Example listing (2022-23) |
 |---|---|---|
-| ![](/post_images/20220405/1.jpg)  | ![](/post_images/20220405/2.jpg)  | ![](/post_images/20220405/4.jpg) |
-| ![](/post_images/20220405/5.jpg)  | ![](/post_images/20220405/6.jpg)  | ![](/post_images/20220405/7.jpg) |
+| Acrylic sheet | Clear acrylic (plexiglass), cut into blocks the same size as the mica sheets | [Amazon B0899QVSY1](https://www.amazon.com/dp/B0899QVSY1) |
+| LEGO-compatible bricks | 2×4 bricks work best; 2×3 also work | [Amazon B07YN6K5M4](https://www.amazon.com/dp/B07YN6K5M4) |
+| Tubing | 1/4 in OD polyethylene tubing, cut into short pieces and slit lengthwise with a razor blade | [Amazon B071D9G94B](https://www.amazon.com/dp/B071D9G94B) |
+| Baseplate | Green LEGO baseplate (LEGO 6384599); weight it down so it does not float | [Amazon B09JKVKC47](https://www.amazon.com/dp/B09JKVKC47) |
+| Superglue | Gel cyanoacrylate (Loctite Super Glue Ultra Gel Control) for bricks and tags | [Amazon B01EZTPXEO](https://www.amazon.com/dp/B01EZTPXEO) |
 
-| completed |   |
-|---|---|
-| ![](/post_images/20220405/8.jpg)  | ![](/post_images/20220405/10.jpg)  |
+</div>
 
-![](/post_images/20220405/11.jpg)
+**Steps**
 
-#### 2.3. Collecting threads
+1. Cut the acrylic sheet into blocks the same size as the mica sheets.
+2. Superglue a brick to the underside of each acrylic block.
+3. Lay a mica sheet on the block and hold it in place with two pieces of slit tubing slid over opposite edges, pinching the mica against the acrylic.
+4. Snap the blocks onto the baseplate in an array. Weight the baseplate so it does not float; rubber-banding it to a tile works.
+5. Place two mussels on each platform, valve opening down, and wrap a rubber band around the platform to hold both mussels in place.
 
-Mussels were labeled using [numbered wire-tags](https://www.amazon.com/Wire-Marker-Klein-Tools-56250/dp/B072SVZKQ5/ref=pd_bxgy_vft_none_img_sccl_1/135-9586585-1428430?pd_rd_w=QphjI&content-id=amzn1.sym.26a5c67f-1a30-486b-bb90-b523ad38d5a0&pf_rd_p=26a5c67f-1a30-486b-bb90-b523ad38d5a0&pf_rd_r=VX48KSY312QS7RKREKXK&pd_rd_wg=MitW8&pd_rd_r=79e44e06-7fea-4450-99c7-e6352bd6e8ae&pd_rd_i=B072SVZKQ5&psc=1), affixed to the shell valve using [Loctite super glue - ultra gel control](https://www.amazon.com/dp/B01EZTPXEO?ref=nb_sb_ss_w_as-reorder-t1_k0_1_3&amp=&crid=M0PG2X0XL9RP&amp=&sprefix=loc). After adding mussels to platforms, they were exposed to various environmental conditions over three days. The number of threads that each mussel made was recorded (and compared with how many they made beforehand). Threads were then cut at the shell interface. Sometimes multiple mussels attached to the same mica sheet; when this was the case, mica sheets were cut and labeled with the mussel ID that made them. Mica sheets with threads were stored dry between two sheets of paper towel, pressed between two pieces of cardboard, secured with [binder clips](https://www.amazon.com/Amazon-Basics-Binder-Paper-Clip/dp/B074XTRX7G/ref=sr_1_15?crid=X75V2PLC0YP6&keywords=binder+clips&qid=1683571058&sprefix=binder+clip%2Caps%2C152&sr=8-15). Here are some pictures:
+<div class="nb-figs">
+<figure><img src="/post_images/20220405/1.jpg" alt="An empty green LEGO baseplate" loading="lazy"><figcaption>1. Baseplate.</figcaption></figure>
+<figure><img src="/post_images/20220405/2.jpg" alt="A red LEGO brick glued to the underside of a clear acrylic block" loading="lazy"><figcaption>2. Brick glued to an acrylic block.</figcaption></figure>
+<figure><img src="/post_images/20220405/3.jpg" alt="The acrylic block being snapped onto the baseplate" loading="lazy"><figcaption>3. Block snapped onto the baseplate.</figcaption></figure>
+<figure><img src="/post_images/20220405/4.jpg" alt="A mica sheet on the acrylic block next to two pieces of slit tubing" loading="lazy"><figcaption>4. Mica sheet and two pieces of slit tubing.</figcaption></figure>
+<figure><img src="/post_images/20220405/5.jpg" alt="Hand placing the mica sheet onto the block" loading="lazy"><figcaption>5. Mica placed on the block.</figcaption></figure>
+<figure><img src="/post_images/20220405/6.jpg" alt="Hand sliding slit tubing over the edge of the mica and acrylic" loading="lazy"><figcaption>6. Tubing slid over the edge to clamp the mica.</figcaption></figure>
+<figure><img src="/post_images/20220405/7.jpg" alt="A finished platform with tubing on two opposite edges" loading="lazy"><figcaption>7. Finished platform.</figcaption></figure>
+<figure><img src="/post_images/20220405/8.jpg" alt="Six finished platforms arranged on the baseplate" loading="lazy"><figcaption>8. Platforms arrayed on the baseplate.</figcaption></figure>
+</div>
 
-![](/post_images/20220405/mussel.jpg)
+<div class="nb-figs nb-figs-wide">
+<figure><img src="/post_images/20220405/11.jpg" alt="Pairs of mussels held on platforms with rubber bands on a baseplate" loading="lazy"><figcaption>Mussels secured to platforms with rubber bands (photo from an earlier experiment using the same design).</figcaption></figure>
+<figure><img src="/post_images/20220405/10.jpg" alt="Many baseplates with platforms arranged in a seawater table" loading="lazy"><figcaption>Baseplates arrayed in a seawater table (earlier experiment).</figcaption></figure>
+</div>
 
-![](/post_images/20220405/threads.jpg)
+## 3. Exposure and thread collection
 
-Here are some close ups of the plaques:
+1. **Tag each mussel.** Glue a numbered wire marker (e.g. Klein Tools 56250 wire-marker book, [Amazon B072SVZKQ5](https://www.amazon.com/dp/B072SVZKQ5)) to one valve with gel superglue.
+2. **Expose.** Hold mussels on their platforms under the treatment conditions for three days. Record the number of threads each mussel produced, and compare with the number it produced before the exposure.
+3. **Harvest threads.** Cut each thread at the shell. When more than one mussel attached to the same mica sheet, cut the sheet apart and label each piece with the ID of the mussel that made the threads.
+4. **Store dry.** Lay the mica sheets between two paper towels, press them between two pieces of cardboard, and clamp with binder clips ([Amazon B074XTRX7G](https://www.amazon.com/dp/B074XTRX7G)).
 
-|   |   |   |
-|---|---|---|
-| ![](/post_images/20220405/plaque1.jpg)  | ![](/post_images/20220405/plaque2.jpg)  | ![](/post_images/20220405/plaque3.jpg) |
+<div class="nb-figs nb-figs-wide">
+<figure><img src="/post_images/20220405/lab.jpg" alt="Laboratory bench with controllers, header buckets, tubing, and treatment tanks" loading="lazy"><figcaption>Laboratory exposure system, October 2021.</figcaption></figure>
+<figure><img src="/post_images/20220405/mussel.jpg" alt="Close-up of a mussel attached to a mica sheet by several byssal threads" loading="lazy"><figcaption>A mussel attached to mica by its byssal threads.</figcaption></figure>
+<figure><img src="/post_images/20220405/threads.jpg" alt="Tagged mussels above labeled mica sheets with threads on blue paper towel" loading="lazy"><figcaption>Tagged mussels and their labeled mica sheets after thread harvest.</figcaption></figure>
+</div>
+
+Close-ups of adhesive plaques on mica:
+
+<div class="nb-figs">
+<figure><img src="/post_images/20220405/plaque1.jpg" alt="Microscope view of a byssal thread and its adhesive plaque on mica" loading="lazy"><figcaption>Adhesive plaque, dissecting microscope.</figcaption></figure>
+<figure><img src="/post_images/20220405/plaque2.jpg" alt="Microscope view of a byssal adhesive plaque spreading on mica" loading="lazy"><figcaption>Adhesive plaque.</figcaption></figure>
+<figure><img src="/post_images/20220405/plaque3.jpg" alt="Microscope view of a single plaque with threads crossing the field" loading="lazy"><figcaption>Adhesive plaque.</figcaption></figure>
+</div>
+
+## 4. Next step: thread testing
+
+The stored threads were pull-tested to failure by Monica Klopp between April and July 2022. Her procedure, recorded in her [thread-testing notebook entries](https://monicaklopp.github.io/Thread-Testing-01-Notebook-Post/), was:
+
+1. Rewet each sample with seawater and photograph the plaque (AmScope) to measure its area.
+2. Grip the thread with a hemostat hung from a force gauge (Omega DFG51-2, logged in LabVIEW).
+3. Run the motor until the sheet lies flat with slack in the thread, hold the sheet down with forceps, and zero the gauge.
+4. Start logging and run the motor in the other direction to pull the thread until it fails.
+5. Record the failure mode: tearing (the thread pulls out of the plaque, or part of the plaque stays on the mica), peeling (the plaque fails asymmetrically), or adhesive (the whole plaque detaches as one unit), as defined in [George and Carrington (2018)](https://doi.org/10.1080/08927014.2018.1453927).
+
+Gene expression in the same mussels is analyzed in [PSMFC byssus pilot analysis Part 1](/PSMFC-mytilus-byssus-pilot-analysis-Part-1/) (Tag-seq processing) and [Part 2](/PSMFC-mytilus-byssus-pilot-analysis-Part-2/) (transcriptome assembly).

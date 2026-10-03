@@ -29,4 +29,4 @@ Triploid: T3-7, T9-13
 ```
 
 4. 5 diploid and 5 triploid oysters (from MgCl treatment) were returned to seawater to recover; tissue will be sampled as anathesia control.
-5. 10 diploid and 10 triploid oysters (naive) were added to an emersion bath containing 500 ml of seawater contianing 10 ug/ml Poly(I:C), with a bubbler. Lafont et al 2017 found that emersion at [38 ug/ml worked for 24 hrs](https://static-content.springer.com/esm/art%3A10.1038%2Fs41598-017-13564-0/MediaObjects/41598_2017_13564_MOESM1_ESM.doc), so we will see.
+5. 10 diploid and 10 triploid oysters (naive) were added to an emersion bath containing 500 ml of seawater containing 10 ug/ml Poly(I:C), with a bubbler. Lafont et al 2017 found that emersion at [38 ug/ml worked for 24 hrs](https://static-content.springer.com/esm/art%3A10.1038%2Fs41598-017-13564-0/MediaObjects/41598_2017_13564_MOESM1_ESM.doc), so we will see.

@@ -24,7 +24,7 @@ Given that approximately 5% of the genome is expressed at any given times in the
 1,476,780,000 * 0.05 = 73,839,000 or ~ 74 Mbp
 ```
 
-Samples will be submitted to the [UT Austin GSAF](https://wikis.utexas.edu/display/GSAF/Sequencing+Prices+and+Descriptions) and run on individual lanes on the NovaSeq S1 PE150, which generates 7*10^8 reads per lane. This yield the following coverage:
+Samples will be submitted to the [UT Austin GSAF](https://cloud.wikis.utexas.edu/wiki/spaces/GSAF/overview) and run on individual lanes on the NovaSeq S1 PE150, which generates 7*10^8 reads per lane. This yield the following coverage:
 
 ```
 700,000,000 bp / 74,000,000 bp = ~10x coverage
@@ -34,8 +34,8 @@ Samples for [submission](https://docs.google.com/spreadsheets/d/1zZ6L05j-SyYJbzz
 
 Here are the nanodrop results. Both have a 260/280 ratio of ~2 and the tails are clean, which indicates pure RNA. The Qubit concentrations are more accurate.
 
-![](/post_images/20221017/MTF.jpg)
+![NanoDrop absorbance spectrum for the MTF RNA sample](/post_images/20221017/MTF.jpg)
 
-![](/post_images/20221017/MTG.jpg)
+![NanoDrop absorbance spectrum for the MTG RNA sample](/post_images/20221017/MTG.jpg)
 
 100 ul of each sample were submitted to the GSAF on 10/18/2022.

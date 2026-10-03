@@ -21,13 +21,13 @@ The concentration of extracted RNA was first estimated using the nanodrop. These
 Here are the results of the first 11 samples that I ran today:
 
 Nanodrop - UV spectra
-![](/post_images/102021/20211020_NOPP-gigas-ploidy-temp_s1-11.png)
+![NanoDrop UV absorbance spectra for RNA samples 1 to 11](/post_images/102021/20211020_NOPP-gigas-ploidy-temp_s1-11.png)
 
 Bioanalyzer - electropherogram (overlay)
-![](/post_images/102021/20211020_all_electropherogram.jpg)
+![Overlaid Bioanalyzer electropherograms for all RNA samples](/post_images/102021/20211020_all_electropherogram.jpg)
 
 Bioanalyzer - electropherogram (individual)
-![](/post_images/102021/20211020_all_electro.png)
+![Individual Bioanalyzer electropherograms for each RNA sample](/post_images/102021/20211020_all_electro.png)
 
 Bioanalyzer - gels
-![](/post_images/102021/20211020_all_gels.png)
+![Bioanalyzer virtual gel images for all RNA samples](/post_images/102021/20211020_all_gels.png)

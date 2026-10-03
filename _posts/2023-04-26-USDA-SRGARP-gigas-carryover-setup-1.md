@@ -15,33 +15,33 @@ comments: true
 
  |   |   |
  |---   |---  |
- | ![](/post_images/20230426/H1.jpg)  |  ![](/post_images/20230426/H2.jpg)  |
- | ![](/post_images/20230426/H3.jpg)  |  ![](/post_images/20230426/H4.jpg)  |
+ | ![Hatfield Ultra-Density Larval System at OSU, overview](/post_images/20230426/H1.jpg)  |  ![HUDLS larval chambers with water lines](/post_images/20230426/H2.jpg)  |
+ | ![HUDLS header tank and dosing pumps](/post_images/20230426/H3.jpg)  |  ![HUDLS water distribution manifold](/post_images/20230426/H4.jpg)  |
 
 Henry was kind enough to give us a prototype to copy.
 
-![](/post_images/20230426/1.jpg)
+![HUDLS prototype larval chamber](/post_images/20230426/1.jpg)
 
 First step was to cut the 2" pipe that formed the center chamber at an extreme angle to create the interior "saber". To get the cut on a table saw, we made a sled that pushed the pipe through at the right angle.
 
-![](/post_images/20230426/2.jpg)
+![Table-saw sled for cutting the pipe saber at an angle](/post_images/20230426/2.jpg)
 
 We then applied glue to the sabers
 
 |   |   |
 |---   |---  |
-| ![](/post_images/20230426/3.jpg)   |  ![](/post_images/20230426/4.jpg)   |
+| ![Applying solvent cement to the edge of a saber](/post_images/20230426/3.jpg)   |  ![Tube of acrylic solvent cement](/post_images/20230426/4.jpg)   |
 
 and pressed them against Nitex mesh screens
 
 |   |   |
 |---   |---  |
-| ![](/post_images/20230426/5.jpg)   |  ![](/post_images/20230426/6.jpg)   |
+| ![Nitex mesh stretched on a frame for gluing](/post_images/20230426/5.jpg)   |  ![Saber pressed against Nitex mesh](/post_images/20230426/6.jpg)   |
 
 and let them dry. We made 25 of 40 um and 75 um each.
 
-![](/post_images/20230426/7.jpg)
+![Finished sabers drying](/post_images/20230426/7.jpg)
 
 After drying, the sabers were then placed in seawater for 10 days to leach any plasticizers
 
-![](/post_images/20230426/8.jpg)
+![Sabers soaking in seawater to leach plasticizers](/post_images/20230426/8.jpg)

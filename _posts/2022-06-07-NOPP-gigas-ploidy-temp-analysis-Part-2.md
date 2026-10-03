@@ -8,7 +8,7 @@ comments: true
 ---
 
 ### Background
-We received 3'end RNA sequencing (3'Tag RNA-Seq or TagSeq) data from 72 samples *crassostrea gigas* samples from the UT-Austin [Genomic Sequencing and Analysis Facility (GSAF)](https://wikis.utexas.edu/display/GSAF/Home+Page).
+We received 3'end RNA sequencing (3'Tag RNA-Seq or TagSeq) data from 72 samples *crassostrea gigas* samples from the UT-Austin [Genomic Sequencing and Analysis Facility (GSAF)](https://cloud.wikis.utexas.edu/wiki/spaces/GSAF/overview).
 
 The tagseq sample list with sample IDs and treatments is available [here](https://docs.google.com/spreadsheets/d/1KY6P25HEmrDeszph56OY7tI1vAOd2rXxQ8wfZtCM7g0/edit#gid=0). See the prior post for QC information and location of files on gannet.
 
@@ -16,7 +16,7 @@ The tagseq sample list with sample IDs and treatments is available [here](https:
 
 The tagseq data was received as zipped fastq.gz files, so the first thing to download them from gannet using **wget**:
 
-```{bash}
+```bash
 # Download tag-seq data
 mkdir raw-data/
 cd raw-data/
@@ -26,7 +26,7 @@ wget -r -A .fastq.gz https://gannet.fish.washington.edu/panopea/NOPP-gigas-ploid
 ```
 and unzip them using **gunzip**:
 
-```{bash}
+```bash
 # unzip .fastq.gz files
 cd raw-data/
 gunzip *.fastq.gz
@@ -34,7 +34,7 @@ gunzip *.fastq.gz
 ```
 The sequencing facility provided the data as the result of two sequencing lanes per sample ID. The next step was to combine them:
 
-```{bash}
+```bash
 # concatenate fastq files by lane
 
 cd raw-data/
@@ -51,7 +51,7 @@ done
 
 Then trim the adapter sequences used in tagseq using [cutadapt](https://cutadapt.readthedocs.io/en/stable/). These include poly a and g tails, as well as AGATCGG. The first 15 basepairs of the 3' end were trimmed to prevent the inclusion of low quality reads (-q, quality-cutoff). After this process, any fragments that were less than 20 basepairs (-m, minimum read length).
 
-```{bash}
+```bash
 # trim adapter sequences
 
 mkdir trim-fastq/
@@ -76,7 +76,7 @@ Trimming and filtering resulted in an ~7% loss in reads.
 
 After trimming I aligned the reads to the **C gigas** Roslin genome using [bowtie2](https://bowtie-bio.sourceforge.net/bowtie2/manual.shtml). The first step was to create the bowtie2 index for the Rosline genome (.fa file, previously downloaded from gannet) with mitochondrial DNA included.
 
-```{bash}
+```bash
 # create bowtie2 index for cgigas genome (took 8 min on Raven)
 
 /home/shared/bowtie2-2.4.4-linux-x86_64/bowtie2-build \
@@ -86,7 +86,7 @@ After trimming I aligned the reads to the **C gigas** Roslin genome using [bowti
 ```
 and then run bowtie on the trimmed reads
 
-```{bash}
+```bash
 # Run bowtie on trimmed reads, pre-set option= --sensitive-local
 
 mkdir bowtie_sam/
@@ -111,7 +111,7 @@ done >> bowtieout.txt 2>&1
 ```
 I then checked the alignment rate:
 
-```{bash}
+```bash
 # check % alignment from Bowtie
 
 grep "overall alignment rate" /home/shared/8TB_HDD_02/mattgeorgephd/gigas-WGBS-ploidy-desiccation/bowtie_sam/bowtieout.txt
@@ -122,7 +122,7 @@ grep "overall alignment rate" /home/shared/8TB_HDD_02/mattgeorgephd/gigas-WGBS-p
 
 The resulting .sam files were then converted to .bam files:
 
-```{bash}
+```bash
 # Convert .sam files to .bam files, create bam indices
 
 mkdir bowtie_bam/
@@ -140,7 +140,7 @@ done
 
 After alignment, assembly and preparation for DESeq2 analysis was performed using [StringTie](https://ccb.jhu.edu/software/stringtie/) using the mRNA feature track of the Rosline **C gigas** genome.
 
-```{bash}
+```bash
 # Assemble bowtie alignments w/ stringtie2 using mRNA genome feature track
 array=($(ls /home/shared/8TB_HDD_02/mattgeorgephd/gigas-WGBS-ploidy-desiccation/bowtie_bam/*.bam))
 
@@ -165,8 +165,7 @@ echo "StringTie assembly COMPLETE, starting assembly analysis" $(date)
 
 Next I merged the stringtie output and generated the gene count matrix to prepare for DESeq2 analysis.
 
-```{bash}
-
+```bash
 cd /home/shared/8TB_HDD_02/mattgeorgephd/gigas-WGBS-ploidy-desiccation/bowtie_bam
 
 # make gtf list file (needed for stringtie merge function)

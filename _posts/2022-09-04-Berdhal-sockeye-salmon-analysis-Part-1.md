@@ -30,7 +30,7 @@ wget -r \
 
 Fastqc was run [before](https://gannet.fish.washington.edu/panopea/berdahl-sockeye-salmon/multiqc_report.html) and [after](https://gannet.fish.washington.edu/panopea/berdahl-sockeye-salmon/multiqc_report_trimmed.html) trimming (hard trim first 15 bps):
 
-```{bash}
+```bash
 # trim adapter sequences
 mkdir trim-fastq/
 cd /home/shared/8TB_HDD_02/mattgeorgephd/berdahl-sockeye-salmon/raw-data/
@@ -48,7 +48,7 @@ done
 ```
 and concatenating by sequencing lane:
 
-```{bash}
+```bash
 # concatenate fastq files by lane
 mkdir merged-fastq
 cd trim-fastq/
@@ -61,13 +61,13 @@ done
 ```
 Sequences were aligned to the [O. nerka genome](https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_006149115.2/) using hisat2 (a splice aware aligner):
 
-```{bash}
+```bash
 # create hisat2 index for cgigas genome (took 31 min on Raven)
 /home/shared/hisat2-2.2.1/hisat2-build \
 -f /home/shared/8TB_HDD_02/mattgeorgephd/berdahl-sockeye-salmon/sequences/GCF_006149115.2_Oner_1.1_genomic.fna /home/shared/8TB_HDD_02/mattgeorgephd/berdahl-sockeye-salmon/sequences/hisat2_genome_index.fa # called the reference genome (scaffolds)
 ```
 
-```{bash}
+```bash
 # Run hisat2 on trimmed reads
 mkdir hisat2_sam/
 mkdir hisat2_bam/
@@ -94,7 +94,7 @@ The average alignment rate was 88.656 +/- 2.21 sd (after trim/filter).
 
 Next, I downloaded the genome features from ncbi (stored on gannet)
 
-```{bash}
+```bash
 # Download sequences from gannet
 cd sequences/
 wget -r \
@@ -110,7 +110,7 @@ wget -r \
 ```
 and generated a mRNA genome feature track file (.gff) using the following code:
 
-```{bash}
+```bash
 # Generate mRNA feature track from genomic_sequence
 head sequences/GCF_006149115.2_Oner_1.1_genomic.gff
 grep -e "Gnomon	mRNA" -e "RefSeq	mRNA" -e "cmsearch	mRNA" -e "tRNAscan-SE	mRNA" \
@@ -122,7 +122,7 @@ head sequences/GCF_006149115.2_Oner_1.1_mRNA.gff
 ```
 I then used StringTie2 to assmble the hist2 alignments using the mRNA feature track I just generated:
 
-```{bash}
+```bash
 # Assemble hisat2 alignments w/ stringtie2 using mRNA genome feature track
 array=($(ls /home/shared/8TB_HDD_02/mattgeorgephd/berdahl-sockeye-salmon/hisat2_bam/*.bam))
 for i in ${array[@]}; do
@@ -141,7 +141,7 @@ echo "StringTie assembly COMPLETE, starting assembly analysis" $(date)
 ```
 The resulting bam files were then merged and compiled to generate the gene count matrix. The Gene count matrix was then used an in input to DESEQ2 analysis.
 
-```{bash}
+```bash
 cd /home/shared/8TB_HDD_02/mattgeorgephd/berdahl-sockeye-salmon/hisat2_bam
 # make gtf list file (needed for stringtie merge function)
 for filename in *.gtf; do

@@ -19,14 +19,14 @@ Here are the results:
 
 | comparison | control | single-stressor | multi-stressor |
 | :---:  | :---: | :---: | :---: |
-| ploidy | ![](https://github.com/mattgeorgephd/NOPP-gigas-ploidy-temp/blob/main/202107_EXP2/tag-seq/output/filtered/HISAT2_multiqc_biplot/control_ploidy/Volcano_sig_genes_apeglm.png?raw=true) | ![](https://github.com/mattgeorgephd/NOPP-gigas-ploidy-temp/blob/main/202107_EXP2/tag-seq/output/filtered/HISAT2_multiqc_biplot/heat_ploidy/Volcano_sig_genes_apeglm.png?raw=true) | ![](https://github.com/mattgeorgephd/NOPP-gigas-ploidy-temp/blob/main/202107_EXP2/tag-seq/output/filtered/HISAT2_multiqc_biplot/desiccation_ploidy/Volcano_sig_genes_apeglm.png?raw=true) |
+| ploidy | ![Volcano plot of significant genes between ploidies, control treatment](/post_images/20220907/control_ploidy-Volcano_sig_genes_apeglm.png) | ![Volcano plot of significant genes between ploidies, single-stressor treatment](/post_images/20220907/heat_ploidy-Volcano_sig_genes_apeglm.png) | ![Volcano plot of significant genes between ploidies, multi-stressor treatment](/post_images/20220907/desiccation_ploidy-Volcano_sig_genes_apeglm.png) |
 
 **VOLCANO PLOTS: significant genes by ploidy**
 
 |  comparison | diploid | triploid |
 |:---:|:---:|:---:|
-|single-stressor v control   | ![](https://github.com/mattgeorgephd/NOPP-gigas-ploidy-temp/blob/main/202107_EXP2/tag-seq/output/filtered/HISAT2_multiqc_biplot/diploid_heat/Volcano_sig_genes_apeglm.png?raw=true)  | ![](https://github.com/mattgeorgephd/NOPP-gigas-ploidy-temp/blob/main/202107_EXP2/tag-seq/output/filtered/HISAT2_multiqc_biplot/triploid_heat/Volcano_sig_genes_apeglm.png?raw=true)  |
-|multi-stressor v control    | ![](https://github.com/mattgeorgephd/NOPP-gigas-ploidy-temp/blob/main/202107_EXP2/tag-seq/output/filtered/HISAT2_multiqc_biplot/triploid_heat/Volcano_sig_genes_apeglm.png?raw=true)  | ![](https://github.com/mattgeorgephd/NOPP-gigas-ploidy-temp/blob/main/202107_EXP2/tag-seq/output/filtered/HISAT2_multiqc_biplot/triploid_desiccation/Volcano_sig_genes_apeglm.png?raw=true)  |
+|single-stressor v control   | ![Volcano plot of significant genes in diploid oysters, single-stressor vs. control](/post_images/20220907/diploid_heat-Volcano_sig_genes_apeglm.png)  | ![Volcano plot of significant genes in triploid oysters, single-stressor vs. control](/post_images/20220907/triploid_heat-Volcano_sig_genes_apeglm.png)  |
+|multi-stressor v control    | ![Volcano plot of significant genes in diploid oysters, multi-stressor vs. control](/post_images/20220907/diploid_desiccation-Volcano_sig_genes_apeglm.png)  | ![Volcano plot of significant genes in triploid oysters, multi-stressor vs. control](/post_images/20220907/triploid_desiccation-Volcano_sig_genes_apeglm.png)  |
 
 **DEG LISTS: summary stats**
 

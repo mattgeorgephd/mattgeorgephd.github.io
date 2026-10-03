@@ -19,10 +19,10 @@ Today I attended the USDA/ARS meeting in Portland, OR. Neil outlined the USDA's 
 1. Emailed Laura Kraft at WSU about collaboration
 2. Emailed Mike at globalaquaculturesupply about batch ordering of hatching jars for [USDA-SRGARP-gigas-carryover](https://github.com/mattgeorgephd/USDA-SRGARP-gigas-carryover) project.
 3. Completed technical review of manuscript for Christopher Monson
-4. Organized [WGBS-gigas-ploidy-desiccation]() repo in an effort to prepare manuscript
+4. Organized [WGBS-gigas-ploidy-desiccation](https://github.com/mattgeorgephd/WGBS-gigas-ploidy-desiccation) repo in an effort to prepare manuscript
 
 ### 1/12/2023
-1. Organized [WGBS-gigas-ploidy-desiccation]() repo in an effort to prepare manuscript
+1. Organized [WGBS-gigas-ploidy-desiccation](https://github.com/mattgeorgephd/WGBS-gigas-ploidy-desiccation) repo in an effort to prepare manuscript
 2. Presented at the NOAA Physiology Group meeting
 
 ### 1/13 - 1/16/2023
@@ -30,25 +30,21 @@ Today I attended the USDA/ARS meeting in Portland, OR. Neil outlined the USDA's 
 
 ### 1/17/2023
 1. Attended Roberts lab meeting
-2. Organized [WGBS-gigas-ploidy-desiccation]() repo in an effort to prepare manuscript
-3. Applied to USDA job
-4. Met w/ Laura Kraft regarding collaboration on WSG
-5. Registered for NSA meeting in March
+2. Organized [WGBS-gigas-ploidy-desiccation](https://github.com/mattgeorgephd/WGBS-gigas-ploidy-desiccation) repo in an effort to prepare manuscript
+3. Met w/ Laura Kraft regarding collaboration on WSG
+4. Registered for NSA meeting in March
 
 ### 1/18/2023
 1. Attended WSG PI meeting
 2. Submitted travel reimbursement for PAG meeting
 3. Ordered Hatching Jars for USDA-SRGARP grant
-4. Applied for NOAA job
 
 ### 1/23/2023
 1. Lab Meeting
-2. Worked on [WGBS-gigas-ploidy-desiccation]() manuscript
-3. Contacted CRITFC about Fishery Scientist Position
-4. WSG Planning
+2. Worked on [WGBS-gigas-ploidy-desiccation](https://github.com/mattgeorgephd/WGBS-gigas-ploidy-desiccation) manuscript
+3. WSG Planning
 
 ### 1/24/2023
 1. Attended WSG PI meeting
 2. Submitted travel reimbursement for PAG meeting
-3. Applied for King County Position
-4. Travel to Portland
+3. Travel to Portland

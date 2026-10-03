@@ -16,7 +16,7 @@ Steven ran all of these through bismark and the resulting samples are stored on 
 
 The first thing I did was move the files Steven generated out of the scrubbed folder and into [my folder](https://gannet.fish.washington.edu/panopea/061021-big/)
 
-Next I ran Methylkit using this [R script]().
+Next I ran Methylkit using this [R script](https://github.com/mattgeorgephd/WGBS-gigas-ploidy-desiccation/blob/5541d770bc00b32d4843844feea2e4253de6d1ad/bisulfide_analysis/WGBS/code/2_WGBS_Methylkit.R).
 
 First, lets analyze just Yaamini's controls (6 diploid and 6 triploid) to look at differences across ploidy. Using a 10x coverage, 529,068 CpGs were identified. Looking at just the impact of ploidy, the following differentially methylated loci were generated:
 
@@ -25,10 +25,10 @@ DMLs = 2535 identified, 1973 Hyper, 562 hypo
 From here we can generate PCAs that look at the distribution of CpG and DML across ploidy.
 
 Ploidy - All 529,068 CpGs
-![](/post_images/100421/2021-10-04-All-Yaamini-PCA.png)
+![PCA of methylation at all 529,068 CpGs, colored by ploidy](/post_images/100421/2021-10-04-All-Yaamini-PCA.png)
 
 Ploidy - 2,535 DML only
-![](/post_images/100421/2021-10-04-DML-Only-Yaamini-PCA.png)
+![PCA of methylation at the 2,535 differentially methylated loci, colored by ploidy](/post_images/100421/2021-10-04-DML-Only-Yaamini-PCA.png)
 
 Next, lets analyze just Ronit's data. He has 5 diploid and 5 triploids that are both heated. Using a 10x coverage, 1,921,856 CpGs were identified. Looking at the impact of ploidy, the following differentially methylated loci were generated:
 
@@ -80,30 +80,30 @@ DMLs = 1038 identified, 442 Hyper, 596 hypo
 From here we can generate PCAs that look at the distribution of CpG and DML across ploidy.
 
 Ploidy, Heat-covariate, All 480,579 CpGs
-![](/post_images/100421/2021-10-04-All-Data-PCA-ploidy.png)
+![PCA of methylation at all 480,579 CpGs for ploidy with heat as a covariate](/post_images/100421/2021-10-04-All-Data-PCA-ploidy.png)
 
 Ploidy, Heat-covariate, 1038 DML only
-![](/post_images/100421/2021-10-04-DML-Only-PCA-ploidy.png)
+![PCA of methylation at 1,038 ploidy DML with heat as a covariate](/post_images/100421/2021-10-04-DML-Only-PCA-ploidy.png)
 
 I then repeated the analysis, using HEAT as the treatment and ploidy as the covariate. The same number of CpGs were identified (480,579).
 
 DMLs = 2351 identified, 1150 Hyper, 1201 hypo
 
 Heated, ploidy-covariate, All 480,579 CpGs
-![](/post_images/100421/2021-10-04-All-Data-PCA-heat.png)
+![PCA of methylation at all 480,579 CpGs for heat with ploidy as a covariate](/post_images/100421/2021-10-04-All-Data-PCA-heat.png)
 
 Heated, ploidy-covariate, 2351 DML only
-![](/post_images/100421/2021-10-04-DML-Only-PCA-heat.png)
+![PCA of methylation at 2,351 heat DML with ploidy as a covariate](/post_images/100421/2021-10-04-DML-Only-PCA-heat.png)
 
 From all the DML tables, the following charts were then generated:
 
 Table 1. DML counts from each analysis
-![](/post_images/100421/DML_count_table.png)
+![Table of differentially methylated locus counts from each analysis](/post_images/100421/DML_count_table.png)
 
 It looks like adding Ronit's samples reduced the number of ploidy DMLs by 59.1%.
 
 DML count comparison
-![](/post_images/100421/difference.png)
+![Per-locus methylation difference (%) for ploidy and heat DML](/post_images/100421/difference.png)
 
 Looking at just the 200 DMLs that were in both the ploidy and heat analysis:
 

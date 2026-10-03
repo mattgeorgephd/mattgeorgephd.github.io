@@ -8,7 +8,7 @@ comments: true
 ---
 
 ### Background
-After running methylkit to find the DML within each dataset, we now need to see where they are located. To do this I will be running this [jupyter notebook]() and using the genome feature tracks available [here](https://robertslab.github.io/resources/Genomic-Resources/#crassostrea-gigas-cgigas_uk_roslin_v1)
+After running methylkit to find the DML within each dataset, we now need to see where they are located. To do this I will be running this [Jupyter notebook](https://github.com/mattgeorgephd/WGBS-gigas-ploidy-desiccation/blob/5541d770bc00b32d4843844feea2e4253de6d1ad/bisulfide_analysis/WGBS/3_WGBS_DML_feature_location.ipynb) and using the genome feature tracks available [here](https://robertslab.github.io/resources/Genomic-Resources/#crassostrea-gigas-cgigas_uk_roslin_v1)
 
 ### Genome feature analysis
 Here I use the output of getMethylDiff from our prior MethylKit analysis to create BEDfiles:
@@ -206,12 +206,12 @@ ggsave("B_combo_contrast.png",
 Here is the prior table for reference:
 
 Table 1. DML counts from each analysis
-![](/post_images/100421/DML_count_table.png)
+![Table of differentially methylated locus counts from each analysis](/post_images/100421/DML_count_table.png)
 
 Here are the plots:
 
 Figure 1. Each dataset separately
-![](/post_images/100621/genome_location_INDIVIDUAL.png)
+![Genomic feature locations of DML for each dataset separately](/post_images/100621/genome_location_INDIVIDUAL.png)
 
 Figure 2. Both datasets together
-![](/post_images/100621/genome_location_BOTH.png)
+![Genomic feature locations of DML for both datasets together](/post_images/100621/genome_location_BOTH.png)

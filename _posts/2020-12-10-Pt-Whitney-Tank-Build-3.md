@@ -57,18 +57,18 @@ Incoming seawater (circa 10 C) fills a 200 L header tank upstairs (see below) th
 
 Here is a picture of the heated header tank upstairs (without its lid):
 
-![](/post_images/121020/tank_upstairs.png)
+![Heated header tank upstairs, lid removed](/post_images/121020/tank_upstairs.jpg)
 
 A picture of the tanks downstairs:
 
-![](/post_images/121020/all_tanks_covered.png)
+![Experimental tanks downstairs, covered](/post_images/121020/all_tanks_covered.jpg)
 
 Side view of the manifold:
 
-![](/post_images/121020/silos_side_view.png)
+![Side view of the silo manifold](/post_images/121020/silos_side_view.jpg)
 
 Pictures of juvenile oysters in silos:
 
-![](/post_images/121020/silos_with_oyster.png)
+![Juvenile oysters inside the silos](/post_images/121020/silos_with_oyster.jpg)
 
 To test the system, I have begun heating water to 40 C upstairs and fill the tanks downstairs. I will monitor the temp of tanks with and without rod heaters downstairs and report back soon.
