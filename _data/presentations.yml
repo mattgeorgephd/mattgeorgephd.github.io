@@ -10,14 +10,30 @@
   file_label: "slides (PowerPoint, 5.3 MB)"
 - year: 2026
   title: "Linking gene expression to attachment strength in marine mussels exposed to environmental stressors."
+  authors: "**George MN**, Leuchtenberger G, Berg H, Essington E, Roberts SB, and Carrington E"
+  venue: "Pacific Coast Shellfish Growers Association Annual Shellfish Conference, Blaine, WA"
+  date: "September 14-17, 2026"
+- year: 2026
+  title: "Aligning state management to shifting baselines in Washington's coastal Dungeness crab fishery."
   authors: "**George MN**"
-  venue: "Pacific Coast Shellfish Growers Association, Blaine, WA"
+  venue: "Olympic Coast Ocean Acidification Sentinel Site (OASeS) Symposium, Ocean Shores, WA"
+  date: "May 13, 2026"
+  file: /assets/talks/2026-George-OASeS-talk.pptx
+  file_label: "slides (PowerPoint, 5.6 MB)"
 - year: 2026
   title: "Climate-driven recruitment dynamics in the Washington coastal razor clam fishery."
+  authors: "**George MN**"
   venue: "Annual Meeting of the National Shellfisheries Association, Portland, OR"
+  date: "March 25, 2026"
+  file: /assets/talks/2026-George-NSA-talk.pptx
+  file_label: "slides (PowerPoint, 5.4 MB)"
 - year: 2025
   title: "Epigenetic divergence in diploid and triploid Pacific oysters following thermal stress."
-  venue: "Pacific Coast Shellfish Growers Association, Vancouver, WA"
+  authors: "**George MN**"
+  venue: "Pacific Coast Shellfish Growers Association Annual Shellfish Conference, Vancouver, WA"
+  date: "September 10, 2025"
+  file: /assets/talks/2025-George-PCSGA-talk.pptx
+  file_label: "slides (PowerPoint, 5.4 MB)"
 - year: 2024
   title: "Burrowing shrimp as a threat to on-bottom bivalve aquaculture in Willapa Bay."
   venue: "Integrated Pest Management Working Group, Olympia, WA"
@@ -26,31 +42,42 @@
   venue: "Annual meeting of the Western Pacific Regional Fishery Management Council, Olympia, WA"
 - year: 2024
   title: "Coastal Dungeness crab management in a changing ocean."
-  venue: "Olympic Coast Ocean Acidification Sentinel Site Symposium, Forks, WA"
+  authors: "**George MN**"
+  venue: "Olympic Coast Ocean Acidification Sentinel Site (OASeS) Symposium, Forks, WA"
+  date: "May 15, 2024"
+  file: /assets/talks/2024-George-OASeS-talk.pptx
+  file_label: "slides (PowerPoint, 7.3 MB)"
 - year: 2024
   title: "Utilizing light-traps for Dungeness crab larval monitoring on Washington's outer coast."
   venue: "Annual Meeting of the Pacific Northwest Crab Research Group, Kingston, WA"
+  date: "January 25, 2024"
 - year: 2023
   title: "Triploid Pacific oysters experience enhanced mortality following marine heatwaves."
-  venue: "National Shellfisheries Association Conference, Baltimore, MD"
+  venue: "Annual Meeting of the National Shellfisheries Association, Baltimore, MD"
+  date: "March 26-30, 2023"
 - year: 2023
   title: "Ploidy mediates the stress response of Pacific oysters following marine heatwave exposure."
-  venue: "Plant and Animal Genome Conference, San Diego, CA"
+  venue: "Plant and Animal Genome Conference (PAG 30), Aquaculture Workshop, San Diego, CA"
+  date: "January 13-18, 2023"
 - year: 2022
   title: "The contribution of summer heatwaves to 'triploid mortality' events observed during commercial Pacific oyster production in Washington State."
-  venue: "Society for Integrative and Comparative Biology (SICB), Phoenix, AZ"
+  venue: "Society for Integrative and Comparative Biology (SICB) Annual Meeting, Phoenix, AZ"
+  date: "January 3-7, 2022"
 - year: 2022
   title: "The contribution of marine heatwaves to 'triploid mortality' during commercial Pacific oyster production."
-  venue: "World Aquaculture Society Triennial Meeting, San Diego, CA"
+  venue: "World Aquaculture Society Triennial Meeting (Aquaculture 2022), San Diego, CA"
+  date: "February 28-March 4, 2022"
 - year: 2020
   title: "Investigating the role of TBX2/TBX3 in human endoderm development using human pluripotent stem cells."
-  venue: "International Conference for Stem Cell Research, Boston, MA"
+  venue: "International Society for Stem Cell Research (ISSCR) Annual Meeting, held online (planned for Boston, MA)"
+  date: "June 24-27, 2020"
 - year: 2019
   title: "Mechanical testing setup design affects spine segment fracture outcomes."
   venue: "Mayo Clinic Postdoctoral Research Conference, Rochester, MN"
 - year: 2017
   title: "Mussels use seawater pH as a molecular trigger in the formation of byssus adhesive."
-  venue: "SICB, New Orleans, LA"
+  venue: "Society for Integrative and Comparative Biology (SICB) Annual Meeting, New Orleans, LA"
+  date: "January 4-8, 2017"
 - year: 2017
   title: "Ocean acidification and mussel farming in the Puget Sound."
   venue: "Sound Waters University, Whidbey Island, WA"
@@ -63,15 +90,19 @@
 - year: 2016
   title: "The ecomechanics of mussel attachment."
   venue: "Salish Sea Ecosystem Conference, Vancouver, BC"
+  date: "April 13-15, 2016"
 - year: 2015
   title: "The impact of environment and physiological condition on the strength of a biological adhesive."
-  venue: "SICB, West Palm Beach, FL"
+  venue: "Society for Integrative and Comparative Biology (SICB) Annual Meeting, West Palm Beach, FL"
+  date: "January 3-7, 2015"
 - year: 2014
   title: "Short-term exposure to elevated temperature and low pH alters mussel attachment strength."
-  venue: "SICB, Austin, TX"
+  venue: "Society for Integrative and Comparative Biology (SICB) Annual Meeting, Austin, TX"
+  date: "January 3-7, 2014"
 - year: 2010
   title: "Claw force and cuticle strength: functional morphology of fiddler crab combat."
-  venue: "SICB, Seattle, WA"
+  venue: "Society for Integrative and Comparative Biology (SICB) Annual Meeting, Seattle, WA"
+  date: "January 3-7, 2010"
 - year: 2009
   title: "Strong vs. beautiful: evolving attractive weapons."
   venue: "Murdock Charitable Trust Undergraduate Research Conference, Spokane, WA"
