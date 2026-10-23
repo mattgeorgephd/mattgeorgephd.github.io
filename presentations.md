@@ -10,7 +10,7 @@ share-description: Scientific presentations by Matthew N. George on razor clams,
 <h2 id="y{{ y.name }}">{{ y.name }}</h2>
 <ul class="dated-list">
 {%- for t in y.items %}
-  <li><span class="when">{{ t.year }}</span><span>{{ t.title }}<span class="what-sub">{{ t.venue }}</span></span></li>
+  {% include talk-item.html talk=t %}
 {%- endfor %}
 </ul>
 {% endfor %}

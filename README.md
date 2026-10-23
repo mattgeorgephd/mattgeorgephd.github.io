@@ -21,6 +21,7 @@ Built with Jekyll and the [Beautiful Jekyll](https://beautifuljekyll.com) theme 
 | Lab notebook entries | `_posts/` (images in `post_images/`); template in `_templates/notebook-entry.md` |
 | Lab notebook projects (cards on the notebook page, project box on each entry) | `_data/notebook_projects.yml` |
 | Teaching evaluation PDFs | `assets/teaching-evals/` |
+| Talk slides (linked from `_data/presentations.yml`) | `assets/talks/` |
 
 To add a paper, talk, grant, or news item, edit the matching file in `_data/`; the Publications, Presentations, Research, CV, and In the News pages update together.
 

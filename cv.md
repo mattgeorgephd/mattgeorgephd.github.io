@@ -132,7 +132,7 @@ Marine biologist with more than 14 years of experience at the interface of ecoph
 
 <ul class="dated-list">
 {%- for t in site.data.presentations %}
-  <li><span class="when">{{ t.year }}</span><span>{{ t.title }}<span class="what-sub">{{ t.venue }}</span></span></li>
+  {% include talk-item.html talk=t %}
 {%- endfor %}
 </ul>
 

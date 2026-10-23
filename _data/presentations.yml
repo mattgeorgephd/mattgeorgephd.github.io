@@ -1,4 +1,17 @@
 # Scientific presentations, newest first. Used by the Presentations page and the CV.
+# Optional fields: authors (wrap Matt's name as **George MN**), date, and file (a path
+# under /assets/talks/) with file_label for the download link.
+- year: 2026
+  title: "Weakened attachment and transcriptomic shifts in a marine mussel following exposure to ocean acidification, warming, and hypoxia."
+  authors: "**George MN**, Leuchtenberger G, Berg H, Essington E, Roberts SB, and Carrington E"
+  venue: "International Conference on Shellfish Restoration, International Shellfish Restoration Society (ISRS), Shelton, WA"
+  date: "October 6, 2026"
+  file: /assets/talks/2026-George-ISRS-talk.pptx
+  file_label: "slides (PowerPoint, 5.3 MB)"
+- year: 2026
+  title: "Linking gene expression to attachment strength in marine mussels exposed to environmental stressors."
+  authors: "**George MN**"
+  venue: "Pacific Coast Shellfish Growers Association, Blaine, WA"
 - year: 2026
   title: "Climate-driven recruitment dynamics in the Washington coastal razor clam fishery."
   venue: "Annual Meeting of the National Shellfisheries Association, Portland, OR"

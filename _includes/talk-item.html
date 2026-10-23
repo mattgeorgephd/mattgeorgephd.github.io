@@ -1,0 +1,10 @@
+{%- comment -%}
+  Renders one entry of _data/presentations.yml as a dated-list item.
+  Usage: {% include talk-item.html talk=t %}
+{%- endcomment -%}
+{%- assign t = include.talk -%}
+<li><span class="when">{{ t.year }}</span><span>{{ t.title }}
+  {%- if t.authors %}<span class="what-sub">{{ t.authors | replace: '**George MN**', '<strong>George MN</strong>' | replace: '*', '<sup>*</sup>' }}</span>{% endif -%}
+  <span class="what-sub">{{ t.venue }}{% if t.date %}, {{ t.date }}{% endif %}</span>
+  {%- if t.file %}<span class="pub-links"><a href="{{ t.file | relative_url }}" class="pub-badge" title="Download the slides">{{ t.file_label | default: 'slides' }}</a></span>{% endif -%}
+</span></li>
