@@ -1,16 +1,73 @@
 # Media coverage and popular articles, newest first. Used by the In the News page and the CV.
+# section: "management" (fisheries management coverage) or "research" (research features; the default).
 # A missing url means no stable link has been confirmed yet.
+- year: 2025
+  section: research
+  title: "Researchers zero in on low-oxygen areas of concern in Puget Sound"
+  outlet: "Salish Sea Currents Magazine"
+  date: "April 21, 2025"
+  url: "https://www.eopugetsound.org/magazine/Researchers-zero-in-on-low-oxygen-areas-of-concern-in-Puget-Sound"
+- year: 2025
+  section: management
+  title: "These mysterious blue blobs are washing up on WA beaches. What are they?"
+  outlet: "The News Tribune"
+  date: "April 18, 2025"
+  url: "https://www.thenewstribune.com/news/state/article304199331.html"
+- year: 2025
+  section: management
+  title: "Test fishing guides Washington's coastal commercial crab season"
+  outlet: "Washington Department of Fish and Wildlife (Medium)"
+  date: "February 3, 2025"
+  url: "https://wdfw.medium.com/test-fishing-guides-washingtons-coastal-commercial-crab-season-50782e0a12ed"
+- year: 2025
+  section: management
+  title: "Puget Sound fisheries"
+  outlet: "Fishermen's News"
+  date: "January 31, 2025"
+  url: "https://fishermensnews.com/article/puget-sound-fisheries/"
+- year: 2025
+  section: management
+  title: "Supplies tight, prices high as US Dungy crab season underway in Oregon, Washington"
+  outlet: "Undercurrent News"
+  date: "January 14, 2025"
+  url: "https://www.undercurrentnews.com/2025/01/14/supplies-tight-prices-high-as-us-dungy-crab-season-underway-in-oregon-washington/"
+- year: 2024
+  section: management
+  title: "Dungeness crab megalopae traps shine a light on future harvest opportunities"
+  outlet: "Washington Department of Fish and Wildlife (Medium)"
+  date: "September 11, 2024"
+  url: "https://wdfw.medium.com/dungeness-crab-megalopae-traps-shine-a-light-on-future-harvest-opportunities-d09a7123a806"
+- year: 2024
+  section: research
+  title: "Don't read this if you love oysters"
+  outlet: "The Atlantic"
+  date: "May 25, 2024"
+  url: "https://www.theatlantic.com/science/archive/2024/05/triploid-oysters-climate-change-summer/678512/"
 - year: 2024
   title: "So long triploids, hello creamy oysters"
   outlet: "Hakai Magazine"
-  date: "May 2024"
+  date: "May 22, 2024"
   url: "https://hakaimagazine.com/news/so-long-triploids-hello-creamy-oysters/"
   note: "Feature on our Global Change Biology study of triploid oyster mortality during heatwaves."
   also:
     - outlet: "Popular Science"
       title: "Climate change is coming for your oysters"
       url: "https://www.popsci.com/environment/climate-change-oysters/"
-    - outlet: "The Atlantic"
+- year: 2024
+  section: management
+  title: "Dungeness crab: the West Coast's forever fishery"
+  outlet: "The Astorian"
+  date: "February 5, 2024"
+  url: "https://dailyastorian.com/2024/02/05/dungeness-crab-the-west-coasts-forever-fishery"
+  also:
+    - outlet: "Capital Press"
+      url: "https://capitalpress.com/?p=176460"
+- year: 2024
+  section: management
+  title: "Seafood processing plant 'a total loss' after devastating blaze"
+  outlet: "IntraFish"
+  date: "January 21, 2024"
+  url: "https://www.intrafish.com/processing/seafood-processing-plant-a-total-loss-after-devastating-blaze/2-1-1591734"
 - year: 2023
   title: "Marine heatwaves impact mortality of triploid Pacific oysters"
   outlet: "Global Change Biology (invited commentary by D.T. Manahan)"
