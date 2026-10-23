@@ -8,12 +8,11 @@ comments: true
 
 ### Prior Monthly Goals
 1. [ ] Complete gigas-WGBS-ploidy-desiccation [manuscript](https://docs.google.com/document/d/17mcGDI-TWmU4vgBXmiXmeofe4qEuFH5inBKBHhG9tzg/edit).
-2. [x] Saint Charles [Application](https://stcharlesb.org/).
-3. [x] Drop off PRS samples to [South Lake Union Lab - E128](https://goo.gl/maps/SjdczeVj4Nbq2LiF8). Call (206) 543-5616. Deadline 2/1.
-4. [x] Run Bioanalyzer on [PSMFC-mytilus-byssus-pilot](https://github.com/mattgeorgephd/PSMFC-mytilus-byssus-pilot) samples.
-5. [x] Submit order/generate PO for [PSMFC-mytilus-byssus-pilot](https://github.com/mattgeorgephd/PSMFC-mytilus-byssus-pilot) to [UT-Austin](https://cloud.wikis.utexas.edu/wiki/spaces/GSAF/overview).
-6. [x] Send samples to [UT-Austin](https://cloud.wikis.utexas.edu/wiki/spaces/GSAF/overview) for [PSMFC-mytilus-byssus-pilot](https://github.com/mattgeorgephd/PSMFC-mytilus-byssus-pilot).
-7. [x] Run SEM samples for the Shell Repair OA paper at the [MAF](https://www.moles.washington.edu/facilities/molecular-analysis-facility/). Deadline 2/16.
+2. [x] Drop off PRS samples to [South Lake Union Lab - E128](https://goo.gl/maps/SjdczeVj4Nbq2LiF8). Call (206) 543-5616. Deadline 2/1.
+3. [x] Run Bioanalyzer on [PSMFC-mytilus-byssus-pilot](https://github.com/mattgeorgephd/PSMFC-mytilus-byssus-pilot) samples.
+4. [x] Submit order/generate PO for [PSMFC-mytilus-byssus-pilot](https://github.com/mattgeorgephd/PSMFC-mytilus-byssus-pilot) to [UT-Austin](https://cloud.wikis.utexas.edu/wiki/spaces/GSAF/overview).
+5. [x] Send samples to [UT-Austin](https://cloud.wikis.utexas.edu/wiki/spaces/GSAF/overview) for [PSMFC-mytilus-byssus-pilot](https://github.com/mattgeorgephd/PSMFC-mytilus-byssus-pilot).
+6. [x] Run SEM samples for the Shell Repair OA paper at the [MAF](https://www.moles.washington.edu/facilities/molecular-analysis-facility/). Deadline 2/16.
 
 ### Monthly Goals for March
 1. [ ] Complete gigas-WGBS-ploidy-desiccation [manuscript](https://docs.google.com/document/d/17mcGDI-TWmU4vgBXmiXmeofe4qEuFH5inBKBHhG9tzg/edit).
