@@ -20,3 +20,8 @@
 ^https://(www\.)?etsy\.com/
 ^https://(www\.)?alibaba\.com/
 ^https://gannet\.fish\.washington\.edu:5001
+# News sites that block or rate-limit automated checks (pages open in a browser)
+^https://(www\.)?theatlantic\.com/
+^https://[^/]*\.medium\.com/
+^https://(www\.)?thenewstribune\.com/
+^https://(www\.)?fishermensnews\.com/
