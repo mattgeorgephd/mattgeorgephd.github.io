@@ -2,24 +2,22 @@
 layout: page
 title: In the News
 subtitle: Media coverage, commentary, and popular writing
-share-description: Media coverage of Matthew N. George's research on triploid oysters, marine heatwaves, and mussel attachment in Hakai Magazine, Popular Science, The Atlantic, Scientific American, and more.
+share-description: Media coverage of Matthew N. George's work on Washington's coastal shellfish fisheries, triploid oysters, marine heatwaves, and mussel attachment, in The Atlantic, Hakai Magazine, Scientific American, The News Tribune, and more.
 ---
 
+<p class="nb-jump"><strong>Jump to:</strong> <a href="#management">Fisheries management</a> &middot; <a href="#research">Research features</a></p>
+
+<h2 id="management">Fisheries management</h2>
+<p class="nb-note">Coverage of Washington's coastal shellfish fisheries and the work of the WDFW Coastal Shellfish Unit.</p>
 <ul class="dated-list">
-{%- for m in site.data.media %}
-  <li>
-    <span class="when">{{ m.date }}</span>
-    <span>
-      {% if m.url %}<a href="{{ m.url }}">{{ m.title }}</a>{% else %}{{ m.title }}{% endif %}
-      <span class="what-sub"><em>{{ m.outlet }}</em>{% if m.note %}. {{ m.note }}{% endif %}</span>
-      {%- if m.also %}
-      <span class="what-sub">Also in:
-        {%- for a in m.also %}
-          {% if a.url %}<a href="{{ a.url }}"><em>{{ a.outlet }}</em></a>{% else %}<em>{{ a.outlet }}</em>{% endif %}{% if a.title %} ("{{ a.title }}"){% endif %}{% unless forloop.last %};{% endunless %}
-        {%- endfor %}
-      </span>
-      {%- endif %}
-    </span>
-  </li>
-{%- endfor %}
+{%- for m in site.data.media %}{% if m.section == "management" %}
+{% include media-item.html item=m %}
+{%- endif %}{% endfor %}
+</ul>
+
+<h2 id="research">Research features</h2>
+<ul class="dated-list">
+{%- for m in site.data.media %}{% unless m.section == "management" %}
+{% include media-item.html item=m %}
+{%- endunless %}{% endfor %}
 </ul>
