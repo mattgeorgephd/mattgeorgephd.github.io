@@ -9,7 +9,7 @@ comments: true
 ### Prior Monthly Goals
 
 1. ~~Get histological samples submitted to [UW Pathology](https://dlmp.uw.edu/research/pathology-research-services-lab)~~
-2. ~~Collect tissue for the [gigas-WGS-ploidy](https://github.com/mattgeorgephd/gigas-WGS-ploidy) project~~
+2. ~~Collect tissue for the gigas-WGS-ploidy project~~ (repository not public)
 3. ~~Work on notebook posts detailing progress on [gigas-WGBS-ploidy-desiccation](https://github.com/mattgeorgephd/WGBS-gigas-ploidy-desiccation) project analysis~~
 4. Complete gigas-WGBS-ploidy-desiccation [manuscript](https://docs.google.com/document/d/17mcGDI-TWmU4vgBXmiXmeofe4qEuFH5inBKBHhG9tzg/edit)
 5. ~~Complete and submit [byssal thread meta-analysis](https://doi.org/10.3354/meps14101)~~

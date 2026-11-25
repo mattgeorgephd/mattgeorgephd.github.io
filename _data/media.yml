@@ -2,6 +2,18 @@
 # section: "management" (fisheries management coverage) or "research" (research features; the default).
 # A missing url means no stable link has been confirmed yet.
 - year: 2025
+  section: management
+  title: "Washington's most valuable commercial fishery: Dungeness crab season to begin"
+  outlet: "The Spokesman-Review"
+  date: "December 30, 2025"
+  url: "https://www.spokesman.com/stories/2025/dec/30/washingtons-most-valuable-commercial-fishery-dunge/"
+- year: 2025
+  section: management
+  title: "Crabbers get cracking: State's most lucrative fishery starts with high hopes after delay"
+  outlet: "Chinook Observer"
+  date: "December 28, 2025"
+  url: "https://chinookobserver.com/2025/12/28/crabbers-get-cracking-states-most-lucrative-fishery-starts-with-high-hopes-after-delay/"
+- year: 2025
   section: research
   title: "Researchers zero in on low-oxygen areas of concern in Puget Sound"
   outlet: "Salish Sea Currents Magazine"
@@ -16,6 +28,12 @@
   also:
     - outlet: "The Spokesman-Review"
       url: "https://www.spokesman.com/stories/2025/apr/17/these-mysterious-blue-blobs-are-washing-up-on-wa-b/"
+- year: 2025
+  section: management
+  title: "Spring brings the blue blobs to West Coast beaches"
+  outlet: "Chinook Observer"
+  date: "April 2025"
+  url: "https://chinookobserver.com/?p=305732"
 - year: 2025
   section: management
   title: "West Coast Dungeness crab kicks off after rigorous testing"
@@ -40,6 +58,18 @@
   outlet: "Fishermen's News"
   date: "January 31, 2025"
   url: "https://fishermensnews.com/article/puget-sound-fisheries/"
+- year: 2025
+  section: management
+  title: "Washington sets date for Dungeness season for coastal region"
+  outlet: "National Fisherman"
+  date: "January 2025"
+  url: "https://www.nationalfisherman.com/washington-sets-date-for-dungeness-season-for-coastal-region"
+- year: 2025
+  section: management
+  title: "Here's when commercial Dungeness crab season opens in WA"
+  outlet: "FOX 13 Seattle"
+  date: "January 2025"
+  url: "https://www.fox13seattle.com/news/commercial-dungeness-crab-season-opening-date-2025"
 - year: 2025
   section: management
   title: "Supplies tight, prices high as US Dungy crab season underway in Oregon, Washington"
@@ -95,6 +125,15 @@
   also:
     - outlet: "Perishable News"
       url: "https://perishablenews.com/seafood/washingtons-coastal-dungeness-crab-commercial-season-opens-feb-1/"
+    - outlet: "KXRO News Radio"
+      url: "https://www.kxro.com/wa-coastal-commercial-dungeness-crab-season-opens-feb-1/"
+- year: 2023
+  section: research
+  title: "Climate change is killing summer oysters, study finds"
+  outlet: "CBS News (video)"
+  date: "2023"
+  url: "https://www.cbsnews.com/video/climate-change-killing-summer-oysters-study/"
+  note: "On our Global Change Biology study of triploid oyster mortality during heatwaves."
 - year: 2023
   title: "Marine heatwaves impact mortality of triploid Pacific oysters"
   outlet: "Global Change Biology (invited commentary by D.T. Manahan)"
@@ -134,6 +173,12 @@
   outlet: "Grist"
   date: "July 2016"
   url: "https://grist.org/news/ocean-acidification-is-eating-into-mussels/"
+- year: 2015
+  section: research
+  title: "Hanging by a thread"
+  outlet: "Washington Sea Grant, Sea Star"
+  date: "Autumn 2015"
+  note: "Feature on the Carrington lab's mussel attachment research."
 - year: 2014
   title: "Mussels lose footing in more acidic ocean"
   outlet: "Scientific American"
@@ -144,6 +189,12 @@
   outlet: "Phys.org (National Science Foundation)"
   date: "March 2013"
   url: "https://phys.org/news/2013-03-blue-mussels-rocky-shores.html"
+- year: 2013
+  section: research
+  title: "Secrets of the mussels"
+  outlet: "The Tyee"
+  date: "February 19, 2013"
+  url: "https://thetyee.ca/News/2013/02/19/Secrets-of-the-Mussels/"
 - year: 2013
   title: "Mussels cramped by environmental factors"
   outlet: "UW News"
