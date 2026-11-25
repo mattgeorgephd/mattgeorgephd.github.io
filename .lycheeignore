@@ -25,3 +25,4 @@
 ^https://[^/]*\.medium\.com/
 ^https://(www\.)?thenewstribune\.com/
 ^https://(www\.)?fishermensnews\.com/
+^https://(www\.)?thetyee\.ca/
